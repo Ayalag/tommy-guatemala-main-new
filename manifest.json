@@ -1,7 +1,7 @@
 {
   "vendor": "tommyguatemala",
   "name": "store",
-  "version": "2.36.0",
+  "version": "2.37.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
