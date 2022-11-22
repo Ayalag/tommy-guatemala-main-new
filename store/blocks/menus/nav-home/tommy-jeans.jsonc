@@ -1,0 +1,354 @@
+{
+  "menu-item#Categorias-Tommy-Jeans": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/tommy-jeans",
+        "text": "Tommy Jeans"
+      },
+      "blockClass": "categoria-header-big"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Tommy-Jeans-home"
+    ]
+  },
+  /* SUBMENU TOMMY JEANS */
+  "vtex.menu@2.x:submenu#Tommy-Jeans-home": {
+    "children": [
+      "flex-layout.row#submenu-tommy-jeans-home"
+    ],
+    "props": {
+      "blockClass": "header-submenu-custom"
+    }
+  },
+  "flex-layout.row#submenu-tommy-jeans-home": {
+    "children": [
+      // "flex-layout.col#submenu-tommy-jeans-home-novedades",
+      "flex-layout.col#submenu-tommy-jeans-home-ropa-mujer",
+      "flex-layout.col#submenu-tommy-jeans-home-ropa-hombre"
+    ],
+    "props": {
+      "blockClass": "row-submenu-custom",
+      "preventHorizontalStretch": true,
+      "colGap": 8,
+      "fullWidth": true
+    }
+  },
+    /* NOVEDADES TOMMY JEANS */
+  "flex-layout.col#submenu-tommy-jeans-home-novedades": {
+    "children": [
+      "rich-text#tommy-jeans-home-novedades-jeans",
+      "menu-item#Categoria-normal-new-arrivals-jeans",
+      "menu-item#Categoria-normal-arrival-sustainable-jeans"
+    ],
+    "props": {
+      "blockClass": "col-submenu-custom",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#tommy-jeans-home-novedades-jeans":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[Novedades](/ropa/tommy-jeans?initialMap=c&initialQuery=ropa&map=b)",
+      "blockClass": "menu-home-title"
+    }
+  },
+  "menu-item#Categoria-normal-new-arrivals-jeans": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/tommy-jeans?initialMap=c&initialQuery=ropa&map=b",
+        "text": "New Arrivals"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-arrival-sustainable-jeans": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/tommy-jeans?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Sustainable Style"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+    /* ROPA TOMMY JEANS */
+  "flex-layout.col#submenu-tommy-jeans-home-ropa-mujer": {
+    "children": [
+      "rich-text#tommy-jeans-home-ropa-mujer",
+      "menu-item#Categoria-normal-clothing-abrigos-jeans-mujer",
+      "menu-item#Categoria-normal-clothing-camisas-jeans-mujer",
+      "menu-item#Categoria-normal-clothing-camisetas-jeans-mujer",
+      "menu-item#Categoria-normal-clothing-polos-jeans-mujer",
+      "menu-item#Categoria-normal-clothing-gorras-jeans-mujer",
+      "menu-item#Categoria-normal-clothing-jeans-jeans-mujer",
+      "menu-item#Categoria-normal-clothing-pantalones-jeans-mujer",
+      "menu-item#Categoria-normal-clothing-shorts-jeans-mujer",
+      "menu-item#Categoria-normal-clothing-sueteres-jeans-mujer",
+      "menu-item#Categoria-normal-clothing-vestidos-jeans-mujer",
+      "menu-item#Categoria-normal-clothing-vestidos-de-bano-jeans-mujer"
+    ],
+    "props": {
+      "blockClass": "col-submenu-custom",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#tommy-jeans-home-ropa-mujer":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[TOMMY JEANS MUJER](/ropa/tommy-jeans/genero_Mujer?initialMap=c&initialQuery=ropa&map=b)",
+      "blockClass": "menu-home-title"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-abrigos-jeans-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/abrigos/tommy-jeans/genero_Mujer?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Abrigos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-camisas-jeans-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/camisas/tommy-jeans/genero_Mujer?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Camisas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-camisetas-jeans-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/t-shirts/tommy-jeans/genero_Mujer?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Camisetas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-polos-jeans-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/polos/tommy-jeans/genero_Mujer?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Polos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-gorras-jeans-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/gorras/tommy-jeans/genero_Mujer?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Gorras"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-jeans-jeans-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/jeans/tommy-jeans/genero_Mujer?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Jeans"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-pantalones-jeans-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/pantalones/tommy-jeans/genero_Mujer?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Pantalones"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-shorts-jeans-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/shorts/tommy-jeans/genero_Mujer?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Shorts"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-sueteres-jeans-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/sueteres/tommy-jeans/genero_Mujer?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Suéteres"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-vestidos-jeans-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/vestidos/tommy-jeans/genero_Mujer?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Vestidos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-vestidos-de-bano-jeans-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/vestidos-de-ba-o/tommy-jeans/genero_Mujer?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Vestidos de Baño"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "flex-layout.col#submenu-tommy-jeans-home-ropa-hombre": {
+    "children": [
+      "rich-text#tommy-jeans-home-ropa-hombre",
+      "menu-item#Categoria-normal-clothing-abrigos-jeans-hombre",
+      "menu-item#Categoria-normal-clothing-camisas-jeans-hombre",
+      "menu-item#Categoria-normal-clothing-camisetas-jeans-hombre",
+      "menu-item#Categoria-normal-clothing-polos-jeans-hombre",
+      "menu-item#Categoria-normal-clothing-gorras-jeans-hombre",
+      "menu-item#Categoria-normal-clothing-cinturones-jeans-hombre",
+      "menu-item#Categoria-normal-clothing-jeans-jeans-hombre",
+      "menu-item#Categoria-normal-clothing-pantalones-jeans-hombre",
+      "menu-item#Categoria-normal-clothing-shorts-jeans-hombre",
+      "menu-item#Categoria-normal-clothing-sueteres-jeans-hombre",
+      "menu-item#Categoria-normal-clothing-zapatillas-jeans-hombre"
+    ],
+    "props": {
+      "blockClass": "col-submenu-custom",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#tommy-jeans-home-ropa-hombre":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[TOMMY JEANS HOMBRE](/ropa/tommy-jeans/genero_Hombre?initialMap=c&initialQuery=ropa&map=b)",
+      "blockClass": "menu-home-title"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-abrigos-jeans-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/abrigos/tommy-jeans/genero_Hombre?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Abrigos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-camisas-jeans-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/camisas/tommy-jeans/genero_Hombre?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Camisas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-camisetas-jeans-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/t-shirts/tommy-jeans/genero_Hombre?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Camisetas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-polos-jeans-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/polos/tommy-jeans/genero_Hombre?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Polos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-gorras-jeans-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/gorras/tommy-jeans/genero_Hombre?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Gorras"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-cinturones-jeans-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/cinturones/tommy-jeans/genero_Hombre?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Cinturones"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-jeans-jeans-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/jeans/tommy-jeans/genero_Hombre?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Jeans"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-pantalones-jeans-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/pantalones/tommy-jeans/genero_Hombre?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Pantalones"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-shorts-jeans-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/shorts/tommy-jeans/genero_Hombre?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Shorts"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-sueteres-jeans-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/sueteres/tommy-jeans/genero_Hombre?initialMap=c&initialQuery=ropa&map=b",
+        "text": "Suéteres"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-zapatillas-jeans-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/zapatos/tommy-jeans",
+        "text": "Zapatillas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  }
+}

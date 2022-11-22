@@ -1,0 +1,39 @@
+
+.summarySmallContent {
+    font-family: 'Futura Std';
+    font-weight: 400;
+}
+
+.price {
+    color: #00174F;
+    font-family: 'Futura Std';
+}
+
+.summarySmallDisclaimer {
+    font-family: 'Futura Std';
+    font-weight: 400;
+    display: none;
+}
+
+.summaryItemLabel {
+    font-family: 'Futura Std';
+    font-weight: 400;
+    color: #00174F;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.summarySmallContent .summaryItemContainer:last-child .summaryItemPrice .price {
+    font-family: 'Futura Std Bold';
+    color: #00174F;
+}
+
+.summaryItemContainer:last-child .summaryItemLabel {
+    font-family: 'Futura Std Bold';
+    font-weight: 400;
+    color: #00174F;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+}

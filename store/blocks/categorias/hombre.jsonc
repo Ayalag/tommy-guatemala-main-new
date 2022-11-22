@@ -1,0 +1,334 @@
+{
+    "store.custom#categorias-hombre": {
+        "parent": {
+            "header": "header#home-special"
+        },
+        "blocks": [
+            "responsive-layout.desktop#categorias-hombre",
+            "responsive-layout.mobile#categorias-hombre"
+        ]
+    },
+    "responsive-layout.desktop#categorias-hombre": {
+        "children": [
+            // "flex-layout.row#container-cintillo-especial",
+            "info-card#categoria-hombre",
+            "rich-text#titulo-categoria-hombre",
+            "flex-layout.row#categorias-hombre-1",
+            "flex-layout.row#categorias-hombre-texto-imagen-top-1",
+            "flex-layout.row#banner-slider-category-h",
+            "flex-layout.row#texto-prefooter-hombre"
+        ]
+    },
+    "info-card#categoria-hombre": {
+        "props": {
+            "id": "hombre",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "headline": "FROM SCREEN TO SCENERY",
+            "subhead": "Looks que puedes usar para llamadas de trabajo en casa y paseos por el parque.<br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/genero_Hombre'>Comprar Ahora</a><br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/t-shirts/genero_Hombre'>Ver camisetas</a>",
+            "blockClass": "categoria",
+            "callToActionMode": "none",
+            "textAlignment": "left",
+            "imageUrl": "/arquivos/menbannertop.jpg"
+        }
+    },
+    "rich-text#titulo-categoria-hombre": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "COMPRAR POR CATEGORÍA",
+            "blockClass": "titulo-categoria-landing"
+        }
+    },
+    "flex-layout.row#categorias-hombre-1": {
+        "props": {
+            "blockClass": "categorias-hombre",
+            "horizontalAlign": "center",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#categorias-hombre-1",
+            "flex-layout.col#categorias-hombre-2",
+            "flex-layout.col#categorias-hombre-3"
+
+        ]
+    },
+    "flex-layout.col#categorias-hombre-1": {
+        "props": {
+            "blockClass": "col-categorias-hombre",
+            "paddingRight": 3,
+            "width": "25%"
+        },
+        "children": [
+            "info-card#categoria-hombre-camisetas"
+
+        ]
+    },
+    "info-card#categoria-hombre-camisetas": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "CAMISETAS",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/t-shirts/genero_Hombre",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/men1.jpg"
+        }
+    },
+    "flex-layout.col#categorias-hombre-2": {
+        "props": {
+            "blockClass": "col-categorias-hombre",
+            "paddingRight": 3,
+            "width": "50%"
+        },
+        "children": [
+            "info-card#categoria-hombre-zapatos"
+
+        ]
+    },
+    "info-card#categoria-hombre-zapatos": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "ZAPATOS",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/zapatos",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/men2.jpg"
+        }
+    },
+    "flex-layout.col#categorias-hombre-3": {
+        "props": {
+            "blockClass": "col-categorias-hombre",
+            "paddingLeft": 1,
+            "width": "25%"
+        },
+        "children": [
+            "info-card#categoria-hombre-trajes"
+
+        ]
+    },
+    "info-card#categoria-hombre-trajes": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "CAMISAS",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/camisas/genero_Hombre",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/men3.jpg"
+        }
+    },
+    "flex-layout.row#categorias-hombre-texto-imagen-top-1": {
+        "props": {
+            "blockClass": "row-categorias-hombre-mid",
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "flex-layout.col#categorias-hombre-texto-imagen-top-1",
+            "flex-layout.col#categorias-hombre-texto-imagen-top-2"
+
+        ]
+    },
+    "flex-layout.col#categorias-hombre-texto-imagen-top-1": {
+        "props": {
+            "blockClass": "col-categorias-hombre-mid",
+            "verticalAlign": "middle",
+            "width": "50%"
+        },
+        "children": [
+            "info-card#categoria-hombre-polos"
+        ]
+    },
+    "info-card#categoria-hombre-polos": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "POLOS",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/polos/genero_Hombre",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/men4.jpg"
+        }
+    },
+    "flex-layout.col#categorias-hombre-texto-imagen-top-2": {
+        "props": {
+            "blockClass": "col-categorias-hombre-mid-texto",
+            "verticalAlign": "middle",
+            "width": "50%"
+        },
+        "children": [
+            "rich-text#categorias-hombre-texto-imagen-1"
+        ]
+    },
+    "rich-text#categorias-hombre-texto-imagen-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "**MORE CATEGORIES**\n\n\n\n [ABRIGOS](/ropa/abrigos/genero_Hombre) [CAMISAS](/ropa/camisas/genero_Hombre) [PANTALONES](/ropa/pantalones/genero_Hombre) [JEANS](/ropa/jeans/genero_Hombre) [SUÉTERES](/ropa/sweaters/genero_Hombre) [SHORTS](/ropa/shorts/genero_Hombre) [UNDERWEAR](/ropa-interior/hombre?initialMap=c&initialQuery=ropa-interior&map=category-1,genero)",
+            "blockClass": "titulo-categoria-texto-imagen"
+        }
+    },
+    "info-card#categoria-hombre-2": {
+        "props": {
+            "id": "hombre",
+            "isFullModeStyle": true,
+            "textPosition": "LEFT",
+            "textAlignment": "center",
+            "headline": "SEASON STAPLES",
+            "subhead": "Prepárate para los días venideros con clásicos casuales y capas frescas.",
+            "callToActionMode": "button",
+            "callToActionText": "COMPRAR AHORA",
+            "callToActionUrl": "/ropa/genero_Hombre",
+            "blockClass": "categoria-mid",
+            "imageUrl": "/arquivos/menbannerbottom.jpg"
+        }
+    },
+    "responsive-layout.mobile#categorias-hombre": {
+        "children": [
+            // "flex-layout.row#container-cintillo-especial-mobile",
+            "slider-layout#mobile-categories-men",
+            "info-card#categoria-hombre",
+            "rich-text#titulo-categoria-hombre",
+            "flex-layout.row#categorias-hombre-1",
+            "flex-layout.row#categorias-hombre-texto-imagen-top-1",
+            "info-card#categoria-hombre-2",
+            "list-context.product-list#shelf-hombre",
+            "flex-layout.row#texto-hombre-container-mobile"
+        ]
+    },
+"flex-layout.row#texto-prefooter-hombre": {
+    "props": {
+      "blockClass": "home-prefooter"
+    },
+    "children": [
+      "flex-layout.col#texto-prefooter-hombre-container"
+    ]
+  },
+  "flex-layout.col#texto-prefooter-hombre-container": {
+    "props": {
+      "blockClass": "home-container"
+    },
+    "children": [
+      "rich-text#title--prefooter-hombre",
+      "flex-layout.row#texto-prefooter-hombre-wrapper"
+    ]
+  },
+  "flex-layout.row#texto-prefooter-hombre-wrapper": {
+    "props": {
+      "blockClass": "home-wrapper",
+      "preventHorizontalStrech": true
+    },
+    "children": [
+      "rich-text#texto-prefooter-hombre-1",
+      "rich-text#texto-prefooter-hombre-2"
+    ]
+  },
+  "rich-text#title--prefooter-hombre": {
+    "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "TOMMY HILFIGER HOMBRE",
+        "blockClass": "home-title"
+    }
+},
+  "rich-text#texto-prefooter-hombre-1": {
+    "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Descubre qué hay de nuevo esta temporada con las últimas tendencias en ropa para hombre de Tommy Hilfiger. Desde clásicas camisetas, polos y jeans a relojes y zapatos de primera calidad, tenemos todo lo que necesitas para deslumbrar con tu estilo. Además la colección de Tommy Hilfiger para hombre ofrece una variedad de trajes, incluyendo modernos trajes entallados y de corte slim, los cuales son perfectos para asistir a una boda o triunfar en una entrevista de trabajo. Para ocasiones más casuales, puedes echarle un ojo a nuestra colección de ropa deportiva Tommy Sport o a nuestras cómodas sudaderas, chaquetas bomber e icónicas camisetas de cuello redondo que te ayudarán a crear un look moderno y relajado.",
+        "blockClass": "home-text"
+    }
+},
+"rich-text#texto-prefooter-hombre-2": {
+  "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Explora nuestros accesorios para hombre de Tommy Hilfiger para completar tu look con cinturones de piel y pañuelos de bolsillo con colores y diseños llamativos. Ya sea estés en búsqueda de un atuendo casual o formal, la colección de Tommy Hilfiger para hombre tiene algo para ti. Nunca comprometas tu estilo, inicia cada temporada con la sofisticación que te brindan nuestros diseños.",
+      "blockClass": "home-text"
+  }
+},
+"flex-layout.row#texto-hombre-container-mobile": {
+    "props": {
+      "blockClass": ""
+    },
+    "children": [
+      "flex-layout.col#texto-hombre-container-mobile"
+    ]
+  },
+  "flex-layout.col#texto-hombre-container-mobile": {
+    "props": {
+      "blockClass": "home-container-mobile"
+    },
+    "children": [
+      "rich-text#title-hombre-mobile",
+      "rich-text#texto-hombre-1-mobile"
+    ]
+  },
+  "rich-text#title-hombre-mobile": {
+    "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "TOMMY HILFIGER HOMBRE",
+        "blockClass": "home-title-mobile"
+    }
+},
+  "rich-text#texto-hombre-1-mobile": {
+    "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Descubre qué hay de nuevo esta temporada con las últimas tendencias en ropa para hombre de Tommy Hilfiger. Desde clásicas camisetas, polos y jeans a relojes y zapatos de primera calidad, tenemos todo lo que necesitas para deslumbrar con tu estilo. Además la colección de Tommy Hilfiger para hombre ofrece una variedad de trajes, incluyendo modernos trajes entallados y de corte slim, los cuales son perfectos para asistir a una boda o triunfar en una entrevista de trabajo. Para ocasiones más casuales, puedes echarle un ojo a nuestra colección de ropa deportiva Tommy Sport o a nuestras cómodas sudaderas, chaquetas bomber e icónicas camisetas de cuello redondo que te ayudarán a crear un look moderno y relajado. \n\n\n\n Explora nuestros accesorios para hombre de Tommy Hilfiger para completar tu look con cinturones de piel y pañuelos de bolsillo con colores y diseños llamativos. Ya sea estés en búsqueda de un atuendo casual o formal, la colección de Tommy Hilfiger para hombre tiene algo para ti. Nunca comprometas tu estilo, inicia cada temporada con la sofisticación que te brindan nuestros diseños.",
+        "blockClass": "home-text-mobile"
+    }
+},
+"list-context.product-list#shelf-hombre": {
+    "blocks": ["product-summary.shelf#cat-slide"],
+    "children": [
+        "slider-layout#banners-categorias"
+    ],
+    "props": {
+        "maxItems": 6,
+        "specificationFilters": [
+            { "id": "genero", "value": "hombre" }
+        ]
+    }
+},
+  "flex-layout.row#banner-slider-category-h": {
+    "props": {
+      "blockClass": "banner-slider-category"
+    },
+    "children": [
+        "flex-layout.col#banner-slider-left-h",
+        "flex-layout.col#banner-slider-right-h"
+        
+    ]
+  },
+  "flex-layout.col#banner-slider-left-h": {
+    "props": {
+        "blockClass": "banner-slider-left",
+        "width": "75%"
+    },
+    "children": [
+        "info-card#categoria-hombre-2"
+    ]
+},
+"flex-layout.col#banner-slider-right-h": {
+    "props": {
+        "blockClass": "banner-slider-right",
+        "width": "25%",
+        "preventVerticalStretch": true,
+        "preventHorizontalStretch": true
+    },
+    "children": [
+        "list-context.product-list#shelf-hombre"
+    ]
+}
+}

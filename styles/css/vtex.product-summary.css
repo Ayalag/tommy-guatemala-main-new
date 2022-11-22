@@ -1,0 +1,134 @@
+
+.containerNormal--product-summary {
+    border-radius: 0;
+    background: #fff;
+    padding: 5px;
+    margin-bottom: 5px;
+    max-width: 485px !important;
+    min-height: 500px;
+}
+
+.productBrandName {
+    font-family: 'Futura Std Light';
+    font-weight: 400;
+    border: solid 1px;
+    padding: 0 4px;
+    font-size: 9px;
+    margin-left: 9px;
+}
+
+.imageNormal {
+    width: 100%;
+    object-fit: contain;
+    max-height: 632px;
+}
+
+.hoverImage {
+    width: 100%;
+    object-fit: contain;
+    max-height: 632px;
+}
+
+.productBrandLogo {
+    height: 40px!important;
+}
+
+.productBrandLogoWrapper {
+    height: 40px!important;
+    margin-left: 10px;
+}
+
+.productBrandContainer {
+    display: flex;
+}
+
+.nameContainer {
+    padding-top: 1px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 9px;
+    padding-bottom: 5px;
+}
+
+.brandName {
+    font-family: 'Futura Std Bold';
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 5px;
+    color: #00174F;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.element {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.element--product-summary{
+    position: relative;
+}
+
+.nameWrapper {
+    display: flex;
+    text-align: initial;
+}
+
+
+.imageStackContainer:hover {
+    z-index: 1;
+}
+
+.element--product-summary-sku .imageWrapper {
+    display: flex;
+}
+
+.containerNormal--product-summary-sku {
+    width: 36px!important;
+    height: 36px;
+    border: solid 1px #cacaca;
+    border-radius: 20px;
+}
+
+.container--product-summary-small{
+    max-width: 727px !important;
+}
+
+
+.container--product-summary-small .imageNormal{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    max-height: 803px;
+}
+
+.imageStackContainer{
+    width: 100%;
+}
+
+/* CATEGORY */
+.element--product-summary-cat-slide{
+    margin: 0.6rem;
+    background-color: white;
+    padding: 0.6rem;
+    box-shadow: 0 3px 2px rgb(0 0 0 / 16%);
+    border-radius: 10px;
+}
+
+@media screen and (min-width:1024px){
+    .containerNormal--product-summary{
+        min-height: 356px !important;
+    }
+    .containerNormal--product-summary {
+        min-height: 370px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .nameContainer {
+        margin-bottom: 0px;
+    }
+    .containerNormal--product-summary {
+        min-height: 370px;
+    }
+}

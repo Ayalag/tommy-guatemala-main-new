@@ -1,0 +1,348 @@
+{
+    "store.custom#categorias-mujer": {
+        "parent": {
+            "header": "header#home-special"
+        },
+        "blocks": [
+            "responsive-layout.desktop#categorias-mujer",
+            "responsive-layout.mobile#categorias-mujer"
+        ]
+    },
+    "responsive-layout.desktop#categorias-mujer": {
+        "children": [
+            // "flex-layout.row#container-cintillo-especial",
+            "info-card#categoria-mujer",
+            "rich-text#titulo-categoria-mujer",
+            "flex-layout.row#categorias-mujer-1",
+            "flex-layout.row#categorias-mujer-texto-imagen-top-1",
+            "flex-layout.row#banner-slider-category-m",
+            "flex-layout.row#texto-prefooter-mujer"
+        ]
+    },
+    "info-card#categoria-mujer": {
+        "props": {
+            "id": "mujer",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "headline": "YOUR STYLE, SORTED",
+            "subhead": "Haz que nuestro estilo #TommyHilfiger forme parte de tu día a día.<br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/genero_Mujer'>Comprar Ahora</a><br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/accesorios'>Ver accesorios</a>",
+            "blockClass": "categoria",
+            "callToActionMode": "none",
+            "textAlignment": "left",
+            "imageUrl": "/arquivos/womenbannertop.jpg"
+        }
+    },
+    "rich-text#titulo-categoria-mujer": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "COMPRAR POR CATEGORÍA",
+            "blockClass": "titulo-categoria-landing"
+        }
+    },
+    "flex-layout.row#categorias-mujer-1": {
+        "props": {
+            "blockClass": "categorias-mujer",
+            "horizontalAlign": "center",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#categorias-mujer-1",
+            "flex-layout.col#categorias-mujer-2",
+            "flex-layout.col#categorias-mujer-3"
+
+        ]
+    },
+    "flex-layout.col#categorias-mujer-1": {
+        "props": {
+            "blockClass": "col-categorias-mujer",
+            "paddingRight": 3,
+            "width": "25%"
+        },
+        "children": [
+            "info-card#categoria-mujer-accesorios"
+        ]
+    },
+    "info-card#categoria-mujer-accesorios": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "ACCESORIOS",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/accesorios",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/women1.jpg"
+        }
+    },
+    "flex-layout.col#categorias-mujer-2": {
+        "props": {
+            "blockClass": "col-categorias-mujer",
+            "paddingRight": 3,
+            "width": "50%"
+        },
+        "children": [
+            "info-card#categoria-mujer-polerones"
+
+        ]
+    },
+    "info-card#categoria-mujer-polerones": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "CAMISETAS",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/t-shirts/genero_Mujer",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/women2.jpg"
+        }
+    },
+    "flex-layout.col#categorias-mujer-3": {
+        "props": {
+            "blockClass": "col-categorias-mujer",
+            "paddingLeft": 1,
+            "width": "25%"
+        },
+        "children": [
+            "info-card#categoria-mujer-abrigos"
+
+        ]
+    },
+    "info-card#categoria-mujer-abrigos": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "SUÉTERES",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/sweaters/genero_Mujer",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/women3.jpg"
+        }
+    },
+    "flex-layout.row#categorias-mujer-texto-imagen-top-1": {
+        "props": {
+            "blockClass": "row-categorias-mujer-mid",
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "flex-layout.col#categorias-mujer-texto-imagen-top-1",
+            "flex-layout.col#categorias-mujer-texto-imagen-top-2"
+
+        ]
+    },
+    "flex-layout.col#categorias-mujer-texto-imagen-top-1": {
+        "props": {
+            "blockClass": "col-categorias-mujer-mid",
+            "verticalAlign": "middle",
+            "width": "50%"
+        },
+        "children": [
+            "info-card#categoria-mujer-zapatos"
+        ]
+    },
+    "info-card#categoria-mujer-zapatos": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "ZAPATOS",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/zapatos",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/women4.jpg"
+        }
+    },
+    "flex-layout.col#categorias-mujer-texto-imagen-top-2": {
+        "props": {
+            "blockClass": "col-categorias-hombre-mid-texto",
+            "verticalAlign": "middle",
+            "width": "50%"
+        },
+        "children": [
+            "rich-text#categorias-mujer-texto-imagen-1"
+        ]
+    },
+    "rich-text#categorias-mujer-texto-imagen-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "**MAS CATEGORIAS**\n\n\n\n [ABRIGOS](/ropa/abrigos/genero_Mujer) [FALDAS](/ropa/faldas/genero_Mujer) [PANTALONES](/ropa/pantalones/genero_Mujer) [JEANS](/ropa/jeans/genero_Mujer) [VESTIDOS](/ropa/vestidos/genero_Mujer)  [SHORTS](/ropa/shorts/genero_Mujer) [UNDERWEAR](/ropa-interior/mujer?initialMap=c&initialQuery=ropa-interior&map=category-1,genero)",
+            "blockClass": "titulo-categoria-texto-imagen"
+        }
+    },
+    "info-card#categoria-mujer-2": {
+        "props": {
+            "id": "mujer",
+            "isFullModeStyle": true,
+            "textPosition": "LEFT",
+            "textAlignment": "center",
+            "headline": "FIND YOUR HAPPY PLACE",
+            "subhead": "Puedes vivir un verano increíble sin salir de la ciudad, incluso en el jardín de la casa. Solo tienes que proponerlo.",
+            "callToActionMode": "button",
+            "callToActionText": "COMPRAR AHORA",
+            "callToActionUrl": "/ropa/genero_Mujer",
+            "blockClass": "categoria-mid",
+            "imageUrl": "/arquivos/womenbannerbottom.jpg"
+        }
+    },
+    "responsive-layout.mobile#categorias-mujer": {
+        "children": [
+            // "flex-layout.row#container-cintillo-especial-mobile",
+            "slider-layout#mobile-categories-women",
+            "info-card#categoria-mujer",
+            "rich-text#titulo-categoria-mujer",
+            "flex-layout.row#categorias-mujer-1",
+            "flex-layout.row#categorias-mujer-texto-imagen-top-1",
+            "info-card#categoria-mujer-2",
+            "list-context.product-list#shelf-mujer",
+            "flex-layout.row#texto-mujer-container-mobile"
+        ]
+    },
+    "flex-layout.row#texto-prefooter-mujer": {
+        "props": {
+          "blockClass": "home-prefooter"
+        },
+        "children": [
+          "flex-layout.col#texto-prefooter-mujer-container"
+        ]
+      },
+      "flex-layout.col#texto-prefooter-mujer-container": {
+        "props": {
+          "blockClass": "home-container"
+        },
+        "children": [
+          "rich-text#title--prefooter-mujer",
+          "flex-layout.row#texto-prefooter-mujer-wrapper"
+        ]
+      },
+      "flex-layout.row#texto-prefooter-mujer-wrapper": {
+        "props": {
+          "blockClass": "home-wrapper",
+          "preventHorizontalStrech": true
+        },
+        "children": [
+          "rich-text#texto-prefooter-mujer-1",
+          "rich-text#texto-prefooter-mujer-2"
+        ]
+      },
+      "rich-text#title--prefooter-mujer": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "TOMMY HILFIGER MUJER",
+            "blockClass": "home-title"
+        }
+    },
+      "rich-text#texto-prefooter-mujer-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Descubre los últimos estilos de ropa para mujer, zapatos, bolsos y accesorios de Tommy Hilfiger. Ya sea estés en búsqueda de un atuendo para un evento glamuroso, un festival de música o una noche especial con tus amigas, encontrarás algo para ti en la colección Tommy Hilfiger de mujer. Nuestra selección de ropa de Tommy Hilfiger para mujer tiene algo para toda ocasión: Explora nuestra colección de vestidos, la cual incluye una variedad de atractivos estilos como vestidos negros cortos, vestidos lenceros y vestidos estampados. Construye un look clásico con nuestros polos de mujer o revisa nuestra colección de ropa deportiva Tommy Sport, que ofrece chándales, camisetas deportivas y sudaderas con capucha.",
+            "blockClass": "home-text"
+        }
+    },
+    "rich-text#texto-prefooter-mujer-2": {
+      "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "Nuestra selección de zapatos de mujer incluye tanto mocasines de piel de alta calidad como modernos botines y sandalias con novedosos diseños. Explora nuestra sección de novedades para obtener las prendas más recientes de Tommy Hilfiger y nuestra sección de rebajas para comprar artículos imperdibles antes de que se agoten. La colección de Tommy Hilfiger para mujer tiene todo lo que necesitas para crear un outfit extraordinario, sin importar cual sea tu estilo.",
+          "blockClass": "home-text"
+      }
+    },
+    "flex-layout.row#texto-mujer-container-mobile": {
+        "props": {
+          "blockClass": ""
+        },
+        "children": [
+          "flex-layout.col#texto-mujer-container-mobile"
+        ]
+      },
+      "flex-layout.col#texto-mujer-container-mobile": {
+        "props": {
+          "blockClass": "home-container-mobile"
+        },
+        "children": [
+          "rich-text#title-mujer-mobile",
+          "rich-text#texto-mujer-1-mobile"
+        ]
+      },
+      "rich-text#title-mujer-mobile": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "TOMMY HILFIGER MUJER",
+            "blockClass": "home-title-mobile"
+        }
+    },
+      "rich-text#texto-mujer-1-mobile": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Descubre los últimos estilos de ropa para mujer, zapatos, bolsos y accesorios de Tommy Hilfiger. Ya sea estés en búsqueda de un atuendo para un evento glamuroso, un festival de música o una noche especial con tus amigas, encontrarás algo para ti en la colección Tommy Hilfiger de mujer. Nuestra selección de ropa de Tommy Hilfiger para mujer tiene algo para toda ocasión: Explora nuestra colección de vestidos, la cual incluye una variedad de atractivos estilos como vestidos negros cortos, vestidos lenceros y vestidos estampados. Construye un look clásico con nuestros polos de mujer o revisa nuestra colección de ropa deportiva Tommy Sport, que ofrece chándales, camisetas deportivas y sudaderas con capucha. \n\n\n\n Nuestra selección de zapatos de mujer incluye tanto mocasines de piel de alta calidad como modernos botines y sandalias con novedosos diseños. Explora nuestra sección de novedades para obtener las prendas más recientes de Tommy Hilfiger y nuestra sección de rebajas para comprar artículos imperdibles antes de que se agoten. La colección de Tommy Hilfiger para mujer tiene todo lo que necesitas para crear un outfit extraordinario, sin importar cual sea tu estilo.",
+            "blockClass": "home-text-mobile"
+        }
+    },
+    "list-context.product-list#shelf-mujer": {
+        "blocks": ["product-summary.shelf#cat-slide"],
+        "children": [
+            "slider-layout#banners-categorias"
+        ],
+        "props": {
+            "maxItems": 6,
+            "specificationFilters": [
+                { "id": "genero", "value": "mujer" }
+            ]
+        }
+    },
+    "slider-layout#banners-categorias": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 2
+          },
+          "showNavigationArrows": "always",
+          "showPaginationDots": "never",
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf-category"
+        }
+      },
+      "flex-layout.row#banner-slider-category-m": {
+        "props": {
+          "blockClass": "banner-slider-category"
+        },
+        "children": [
+            "flex-layout.col#banner-slider-left-m",
+            "flex-layout.col#banner-slider-right-m"
+            
+        ]
+      },
+      "flex-layout.col#banner-slider-left-m": {
+        "props": {
+            "blockClass": "banner-slider-left",
+            "width": "75%"
+        },
+        "children": [
+            "info-card#categoria-mujer-2"
+        ]
+    },
+    "flex-layout.col#banner-slider-right-m": {
+        "props": {
+            "blockClass": "banner-slider-right",
+            "width": "25%",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "list-context.product-list#shelf-mujer"
+        ]
+    }
+      
+    }

@@ -1,0 +1,399 @@
+
+.searchResultContainer {
+    max-width: 1280px;
+    margin: auto;
+}
+
+ :global(.vtex-search-result-3-x-searchResultContainer){
+    padding: 24px 40px !important;
+}
+
+.gallery {
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1024px){
+    .gallery {
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+}
+
+.notFound--layout {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.galleryTitle--layout {
+    text-align: center;
+    font-family: 'Futura Std Light';
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.selectedCategoryName {
+    color: #00174F;
+    font-family: 'Futura Std Light';
+    font-weight: 400;
+}
+
+.filterTitle {
+    font-family: 'Futura Std Light';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.categoryItemName {
+    font-family: 'Futura Std';
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.filterMessage {
+    font-family: 'Futura Std';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.totalProducts--layout {
+    font-family: 'Futura Std Light';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.filterPopupTitle {
+    font-family: 'Futura Std Light';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.categoryItemChildrenContainer :first-child{
+    border: none;
+}
+
+.categoryItemChildren {
+    font-family: 'Futura Std';
+    font-size: 13px;
+}
+
+
+.searchResultContainer :global(.vtex-search-result-3-x-filter__container){
+    border: 1px solid #eee;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.searchResultContainer :global(.vtex-search-result-3-x-filter__container--c){
+    border: none;
+    margin-top: 10px;
+    padding: 0px;
+    padding-left: 10px;
+}
+
+.searchResultContainer :global(.vtex-search-result-3-x-categoryItemChildren ){
+    border: none !important;
+    margin: 0px;
+    margin-bottom: 3px;
+    padding: 0px;
+}
+
+.searchResultContainer :global(.vtex-search-result-3-x-filter__container--title){
+    border: none;
+    margin: 0px;
+    padding: 0;
+}
+
+.searchResultContainer :global(.vtex-search-result-3-x-galleryTitle--layout){
+    color: #00174f;
+    font-size: 1.7em;
+    margin: 0;
+    padding: 0 12px 10px;
+    letter-spacing: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-family: "Futura Std Bold";
+}
+
+@media screen and (max-width: 1024px){
+    .searchResultContainer :global(.vtex-search-result-3-x-galleryTitle--layout){
+        margin-top: 30px;
+    }
+}
+
+
+.searchResultContainer :global(.vtex-search-result-3-x-filterMessage){
+    margin: 0px;
+    padding: 0;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #969696;
+    text-transform: uppercase;
+    font-family: "Futura Std Bold";
+}
+.searchResultContainer :global(.vtex-flex-layout-0-x-flexColChild--search-result-filtros){
+    margin: 10px 0;
+    padding: 0;
+}
+
+.searchResultContainer :global(.vtex-search-result-3-x-orderByButton){
+    border: 1px solid #eee;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+.searchResultContainer :global(.vtex-search-result-3-x-categoryItemName){
+    font-size: 14px;
+    color: #00174F;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 22.5px;
+    font-family: "Futura Std Bold";
+}
+
+.searchResultContainer :global(.vtex-search-result-3-x-categoryItemChildren){
+    font-size: 14px;
+    color: #00174F;
+    font-weight: 400;
+    line-height: 22.5px;
+    font-family: "Futura Std Light";
+}
+
+.searchResultContainer :global(.vtex-checkbox__label){
+    font-size: 12px;
+    color: #00174F;
+    font-weight: 400;
+    margin-right: 7px;
+    font-family: "Futura Std Light";
+}
+
+.searchResultContainer :global(.vtex-search-result-3-x-filterTitle){
+    font-size: 14px;
+    color: #00174F;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 22.5px;
+    font-family: "Futura Std Bold";
+}
+
+.searchResultContainer :global(.vtex-search-result-3-x-filterPopupTitle){
+    font-size: 13px;
+    color: #00174F;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 22.5px;
+    font-family: "Futura Std Bold";
+}
+
+
+.searchResultContainer :global(.vtex-search-result-3-x-filterIcon ){
+    padding: 0 2px 0 2px;
+}
+
+.searchResultContainer :global(.vtex-search-result-3-x-filterPopupArrowIcon){
+    padding: 0 2px 0 2px;
+}
+
+.searchResultContainer :global(.vtex-search-result-3-x-filterItem ){
+    margin-top: 10px;
+}
+
+.searchResultContainer :global(.vtex-search-result-3-x-caretIcon){
+    width: 8px;
+    color: #00174F;
+}
+
+.searchResultContainer :global(.vtex-search-result-3-x-filterAvailable){
+    padding: 0px;
+}
+
+
+.searchResultContainer :global(.vtex-search-result-3-x-filterContent){
+    padding: 0px;
+    margin: 5px 5px 0 0;
+}
+
+.orderByOptionItem{
+    background-color: white;
+    color: #00174F;
+    font-size: 13px;
+    font-family: "Futura Std Light";
+}
+
+.orderByOptionItem--selected{
+    background-color: white;
+    color: #00174F;
+    font-size: 13px;
+    font-family: "Futura Std Light";
+}
+
+.galleryItem--normal{
+    padding: 0;
+}
+
+.galleryLayoutSwitcher{
+    justify-content: flex-end;
+    padding: .4rem 4rem;
+    margin-bottom:.4rem ;
+}
+
+.galleryLayoutOptionButton{
+    background-color: #d1d5df;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.galleryLayoutOptionButton:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.galleryLayoutOptionButton:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.galleryLayoutOptionButton:hover{
+    background-color: #00174F;
+}
+
+.galleryLayoutOptionButton--selected{
+    background-color: #00174F;
+}
+
+@media screen and (max-width: 1024px){
+    .galleryLayoutSwitcher{
+        justify-content: flex-start !important;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .galleryLayoutOptionButton{
+        padding: 5px;
+    }
+
+    .searchResultContainer :global(.vtex-search-result-3-x-orderByButton){
+        border: 1px solid #00174F;
+        background-color: #00174F;
+        border: 2px solid #00174F;
+        color: white;
+        margin-top: 0px;
+        padding: 10px;
+        border-radius: 5px;
+        justify-content: center;
+        height: 40px;
+    }
+    .totalProducts--layout{
+        color: #969696;
+        font-size: 12px;
+        width: 100%;
+        justify-content: center;
+        border: none;
+        padding: 10px;
+        font-family: "Futura Std Bold";
+    }
+    .searchResultContainer :global(.vtex-search-result-3-x-filterPopupTitle){
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        padding-left: 17px;
+        margin-left: auto;
+        font-family: "Futura Std Bold";
+    }
+    .filtersWrapperMobile :global(.vtex-search-result-3-x-filterPopupTitle){
+        font-size: 12px;
+        color:#00174F;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        font-family: "Futura Std Bold";
+        margin-left: 0;
+    }
+    .searchResultContainer :global(.vtex-search-result-3-x-filterPopupArrowIcon){
+        margin-left: auto;
+    }
+    .searchResultContainer :global(.vtex-search-result-3-x-caretIcon){
+        width: 8px;
+        padding-left: 5px;
+        color: white;
+    }
+    .searchResultContainer :global(.vtex-search-result-3-x-filterPopupButton){
+        margin: 10px 0;
+        background-color: white;
+        width: 100%;
+        border: 2px solid #00174F;
+        height: 40px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .searchResultContainer :global(.vtex-search-result-3-x-filterIcon){
+        color: #00174F;
+        display: none;
+    }
+    .filterBreadcrumbsText{
+        color: #00174F;
+        font-family: "Futura Std Bold";
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    .filterBreadcrumbsItem{
+        color: #00174F;
+        font-family: "Futura Std Bold";
+        text-transform: uppercase;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .filterBreadcrumbsItemName{
+        color: #00174F;
+        font-family: "Futura Std Bold";
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    .categoryItemName{
+        color: #00174F;
+        font-family: "Futura Std Bold";
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .categoryItemChildren{
+        color: #00174F;
+        font-family: "Futura Std Light";
+        font-size: 16px;
+    }
+    .filterClearButtonWrapper :global(.vtex-button){
+        background-color: #00174f;
+        color: white;
+        font-family: "Futura Std Bold";
+    }
+    .filterApplyButtonWrapper  :global(.vtex-button){
+        background-color: #14BE82;
+        color: white;
+        font-family: "Futura Std Bold";
+    }
+    .filterAccordionBreadcrumbs{
+        border: none;
+    }
+    .accordionFilterContainer{
+        padding: 10px;
+    }
+    .filterAccordionItemBox{
+        padding: 5px;
+        border: 1px solid #eee;
+        margin-top: 5px;
+        padding: 2px 10px;
+        justify-content: space-between;
+    }
+    .accordionFilterItemTitle{
+        font-size: 14px;
+        color: #00174F;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 22.5px;
+        font-family: "Futura Std Bold";
+    }
+}

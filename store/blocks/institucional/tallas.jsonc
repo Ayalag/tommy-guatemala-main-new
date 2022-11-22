@@ -1,0 +1,244 @@
+{
+    "store.custom#tallas": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-tallas",
+            "responsive-layout.mobile#mobile-tallas"
+        ]
+    },
+    "responsive-layout.desktop#desktop-tallas": {
+        "children": [
+            "flex-layout.row#contenedor-tallas"
+        ]
+    },
+    "flex-layout.row#contenedor-tallas": {
+        "children": [
+            "flex-layout.row#contenedor-tallas-general"
+        ],
+        "props": {
+            "blockClass": "contenedor-institucional"
+        }
+    },
+    "flex-layout.row#contenedor-tallas-general": {
+        "children": [
+            "flex-layout.col#menu-tallas",
+            "flex-layout.col#contenedor-tallas"
+        ],
+        "props": {
+            "blockClass": "contenedor-general-institucional",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#menu-tallas": {
+        "children": [
+            "rich-text#menu-envio-tallas",
+            "rich-text#menu-devolucion-tallas",
+            "rich-text#menu-localizador-tallas",
+            "rich-text#menu-tallas-tallas",
+            "rich-text#menu-cliente-tallas",
+            "rich-text#menu-nosotros-tallas",
+            "rich-text#menu-prensa-tallas",
+            "rich-text#menu-terminos-tallas",
+            "rich-text#menu-pp-tallas",
+            "rich-text#menu-pc-tallas"
+        ],
+        "props": {
+            "blockClass": "menu-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#menu-cliente-tallas": {
+        "props": {
+            "text": "[Servicio al Cliente](/servicio-cliente)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-localizador-tallas": {
+        "props": {
+            "text": "[Localizador de Tiendas](/localizador-tiendas)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-tallas-tallas": {
+        "props": {
+            "text": "[Guía de Tallas](/guia-tallas)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-devolucion-tallas": {
+        "props": {
+            "text": "[Devoluciónes](/terminos-devoluciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-envio-tallas": {
+        "props": {
+            "text": "[Envios](/terminos-envio)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-nosotros-tallas": {
+        "props": {
+            "text": "[Sobre Nosotros](https://global.tommy.com/en_int/about-us)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-prensa-tallas": {
+        "props": {
+            "text": "[Sala de Prensa](https://global.tommy.com/en_int/newsroom)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-terminos-tallas": {
+        "props": {
+            "text": "[Terminos y Condiciones](/terminos-y-condiciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-pp-tallas": {
+        "props": {
+            "text": "[Politica de Privacidad](/politica-de-privacidad)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-pc-tallas": {
+        "props": {
+            "text": "[Politica de Cookies](/politica-de-cookies)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "flex-layout.col#contenedor-tallas": {
+        "children": [
+            "rich-text#tallas",
+            "tab-layout#talla"
+        ],
+        "props": {
+            "blockClass": "col-contenedor-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#tallas": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "## **GUIA DE TALLAS** \n\n\n",
+            "blockClass": "institucional-texto"
+        }
+    },
+    "tab-layout#talla": {
+        "children": ["tab-list#talla", "tab-content#talla"],
+        "props": {
+          "blockClass": "talla-tabs",
+          "defaultActiveTabId": "talla1"
+        }
+      },
+      "tab-list#talla": {
+        "children": [
+          "tab-list.item#talla1",
+          "tab-list.item#talla2",
+          "tab-list.item#talla3"
+        ]
+      },
+      "tab-list.item#talla1": {
+        "props": {
+          "tabId": "talla1",
+          "label": "HOMBRE",
+          "defaultActiveTab": true,
+          "blockClass": "tabs-desc"
+        }
+      },
+      "tab-list.item#talla2": {
+        "props": {
+          "tabId": "talla2",
+          "label": "MUJER",
+          "blockClass": "tabs-desc"
+        }
+      },
+      "tab-list.item#talla3": {
+        "props": {
+          "tabId": "talla3",
+          "label": "NIÑOS",
+          "blockClass": "tabs-desc"
+        }
+      },
+      "tab-content#talla": {
+        "children": [
+          "tab-content.item#talla1",
+          "tab-content.item#talla2",
+          "tab-content.item#talla3"
+        ]
+      },
+      "tab-content.item#talla1": {
+        "children": [
+            "image#talles-hombre"
+        ],
+        "props": {
+          "tabId": "talla1",
+          "blockClass": "tabs-content"
+        }
+      },
+      "tab-content.item#talla2": {
+        "children": [
+          "image#talles-mujer"
+        ],
+        "props": {
+          "tabId": "talla2",
+          "blockClass": "tabs-content"
+        }
+      },
+      "tab-content.item#talla3": {
+        "children": [
+            "image#talles-ninos"
+        ],
+        "props": {
+          "tabId": "talla3",
+          "blockClass": "tabs-content"
+        }
+      },
+    "responsive-layout.mobile#mobile-tallas": {
+        "children": [
+            "flex-layout.row#contenedor-tallas"
+        ]
+    },
+    "image#talles-hombre": {
+        "props": {
+        "src": "/arquivos/TH-Guia-de-Tallas-Hombre.png",
+        "width": "996px",
+        "blockClass": "talles-img"
+        }
+    },
+    "image#talles-mujer": {
+        "props": {
+        "src": "/arquivos/TH-Guia-de-Tallas-Mujer.png",
+        "width": "996px",
+        "blockClass": "talles-img"
+        }
+    },
+    "image#talles-ninos": {
+        "props": {
+        "src": "/arquivos/TH-Guia-de-Tallas-Ninos.png",
+        "width": "996px",
+        "blockClass": "talles-img"
+        }
+    }
+}

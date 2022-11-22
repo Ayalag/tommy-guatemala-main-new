@@ -1,0 +1,23 @@
+
+.quantitySelectorTitle--product-qty {
+    display: none;
+}
+
+.quantitySelectorStepper--product-qty {
+    margin-right: 10px;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper-wrapper){
+    display: flex;
+    justify-content: center;
+}
+
+.quantitySelectorContainer--product-qty {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .quantitySelectorStepper--product-qty {
+        margin-right: 0px;
+    }
+}

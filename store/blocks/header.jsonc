@@ -1,0 +1,420 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header#home-special": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#top-desktop",
+      "flex-layout.row#desktop",
+      "vtex.menu@2.x:menu#categorias-nav"
+    ]
+  },
+  "flex-layout.row#top-desktop": {
+    "props": {
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "top-header"
+    },
+    "children": [
+      "slider-layout#cintillo-header"
+    ]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "colGap": 5,
+      "blockClass": "header-main"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar",
+      "flex-layout.row#header-right"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+    ]
+  },
+  "flex-layout.row#header-right": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "header-right",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "login",
+      "menu-item#favoritos-icon",
+      "minicart.v2"
+    ]
+  },
+  "icon#logo": {
+    "props": {
+      "blockClass": "ico-logo",
+      "id": "hpa-logo",
+      "href": "/"
+    }
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/tommy.png",
+      "blockClass": "logo"
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresar con codigo de acceso",
+      "emailPlaceholder": "Ej: ejemplo@gmail.com",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "hideIconLabel": false,
+      "iconLabel": "INICIAR SESIÓN/REGISTRARSE",
+      "hasGoogleOneTap": true,
+      "optionsTitle": "Elije una opción para ingresar",
+      "preventHorizontalStretch": true,
+      "iconProps": {
+        "viewBox": "0 0 50 50"
+      },
+      "providerPasswordButtonLabel": "Ingresar con e-mail y contraseña"
+    }
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "autocompleteAlignment":"center",
+      "heigth": 40,
+      "compactMode": false,
+      "blockClass": "search-desktop"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "flex-layout.row#top-desktop",
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#mobile",
+      "flex-layout.row#mobile-search"
+    ],
+    "props": {
+      "blockClass": "sticky-mobile"
+    }
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.row#items"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#mobile-search": {
+    "children": [
+      "search-bar#mobile"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "width": "100%"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logomobile.png",
+      "blockClass": "logo-mobile"
+    }
+  },
+  "menu-item#favoritos-icon": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/account#/wishlist",
+        "text": " "
+      },
+      "iconProps": {
+        "id": "mpa-heart",
+        "size": 40,
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "icon-favoritos"
+    }
+  },
+  "icon#heart": {
+    "props": {
+      "id": "mpa-heart",
+      "href": "#",
+      "blockClass": "icon-favoritos"
+    }
+  },
+  "search-bar#mobile": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "displayMode": "search-button",
+      "blockClass": "search-mobile"
+    }
+  },
+  "flex-layout.row#items": {
+    "children": [
+      "menu-item#favoritos-icon",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "flex-mobile-items",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "flex-layout.row#mobile-in-drawer",
+      "flex-layout.row#mobile-in-drawer-login",
+      "flex-layout.row#mobile-in-drawer-search",
+      "menu-item#Categoria-1-mobile",
+      "menu-item#Categoria-2-mobile",
+      "menu-item#Categoria-3-mobile",
+      "rich-text#texto-top-explore",
+      "menu-item#Categoria-4-mobile",
+      "menu-item#Categoria-8-mobile",
+      "menu-item#Categoria-9-mobile",
+      "menu-item#Categoria-5-mobile",
+      "flex-layout.col#in-drawer-menu"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-drawer"
+    }
+  },
+  "menu-item#Categoria-4-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/tommy-jeans",
+        "text": "TOMMY JEANS"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "categoria-header-mobile-link"
+    }
+  },
+  "menu-item#Categoria-8-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/tommy-hilfiger-explorer",
+        "text": "THE FACTORY"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "categoria-header-mobile-link"
+    }
+  },
+  "menu-item#Categoria-9-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/brand-tommy-jeans/tommy-jeans-capsule-tommy-x-nba",
+        "text": "TOMMY X NBA"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "categoria-header-mobile-link"
+    }
+  },
+  "menu-item#Categoria-5-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/sale",
+        "text": "SALE"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "categoria-header-mobile-link"
+    }
+  },
+  "menu-item#Categoria-6-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/localizador-tiendas",
+        "text": "Localizador de Tiendas"
+      },
+      "blockClass": "categoria-header-mobile-link-bottom"
+    }
+  },
+  "menu-item#Categoria-7-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/servicio-cliente",
+        "text": "Servicio al Cliente"
+      },
+      "blockClass": "categoria-header-mobile-link-bottom"
+    }
+  },
+  "flex-layout.col#in-drawer-menu": {
+    "children": [
+      "menu-item#Categoria-6-mobile",
+      "menu-item#Categoria-7-mobile",
+      "login#mobile"
+    ],
+    "props": {
+      "blockClass": "in-drawer-menu",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "rich-text#texto-top-explore": {
+    "props": {
+      "text": "EXPLORAR",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "menu-explore"
+    }
+  },
+  "search-bar#mobile-drawer": {
+    "props": {
+      "displayMode": "search-button",
+      "blockClass": "search-mobile-drawer"
+    }
+  },
+  "flex-layout.row#mobile-in-drawer": {
+    "children": [
+      "drawer-close-button",
+      "logo#mobile",
+      "flex-layout.row#items"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile-in-drawer",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#mobile-in-drawer-login": {
+    "children": [
+      "login#mobile"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile-login",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#mobile-in-drawer-search": {
+    "children": [
+      "search-bar#mobile-drawer"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile-search",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "login#mobile": {
+    "props": {
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresar con codigo de acceso",
+      "emailPlaceholder": "Ej: ejemplo@gmail.com",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": false,
+      "hideIconLabel": false,
+      "iconLabel": "INICIAR SESIÓN/REGISTRARSE",
+      "label": "INICIAR SESIÓN/REGISTRARSE",
+      "hasGoogleOneTap": true,
+      "optionsTitle": "Elije una opción para ingresar",
+      "preventHorizontalStretch": true,
+      "providerPasswordButtonLabel": "Ingresar con e-mail y contraseña"
+    }
+  },
+  "login#mobile-down": {
+    "props": {
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresar con codigo de acceso",
+      "emailPlaceholder": "Ej: ejemplo@gmail.com",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": false,
+      "hideIconLabel": false,
+      "iconLabel": "INICIAR SESIÓN/REGISTRARSE",
+      "label": "INICIAR SESIÓN/REGISTRARSE",
+      "hasGoogleOneTap": true,
+      "optionsTitle": "Elije una opción para ingresar",
+      "preventHorizontalStretch": true,
+      "providerPasswordButtonLabel": "Ingresar con e-mail y contraseña"
+    }
+  }
+}

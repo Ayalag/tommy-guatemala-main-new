@@ -1,0 +1,56 @@
+
+.triggerContainer--modal-glosario {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.paperScrollContent {
+    width: 60%;
+    border-radius: 0;
+}
+
+.paper--modal-cookies{
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    position: absolute;
+    padding-top: 18px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: rgba(0,23,79, 0.9);
+}
+
+.closeButton--modal-cookies{
+    width: 270px;
+    height: 40px;
+    color: white;
+    background-color: #14be82;
+    border-color: #14be82;
+    font-family: 'Futura Std Bold';
+}
+
+.closeButton--modal-cookies:hover{
+    background-color: #0f9062;
+    border-color: #0f9062;
+    color: white;
+}
+.closeButtonContainer{
+    position: absolute;
+    right: 0;
+}
+
+/* Modal Tallas */
+
+.paper--tallas-modal{
+    padding: 2rem;
+}
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .closeButton--modal-cookies{
+        margin: auto;
+        margin-top: 15px;
+    }
+}

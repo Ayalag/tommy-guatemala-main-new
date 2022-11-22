@@ -1,0 +1,118 @@
+{
+  "store.custom#black-friday": {
+    "blocks": [
+      "responsive-layout.desktop#desktop-black-friday",
+      "responsive-layout.mobile#mobile-black-friday"
+    ]
+  },
+  "responsive-layout.desktop#desktop-black-friday": {
+    "children": [
+      "info-card#categoria-black-friday",
+      "flex-layout.row#texto-prefooter-bf"
+    ]
+  },
+  "info-card#categoria-black-friday": {
+    "props": {
+      "id": "hombre",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "headline": "¿TE HAS PERDIDO EL BLACK FRIDAY?",
+      "subhead": "Subscribete a nuestro newsletter y obtén información sobre nuestras mejores promociones<br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='#newsletter'>SUSCRIBIRME</a>",
+      "blockClass": "categoria",
+      "callToActionMode": "none",
+      "textAlignment": "left",
+      "mobileImageUrl": "/arquivos/BLACKFRIDAY-LANDING-MOBILE.jpg",
+      "imageUrl": "/arquivos/BLACKFRIDAY-LANDING-DESKTOP.jpg"
+    }
+  },
+  "flex-layout.row#texto-prefooter-bf": {
+    "props": {
+      "blockClass": "home-prefooter"
+    },
+    "children": [
+      "flex-layout.col#texto-prefooter-bf-container"
+    ]
+  },
+  "flex-layout.col#texto-prefooter-bf-container": {
+    "props": {
+      "blockClass": "home-container"
+    },
+    "children": [
+      "rich-text#title--prefooter-bf",
+      "flex-layout.row#texto-prefooter-bf-wrapper"
+    ]
+  },
+  "flex-layout.row#texto-prefooter-bf-wrapper": {
+    "props": {
+      "blockClass": "home-wrapper",
+      "preventHorizontalStrech": true
+    },
+    "children": [
+      "rich-text#texto-prefooter-bf-1",
+      "rich-text#texto-prefooter-bf-2"
+    ]
+  },
+  "rich-text#title--prefooter-bf": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "OFERTAS BLACK FRIDAY \n DE TOMMY HILFIGER GUATEMALA",
+      "blockClass": "home-title"
+    }
+  },
+  "rich-text#texto-prefooter-bf-1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Como uno de los eventos más esperados del año, las ofertas Black Friday de Tommy Hilfiger son una oportunidad única para llenar tu armario de nuestra clásica y cool ropa. Ya sea estés buscando vaqueros, camisetas, zapatillas o chaquetas, diseñados en una variedad de estilos contemporáneos y telas de calidad excepcional y terminados con un toque de la actitud urbana característica de Tommy Hilfiger, nuestros descuentos Black Friday ofrecen una amplia gama de codiciados artículos a un gran valor.",
+      "blockClass": "home-text"
+    }
+  },
+  "rich-text#texto-prefooter-bf-2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Las ofertas Black Friday de Tommy Hilfiger estarán disponibles solo por un tiempo limitado. Descubre nuestras ofertas Black Friday, una inversión en vestimenta atemporal a una fracción de su precio usual.",
+      "blockClass": "home-text"
+    }
+  },
+  "responsive-layout.mobile#mobile-black-friday": {
+    "children": [
+      "info-card#categoria-black-friday",
+      "flex-layout.row#texto-bf-container-mobile"
+    ]
+  },
+  "flex-layout.row#texto-bf-container-mobile": {
+    "props": {
+      "blockClass": ""
+    },
+    "children": [
+      "flex-layout.col#texto-bf-container-mobile"
+    ]
+  },
+  "flex-layout.col#texto-bf-container-mobile": {
+    "props": {
+      "blockClass": "home-container-mobile"
+    },
+    "children": [
+      "rich-text#title-bf-mobile",
+      "rich-text#texto-bf-1-mobile"
+    ]
+  },
+  "rich-text#title-bf-mobile": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "OFERTAS BLACK FRIDAY \n DE TOMMY HILFIGER GUATEMALA",
+      "blockClass": "home-title-mobile"
+    }
+  },
+  "rich-text#texto-bf-1-mobile": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Como uno de los eventos más esperados del año, las ofertas Black Friday de Tommy Hilfiger son una oportunidad única para llenar tu armario de nuestra clásica y cool ropa. Ya sea estés buscando vaqueros, camisetas, zapatillas o chaquetas, diseñados en una variedad de estilos contemporáneos y telas de calidad excepcional y terminados con un toque de la actitud urbana característica de Tommy Hilfiger, nuestros descuentos Black Friday ofrecen una amplia gama de codiciados artículos a un gran valor. \n\n\n\n Las ofertas Black Friday de Tommy Hilfiger estarán disponibles solo por un tiempo limitado. Descubre nuestras ofertas Black Friday, una inversión en vestimenta atemporal a una fracción de su precio usual.",
+      "blockClass": "home-text-mobile"
+    }
+  }
+}

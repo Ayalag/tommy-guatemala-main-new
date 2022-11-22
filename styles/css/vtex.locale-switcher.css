@@ -1,0 +1,12 @@
+.container--switcher{
+  justify-content: flex-start;
+  margin-left: 0;
+}
+
+.button--switcher{
+  color: #00174f;
+}
+
+.buttonText--switcher{
+  color: #00174f;
+}

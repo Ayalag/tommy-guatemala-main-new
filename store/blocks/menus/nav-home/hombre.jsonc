@@ -1,0 +1,382 @@
+{
+  "menu-item#Categorias-Hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/hombre",
+        "text": "Hombre"
+      },
+      "blockClass": "categoria-header-big"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Hombre-home"
+    ]
+  },
+  /* SUBMENU HOMBRE */
+  "vtex.menu@2.x:submenu#Hombre-home": {
+    "children": [
+      "flex-layout.row#submenu-hombre-home"
+    ],
+    "props": {
+      "blockClass": "header-submenu-custom"
+    }
+  },
+  "flex-layout.row#submenu-hombre-home": {
+    "children": [
+      "flex-layout.col#submenu-hombre-home-novedades",
+      "flex-layout.col#submenu-hombre-home-ropa",
+      "flex-layout.col#submenu-hombre-home-ropa-interior",
+      "flex-layout.col#submenu-hombre-home-bolsos",
+      "flex-layout.col#submenu-hombre-home-zapatos"
+    ],
+    "props": {
+      "blockClass": "row-submenu-custom",
+      "preventHorizontalStretch": true,
+      "colGap": 8,
+      "fullWidth": true
+    }
+  },
+    /* NOVEDADES HOMBRE */
+  "flex-layout.col#submenu-hombre-home-novedades": {
+    "children": [
+      "rich-text#hombre-home-novedades-men",
+      "menu-item#Categoria-normal-tommy-x-shawn-mendes"
+      // "menu-item#Categoria-normal-new-arrivals-men",
+      // "menu-item#Categoria-normal-arrival-sustainable-men"
+    ],
+    "props": {
+      "blockClass": "col-submenu-custom",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#hombre-home-novedades-men":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[Novedades](/ropa/genero_Hombre)",
+      "blockClass": "menu-home-title"
+    }
+  },
+  "menu-item#Categoria-normal-tommy-x-shawn-mendes": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/tommy-x-shawn-mendes",
+        "text": "tommy x shawn mendes"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-new-arrivals-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/genero_Hombre",
+        "text": "New Arrivals"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-arrival-sustainable-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/genero_Hombre",
+        "text": "Sustainable Style"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+    /* ROPA HOMBRE */
+  "flex-layout.col#submenu-hombre-home-ropa": {
+    "children": [
+      "rich-text#hombre-home-ropa",
+      "menu-item#Categoria-normal-clothing-abrigos-men",
+      "menu-item#Categoria-normal-clothing-camisas-men",
+      "menu-item#Categoria-normal-clothing-camisetas-men",
+      "menu-item#Categoria-normal-clothing-jeans-men",
+      "menu-item#Categoria-normal-clothing-pantalones-men",
+      "menu-item#Categoria-normal-clothing-polos-men",
+      "menu-item#Categoria-normal-clothing-shorts-men",
+      "menu-item#Categoria-normal-clothing-sueteres-men"
+    ],
+    "props": {
+      "blockClass": "col-submenu-custom",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#hombre-home-ropa":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[Ropa](/ropa/genero_Hombre)",
+      "blockClass": "menu-home-title"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-abrigos-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/abrigos/genero_Hombre",
+        "text": "Abrigos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-camisas-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/camisas/genero_Hombre",
+        "text": "Camisas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-camisetas-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/t-shirts/genero_Hombre",
+        "text": "Camisetas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-jeans-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/jeans/genero_Hombre",
+        "text": "Jeans"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-pantalones-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/pantalones/genero_Hombre",
+        "text": "Pantalones"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-polos-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/polos/genero_Hombre",
+        "text": "Polos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-shorts-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/shorts/genero_Hombre",
+        "text": "Shorts"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-sueteres-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/sweaters/genero_Hombre",
+        "text": "Suéteres"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "flex-layout.col#submenu-hombre-home-ropa-interior": {
+    "children": [
+      "rich-text#hombre-home-ropa-interior",
+      "menu-item#Categoria-normal-clothing-ropa-interior-men-boxers",
+      "menu-item#Categoria-normal-clothing-ropa-interior-men-medias"
+    ],
+    "props": {
+      "blockClass": "col-submenu-custom",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#hombre-home-ropa-interior":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[Ropa Interior](/ropa-interior/hombre?initialMap=c&initialQuery=ropa-interior&map=category-1,genero)",
+      "blockClass": "menu-home-title"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-ropa-interior-men-boxers": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa-interior/boxers/hombre?initialMap=c&initialQuery=ropa-interior&map=category-1,category-2,genero",
+        "text": "Boxers"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-ropa-interior-men-medias": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa-interior/medias/hombre?initialMap=c&initialQuery=ropa-interior&map=category-1,category-2,genero",
+        "text": "Medias"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+    /* ACCESORIOS HOMBRE */
+  "flex-layout.col#submenu-hombre-home-bolsos": {
+    "children": [
+      "rich-text#hombre-home-bolsos-men",
+      "menu-item#Categoria-normal-bags-bolsos-men",
+      "menu-item#Categoria-normal-bags-billeteras-men",
+      "menu-item#Categoria-normal-bags-gorras-men",
+      "menu-item#Categoria-normal-bags-mascarillas-men",
+      "menu-item#Categoria-normal-bags-cinturones-men",
+      "menu-item#Categoria-normal-bags-electronicos-men"
+    ],
+    "props": {
+      "blockClass": "col-submenu-custom",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#hombre-home-bolsos-men":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[Bolsos & Accesorios](/accesorios/hombre?initialMap=c&initialQuery=accesorios&map=category-1,genero)",
+      "blockClass": "menu-home-title"
+    }
+  },
+  "menu-item#Categoria-normal-bags-bolsos-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/accesorios/bolsos/hombre?initialMap=c&initialQuery=accesorios&map=category-1,category-2,genero",
+        "text": "Bolsos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-bags-billeteras-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/accesorios/billeteras/hombre?initialMap=c&initialQuery=accesorios&map=category-1,category-2,genero",
+        "text": "Billeteras"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-bags-mascarillas-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/accesorios/mascarillas/hombre?initialMap=c&initialQuery=accesorios&map=category-1,category-2,genero",
+        "text": "Mascarillas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+
+  "menu-item#Categoria-normal-bags-cinturones-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/accesorios/cinturones/hombre?initialMap=c&initialQuery=accesorios&map=category-1,category-2,genero",
+        "text": "Cinturones"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-bags-gorras-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/accesorios/gorras/hombre?initialMap=c&initialQuery=accesorios&map=category-1,category-2,genero",
+        "text": "Gorras"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-bags-electronicos-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/accesorios/electronicos",
+        "text": "Electónicos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+    /* ZAPATOS HOMBRE */
+  "flex-layout.col#submenu-hombre-home-zapatos": {
+    "children": [
+      "rich-text#hombre-home-zapatos-men",
+      "menu-item#Categoria-normal-mocasines-men",
+      "menu-item#Categoria-normal-botas-men",
+      "menu-item#Categoria-normal-zapatillas-men",
+      "menu-item#Categoria-normal-chancletas-men"
+    ],
+    "props": {
+      "blockClass": "col-submenu-custom",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#hombre-home-zapatos-men":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[Zapatos](/zapatos/hombre?initialMap=c&initialQuery=zapatos&map=category-1,category-2,genero)",
+      "blockClass": "menu-home-title"
+    }
+  },
+  "menu-item#Categoria-normal-zapatillas-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/zapatos/zapatillas/hombre?initialMap=c&initialQuery=zapatos&map=category-1,category-2,genero",
+        "text": "Zapatillas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-mocasines-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/zapatos/mocasines/hombre?initialMap=c&initialQuery=zapatos&map=category-1,category-2,genero",
+        "text": "Mocasines"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-chancletas-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/zapatos/chancletas/hombre?initialMap=c&initialQuery=zapatos&map=category-1,category-2,genero",
+        "text": "Chancletas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-botas-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/zapatos/botas/hombre?initialMap=c&initialQuery=zapatos&map=category-1,category-2,genero",
+        "text": "Botas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  }
+}

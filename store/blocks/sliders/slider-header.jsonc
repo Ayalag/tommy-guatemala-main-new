@@ -1,0 +1,54 @@
+{
+  "slider-layout#cintillo-header": {
+    "children": [
+      "rich-text#texto-top-1"
+      // "rich-text#texto-top-2"
+      // "rich-text#texto-top-3"
+    ],
+    "props": {
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "itemsPerPage":	{ 
+        "desktop": 1,
+        "mobile": 1
+      },
+      "autoplay":{
+        "timeout" : 3000,
+        "stopOnHover": true
+      },
+      "slideTransition" : {
+        "speed": 500,
+        "delay" : 0,
+        "timing": ""
+      },
+      "infinite": true,
+      "blockClass": "slider-cintillo-header"
+      
+  }
+  },
+  "rich-text#texto-top-1": {
+    "props": {
+      "text": "[Entrega gratuita para pedidos de más de Q1000](/terminos-envio)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "contacto-top-texto"
+    }
+  },
+  "rich-text#texto-top-2": {
+    "props": {
+      "text": "[HASTA 30% off en ropa, <br/> calzados y accesorios para hombre del 9 al 19 de junio](/#)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "contacto-top-texto"
+    }
+  },
+  "rich-text#texto-top-3": {
+    "props": {
+      "text": "[Tercer Texto](/#)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "contacto-top-texto"
+    }
+  }
+  
+}

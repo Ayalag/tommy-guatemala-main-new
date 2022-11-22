@@ -1,0 +1,21 @@
+
+/* MOBILE */
+.container--sticky-header {
+    background: white;
+    box-shadow: 0 2px 8px -4px rgb(0 0 0 / 10%);;
+}
+
+.container--sticky-mobile {
+    background: white;
+    box-shadow: 0 2px 8px -4px rgb(0 0 0 / 10%);;
+    padding: 10px;
+}
+
+.container--sticky-price {
+    background: #F9FAFB;
+    border-top: solid 1px #e5e5e5;
+}
+
+.container--sticky-header-categorias :global(.vtex-menu-2-x-menuContainer--categorias-nav-header) {
+    justify-content: space-between;
+}

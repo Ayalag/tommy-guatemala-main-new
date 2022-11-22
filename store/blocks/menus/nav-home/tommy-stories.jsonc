@@ -1,0 +1,69 @@
+{
+    "menu-item#Categorias-Tommy-stories": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "href": "#",
+                "text": "Tommy Stories"
+            },
+            "blockClass": "categoria-header-big"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#tommy-x-shawn-mendes"
+        ]
+    },
+    "vtex.menu@2.x:submenu#tommy-x-shawn-mendes": {
+        "children": [
+            "flex-layout.row#tommy-x-shawn-mendes-home"
+        ],
+        "props": {
+            "blockClass": "header-submenu-custom"
+        }
+    },
+    "flex-layout.row#tommy-x-shawn-mendes-home":{
+        "children": [
+            "flex-layout.col#submenu-tommy-x-shawn-mendes-hombre"
+        ],
+        "props": {
+          "blockClass": "row-submenu-custom",
+          "preventHorizontalStretch": true,
+          "colGap": 8,
+          "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-tommy-x-shawn-mendes-hombre":{
+        "children": [
+            "rich-text#tommy-x-shawn-mendes-hombre",
+            "rich-text#tommy-the-factory",
+            "rich-text#tommy-x-nba"
+          ],
+          "props": {
+            "blockClass": "col-submenu-custom",
+            "preventVerticalStretch": true
+          }
+    },
+    "rich-text#tommy-x-shawn-mendes-hombre":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "[tommy x shawn mendes](/tommy-x-shawn-mendes)",
+            "blockClass": "menu-home-title"
+          }
+    },
+    "rich-text#tommy-the-factory":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "[THE FACTORY](/tommy-hilfiger-explorer)",
+            "blockClass": "menu-home-title"
+          }
+    },
+    "rich-text#tommy-x-nba":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "[TOMMY X NBA](/brand-tommy-jeans/tommy-jeans-capsule-tommy-x-nba)",
+            "blockClass": "menu-home-title"
+          }
+    }
+}

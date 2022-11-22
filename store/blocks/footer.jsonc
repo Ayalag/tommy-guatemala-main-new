@@ -1,0 +1,670 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-general-banner",
+      "flex-layout.row#footer-general",
+      "flex-layout.row#footer-general-rights"
+    ]
+  },
+
+
+  /*------*/
+  /*BANNER*/
+  /*------*/
+
+  "flex-layout.row#footer-general-banner": {
+    "children": [
+      "flex-layout.row#footer-general-banner-container"
+    ],
+    "props": {
+      "blockClass": "footer-general-banner"
+    }
+  },
+  "flex-layout.row#footer-general-banner-container": {
+    "children": [
+      "flex-layout.col#footer-banner-container-wrapper"
+    ],
+    "props": {
+      "blockClass": "footer-general-banner-container"
+    }
+  },
+  "flex-layout.col#footer-banner-container-wrapper": {
+    "children": [
+      "rich-text#footer-banner-title",
+      "rich-text#footer-banner-subtext",
+      "flex-layout.row#newsletter-form"
+      //"newsletter"
+    ],
+    "props": {
+      "blockClass": "footer-general-banner-container-wrapper",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-banner-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Regístrate y obtén un 10% de descuento",
+      "blockClass": "banner-title",
+      "htmlId": "newsletter"
+    }
+  },
+  "rich-text#footer-banner-subtext": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Manténgase al día con nuestras últimas noticias y obtenga un 10% de descuento en una compra.",
+      "blockClass": "banner-subtext"
+    }
+  },
+
+  /*-------*/
+  /*GENERAL*/
+  /*-------*/
+
+  "flex-layout.row#footer-general": {
+    "children": [
+      "flex-layout.col#footer-general"
+    ],
+    "props": {
+      "blockClass": "footer-general"
+    }
+  },
+  "flex-layout.col#footer-general": {
+    "children": [
+      "flex-layout.row#footer-general-fila-1",
+      "flex-layout.row#footer-general-fila-2"
+    ],
+    "props": {
+      "blockClass": "col-footer-general",
+      "horizontalAlign": "center"
+    }
+  },
+
+  /*------*/
+  /*FILA-1*/
+  /*------*/
+
+  "flex-layout.row#footer-general-fila-1": {
+    "children": [
+      "flex-layout.col#footer-general-item-1",
+      "flex-layout.col#footer-general-item-2",
+      "flex-layout.col#footer-general-item-3",
+      "flex-layout.col#footer-general-item-7"
+    ],
+    "props": {
+      "blockClass": "footer-general-fila-1"
+    }
+  },
+
+  /*------*/
+
+
+  "flex-layout.col#footer-general-item-1": {
+    "children": [
+      "flex-layout.col#footer-contactanos"
+    ],
+    "props": {
+      "blockClass": "col-item-footer"
+    }
+  },
+  "flex-layout.col#footer-contactanos": {
+    "children": [
+      "rich-text#footer-titulo-contactanos",
+      "vtex.menu@2.x:menu#footer-contactanos"
+    ],
+    "props": {
+      "blockClass": "col-item-footer",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-titulo-contactanos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "CONTACTO",
+      "blockClass": "titulo-footer"
+    }
+  },
+
+  /*------*/
+
+  "flex-layout.col#footer-general-item-2": {
+    "children": [
+      "flex-layout.col#footer-pedidos"
+    ],
+    "props": {
+      "blockClass": "col-item-footer-sub-item"
+    }
+  },
+  "flex-layout.col#footer-pedidos": {
+    "children": [
+      "rich-text#footer-titulo-pedidos",
+      "vtex.menu@2.x:menu#footer-pedidos"
+    ],
+    "props": {
+      "blockClass": "col-item-footer",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-titulo-pedidos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "TUS PEDIDOS",
+      "blockClass": "titulo-footer"
+    }
+  },
+
+  /*------*/
+
+  /*------*/
+
+  "flex-layout.col#footer-general-item-3": {
+    "children": [
+      "rich-text#footer-titulo-shopping",
+      "vtex.menu@2.x:menu#footer-shopping"
+    ],
+    "props": {
+      "blockClass": "col-item-footer",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-titulo-shopping": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "COMPRA FÁCIL",
+      "blockClass": "titulo-footer"
+    }
+  },
+
+  /*------*/
+
+  "flex-layout.col#footer-general-item-4": {
+    "children": [
+      "rich-text#footer-titulo-conecta",
+      "flex-layout.row#footer-general-payment"
+    ],
+    "props": {
+      "blockClass": "col-item-footer",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-titulo-conecta": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "OPCIONES DE PAGO",
+      "blockClass": "titulo-footer"
+    }
+  },
+
+  /*------*/
+
+  "flex-layout.row#footer-general-payment": {
+    "children": [
+      "image#medios-pago-2",
+      "image#medios-pago-3",
+      "image#medios-pago-5"
+    ],
+    "props": {
+      "blockClass": "footer-general-bottom",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#medios-pago-1": {
+    "props": {
+      "src": "/arquivos/diners.png",
+      "width": 50,
+      "blockClass": "footer-partner"
+    }
+  },
+  "image#medios-pago-2": {
+    "props": {
+      "src": "/arquivos/mastercard.png",
+      "width": 50,
+      "blockClass": "footer-partner"
+    }
+  },
+  "image#medios-pago-3": {
+    "props": {
+      "src": "/arquivos/visa.png",
+      "width": 50,
+      "blockClass": "footer-partner"
+    }
+  },
+  "image#medios-pago-4": {
+    "props": {
+      "src": "/arquivos/american.png",
+      "width": 50,
+      "blockClass": "footer-partner"
+    }
+  },
+  "image#medios-pago-5": {
+    "props": {
+      "src": "/arquivos/ach2.png",
+      "width": 50,
+      "blockClass": "footer-partner"
+    }
+  },
+  "image#medios-pago-6": {
+    "props": {
+      "src": "/arquivos/apple.png",
+      "width": 50,
+      "blockClass": "footer-partner"
+    }
+  },
+
+  /*------*/
+  /*FILA-2*/
+  /*------*/
+
+  "flex-layout.row#footer-general-fila-2": {
+    "children": [
+      "flex-layout.col#footer-general-item-6",
+      "flex-layout.col#footer-general-item-9",
+      "flex-layout.col#footer-general-item-5",
+      "flex-layout.col#footer-general-item-5",
+      "flex-layout.col#footer-general-item-4"
+    ],
+    "props": {
+      "blockClass": "footer-general-fila-2"
+    }
+  },
+  "flex-layout.col#footer-general-fila-2-col": {
+    "children": [
+      "flex-layout.row#footer-general-payment"
+    ],
+    "props": {
+      "blockClass": "footer-general-fila-2-col"
+    }
+  },
+
+  /*------*/
+  "flex-layout.col#footer-general-item-5": {
+    "children": [
+      "rich-text#footer-titulo-explore",
+      "vtex.menu@2.x:menu#footer-explore"
+    ],
+    "props": {
+      "blockClass": "col-item-footer",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-titulo-explore": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "",
+      "blockClass": "titulo-footer"
+    }
+  },
+
+  /*------*/
+
+  "flex-layout.col#footer-general-item-6": {
+    "children": [
+      "rich-text#footer-titulo-product",
+      "vtex.menu@2.x:menu#footer-product"
+    ],
+    "props": {
+      "blockClass": "col-item-footer",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-titulo-product": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "INFORMACIÓN DEL PRODUCTO",
+      "blockClass": "titulo-footer"
+    }
+  },
+
+  /*------*/
+
+  "flex-layout.col#footer-general-item-7": {
+    "children": [
+      "rich-text#footer-titulo-about",
+      "vtex.menu@2.x:menu#footer-about"
+    ],
+    "props": {
+      "blockClass": "col-item-footer",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-titulo-about": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "ACERCA DE TOMMY HILFIGER",
+      "blockClass": "titulo-footer"
+    }
+  },
+
+  /*------*/
+
+  "flex-layout.col#footer-general-item-8": {
+    "children": [
+      "rich-text#footer-titulo-language",
+      "locale-switcher#footer"
+    ],
+    "props": {
+      "blockClass": "col-item-footer",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-titulo-language": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "IDIOMA",
+      "blockClass": "titulo-footer"
+    }
+  },
+  "locale-switcher#footer": {
+    "props": {
+      "blockClass": "switcher"
+    }
+  },
+
+  "flex-layout.col#footer-general-item-9": {
+    "children": [
+      "rich-text#footer-titulo-special-days",
+      "vtex.menu@2.x:menu#special-landig"
+    ],
+    "props": {
+      "blockClass": "col-item-footer"
+    }
+  },
+  "rich-text#footer-titulo-special-days": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "NOVEDADES Y EVENTOS",
+      "blockClass": "titulo-footer"
+    }
+  },
+
+  /*------*/
+
+  /*------*/
+  /*BOTTOM*/
+  /*------*/
+
+  "flex-layout.row#footer-general-rights": {
+    "children": [
+      "flex-layout.row#footer-general-rights-wrapper"
+    ],
+    "props": {
+      "blockClass": "footer-general-rights",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#footer-general-rights-wrapper": {
+    "children": [
+      "rich-text#footer-rights-text",
+      "flex-layout.row#footer-rrss"
+    ],
+    "props": {
+      "blockClass": "footer-general-rights-wrapper",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  /*-----*/
+
+  "rich-text#footer-rights-text": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "© 2021 Tommy Hilfiger. Todos los derechos reservados.",
+      "blockClass": "titulo-rights"
+    }
+  },
+
+  /*-----*/
+
+
+  "flex-layout.row#footer-rrss": {
+    "children": [
+      "image#footer-facebook",
+      "image#footer-pinterest",
+      "image#footer-twitter",
+      "image#footer-instagram",
+      "image#footer-youtube"
+    ],
+    "props": {
+      "blockClass": "row-footer-rrss",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "image#footer-twitter": {
+    "props": {
+      "src": "/arquivos/gorjeo.png",
+      "width": 20,
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "footer-rrss"
+    }
+  },
+  "image#footer-facebook": {
+    "props": {
+      "src": "/arquivos/facebook.png",
+      "width": 20,
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "footer-rrss"
+    }
+  },
+  "image#footer-instagram": {
+    "props": {
+      "src": "/arquivos/instagram.png",
+      "width": 20,
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "footer-rrss"
+    }
+  },
+  "image#footer-pinterest": {
+    "props": {
+      "src": "/arquivos/pinterest.png",
+      "width": 20,
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "footer-rrss"
+    }
+  },
+  "image#footer-youtube": {
+    "props": {
+      "src": "/arquivos/youtube.png",
+      "width": 20,
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "footer-rrss"
+    }
+  },
+
+  /*------*/
+  /*MOBILE*/
+  /*------*/
+  "image#vtex": {
+    "props": {
+      "width": 100,
+      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+      "url": {
+        "link": "https://vtex.com/"
+      },
+      "blockClass": "logo-vtex"
+    }
+  },
+  "image#ko-logo": {
+    "props": {
+      "src": "/arquivos/logo_ko.png",
+      "url": {
+        "link": "https://knownonline.com/"
+      },
+      "width": 150,
+      "height": 30,
+      "blockClass": "logo-ko"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-general-banner",
+      "flex-layout.row#footer-general-fila-1-mobile",
+      "flex-layout.row#footer-general-rights"
+    ]
+  },
+  "flex-layout.row#footer-general-fila-1-mobile": {
+    "children": [
+      "flex-layout.col#footer-general-fila-1-mobile"
+    ],
+    "props": {
+      "blockClass": "footer-general-fila-1-mobile"
+    }
+  },
+  "flex-layout.col#footer-general-fila-1-mobile": {
+    "children": [
+      "disclosure-layout#contacto",
+      "disclosure-layout#tus-pedidos",
+      "disclosure-layout#compra-facil",
+      "disclosure-layout#acerca-de",
+      "disclosure-layout#informacion",
+      "disclosure-layout#medios-pago",
+      "disclosure-layout#special-landing"
+    ],
+    "props": {
+      "blockClass": "footer-general-fila-1-col-mobile"
+    }
+  },
+
+  /* FORM NEWSLETTER CUSTOM */
+
+  "flex-layout.row#newsletter-form": {
+    "children": [
+      "form#newsletter"
+    ],
+    "props": {
+      "blockClass": "formulario-newsletter"
+    }
+  },
+  "form#newsletter": {
+    "props": {
+      "entity": "NN",
+      "schema": "NewNewsletter",
+      "blockClass": "formulario-newsletter"
+    },
+    "children": [
+      "flex-layout.row#newsletter-form-top",
+      "flex-layout.row#newsletter-form-middle",
+      "flex-layout.row#newsletter-form-bottom"
+    ],
+    "blocks": [
+      "form-success#newsletter"
+    ]
+  },
+  "form-success#newsletter": {
+    "children": [
+      "rich-text#successSubmit-newsletter"
+    ]
+  },
+  "rich-text#successSubmit-newsletter": {
+    "props": {
+      "text": "Se inscribio con exito al newsletter!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "success-newsletter"
+    }
+  },
+  "flex-layout.row#newsletter-form-top": {
+    "children": [
+      "form-input.text#newsletter-name",
+      "form-input.text#newsletter-lastname",
+      "form-input.text#newsletter-email"
+    ],
+    "props": {
+      "blockClass": "newsletter-top"
+    }
+  },
+  "flex-layout.row#newsletter-form-middle": {
+    "children": [
+      "form-input.checkbox#newsletter-mujer",
+      "form-input.checkbox#newsletter-hombre",
+      "form-input.checkbox#newsletter-ninos"
+    ],
+    "props": {
+      "blockClass": "newsletter-top"
+    }
+  },
+  "flex-layout.row#newsletter-form-bottom": {
+    "children": [
+      "form-submit#newsletter"
+    ],
+    "props": {
+      "blockClass": "newsletter-bottom"
+    }
+  },
+  "form-input.text#newsletter-name": {
+    "props": {
+      "pointer": "#/properties/name",
+      "placeholder": "Nombre",
+      "blockClass": "input-form"
+    }
+  },
+  "form-input.text#newsletter-lastname": {
+    "props": {
+      "pointer": "#/properties/lastname",
+      "placeholder": "Apellido",
+      "blockClass": "input-form"
+    }
+  },
+  "form-input.text#newsletter-email": {
+    "props": {
+      "pointer": "#/properties/email",
+      "placeholder": "Email",
+      "blockClass": "input-form"
+    }
+  },
+  "form-input.checkbox#newsletter-mujer": {
+    "props": {
+      "pointer": "#/properties/mujer",
+      "label": "Mujer",
+      "blockClass": "input-form"
+    }
+  },
+  "form-input.checkbox#newsletter-hombre": {
+    "props": {
+      "pointer": "#/properties/hombre",
+      "label": "Hombre",
+      "blockClass": "input-form"
+    }
+  },
+  "form-input.checkbox#newsletter-ninos": {
+    "props": {
+      "pointer": "#/properties/ninos",
+      "label": "Niños",
+      "blockClass": "input-form"
+    }
+  },
+  "form-submit#newsletter": {
+    "props": {
+      "label": "SUSCRIBIRME",
+      "blockClass": "boton-enviar-newsletter"
+    }
+  }
+}

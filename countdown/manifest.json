@@ -1,0 +1,22 @@
+{
+  "vendor": "tommyguatemala",
+  "name": "custom-blocks",
+  "version": "0.0.6",
+  "title": "Custom components",
+  "description": "Custom components for the store",
+  "defaultLocale": "es-AR",
+  "builders": {
+    "messages": "1.x",
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "mustUpdateAt": "2019-04-02",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.css-handles": "0.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

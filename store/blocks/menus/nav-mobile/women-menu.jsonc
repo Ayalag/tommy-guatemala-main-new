@@ -1,0 +1,177 @@
+{
+  "menu-item#Categoria-1-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "MUJER"
+      },
+      "blockClass": "categoria-header-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Categoria-1-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Categoria-1-mobile": {
+    "children": [
+        "menu-item#Categoria-1-SubCategoria-Ver-Todo-Women",
+        "menu-item#Categoria-1-SubCategoria-accesorios-mobile",
+        "menu-item#Categoria-1-SubCategoria-calzado-mobile",
+        "menu-item#Categoria-1-SubCategoria-ropa-mobile"
+    ],
+    "props": {
+        "blockClass": "submenu-header-mobile"
+    }
+},
+"menu-item#Categoria-1-SubCategoria-Ver-Todo-Women": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/mujer",
+        "text": "VER TODO"
+      },
+      "blockClass": "submenu-mobile"
+    }
+  },
+  "menu-item#Categoria-1-SubCategoria-accesorios-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "ACCESORIOS"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "submenu-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#1-SubCategoria-accesorios-mobile"
+    ]
+  },
+"vtex.menu@2.x:submenu#1-SubCategoria-accesorios-mobile": {
+    "children": [
+        "menu-item#See-all-accesorios-mujer",
+        "menu-item#Categoria-normal-bags-bolsos-women",
+        "menu-item#Categoria-normal-bags-billeteras-women",
+        "menu-item#Categoria-normal-bags-carteras-women",
+        "menu-item#Categoria-normal-bags-gorras-women",
+        "menu-item#Categoria-normal-bags-cinturones-women",
+        "menu-item#Categoria-normal-bags-mascarillas-women",
+        "menu-item#Categoria-normal-bags-electronicos-women"
+    ],
+    "props": {
+        "blockClass": "itemmenu-header-mobile"
+    }
+},
+"menu-item#See-all-accesorios-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/accesorios/mujer?initialMap=c&initialQuery=accesorios&map=category-1,genero",
+        "text": "Ver todo"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-1-SubCategoria-calzado-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "CALZADO"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "submenu-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#1-SubCategoria-calzado-mobile"
+    ]
+  },
+"vtex.menu@2.x:submenu#1-SubCategoria-calzado-mobile": {
+    "children": [
+        "menu-item#See-all-calzado-mujer",
+        "menu-item#Categoria-normal-sandalias-women",
+        "menu-item#Categoria-normal-chancletas-women",
+        "menu-item#Categoria-normal-botas-women",
+        "menu-item#Categoria-normal-mocasines-women",
+        "menu-item#Categoria-normal-tacones-women",
+        "menu-item#Categoria-normal-bailarinas-women",
+        "menu-item#Categoria-normal-zapatillas-women"
+    ],
+    "props": {
+        "blockClass": "itemmenu-header-mobile"
+    }
+},
+"menu-item#See-all-calzado-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/zapatos/mujer?initialMap=c&initialQuery=zapatos&map=category-1,genero",
+        "text": "Ver todo"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-1-SubCategoria-ropa-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "ROPA"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "submenu-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#1-SubCategoria-ropa-mobile"
+    ]
+  },
+"vtex.menu@2.x:submenu#1-SubCategoria-ropa-mobile": {
+    "children": [
+        "menu-item#See-all-ropa-mujer",
+        "menu-item#Categoria-normal-clothing-abrigos-women",
+        "menu-item#Categoria-normal-clothing-camisas-women",
+        "menu-item#Categoria-normal-clothing-camisetas-women",
+        "menu-item#Categoria-normal-clothing-faldas-women",
+        "menu-item#Categoria-normal-clothing-jeans-women",
+        "menu-item#Categoria-normal-clothing-pantalones-women",
+        "menu-item#Categoria-normal-clothing-polos-women",
+        "menu-item#Categoria-normal-clothing-shorts-women",
+        "menu-item#Categoria-normal-clothing-sueteres-women",
+        "menu-item#Categoria-normal-clothing-vestidos-women",
+        "menu-item#Categoria-normal-clothing-ropa-interior-camisetas-women",
+        "menu-item#Categoria-normal-clothing-ropa-interior-brassieres-women",
+        "menu-item#Categoria-normal-clothing-ropa-interior-medias-women"
+    ],
+    "props": {
+        "blockClass": "itemmenu-header-mobile"
+    }
+},
+"menu-item#See-all-ropa-mujer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/genero_Mujer",
+        "text": "Ver todo"
+      },
+      "blockClass": "header-item-custom"
+    }
+  }
+}

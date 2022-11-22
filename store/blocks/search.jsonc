@@ -1,0 +1,283 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        // "simulationBehavior": "skip",
+        "orderByField":"OrderByReleaseDateDESC"
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#top",
+      "gallery-layout-switcher#desktop",
+      "flex-layout.row#results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "Mostrar mas"
+    }
+  },
+  "search-result-layout.mobile": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#top",
+      "flex-layout.row#results-mobile",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "Mostrar mas"
+    }
+  },
+  "search-not-found-layout": {
+    "children": [
+      "not-found"
+    ]
+  },
+  "flex-layout.row#top": {
+    "children": [
+      "total-products.v2"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.row#results": {
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#search"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "search-result"
+    }
+  },
+  "flex-layout.row#results-mobile": {
+    "children": [
+      "flex-layout.col#filter",
+      "gallery-layout-switcher#mobile",
+      "flex-layout.col#search-mobile"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "search-result"
+    }
+  },
+  "search-title.v2":{
+    "props":{
+      "blockClass": "titulo"
+    }
+  },
+  "flex-layout.col#filter": {
+    "children": [
+      "order-by.v2",
+      "filter-navigator.v3"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "search-result-filtros"
+    }
+  },
+  "flex-layout.col#search": {
+    "children": [
+      "search-content",
+      "rich-text#categories"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "blockClass":"search-result-productos"
+    }
+  },
+  "flex-layout.col#search-mobile": {
+    "children": [
+      "search-content#mobile",
+      "rich-text#categories"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "blockClass":"search-result-productos"
+    }
+  },
+"rich-text#categories": {
+    "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "## **TOMMY HILFIGER** \n\n\n Descubre las últimas tendencias y deslumbra con la nueva colección de ropa, calzado, bolsos y accesorios para mujer y hombre de Tommy Hilfiger. La colección de hombre de Tommy Hilfiger es ideal para quienes buscan un look diferente. Combinando unos vaqueros con una camisa formal lograrás un conjunto de estilo clásico y casual, mientras que vistiendo uno de nuestros trajes a medida estarás más elegante que nunca. Para poner la guinda al pastel, añade un cinturón, un reloj o un par de zapatos para hombre. Nuestra colección para mujer también cuenta con una amplia variedad de diseños. Desde vestidos, bolsos y tacones ideales para una noche de fiesta hasta pantalones de chándal o zapatillas para una sesión nocturna de película, sofá y manta, necesites lo que necesites, lo encontrarás en nuestro sitio web.",
+        "blockClass": "categorias-texto"
+    }
+},
+  "filter-navigator.v3":{
+    "props":{
+      "maxItemsCategory": 25,
+      "maxItemsDepartment": 25,
+      "initiallyCollapsed": true,
+      "openFiltersMode": "one",
+      "truncateFilters": true
+    }
+  },
+  "search-content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "search-content#mobile": {
+    "blocks": [
+      "gallery#mobile",
+      "not-found"
+    ]
+  },
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid-3",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width: 1280px)": 3
+          }
+        },
+        {
+          "name": "grid-2",
+          "component": "GridSmall",
+          "itemsPerRow": {
+            "(min-width: 1280px)": 2
+          }
+        },
+        {
+          "name": "grid-4",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width: 1280px)": 4
+          }
+        }
+      ],
+      "GridSummary": "product-summary.shelf#main",
+      "GridSmall": "product-summary.shelf#main-small"
+    }
+  },
+  "gallery#mobile": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid-mobile-2",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width: 1024px)": 2,
+            "(min-width: 320px)": 2
+          }
+        },
+        {
+          "name": "simple-mobile",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width: 1024px)": 1,
+            "(min-width: 320px)": 1
+          }
+        }
+      ],
+      "GridSummary": "product-summary.shelf#main"
+    }
+  },
+  "gallery-layout-switcher#mobile": {
+    "children": [
+      "gallery-layout-option#grid-mobile-2",
+      "gallery-layout-option#simple-mobile"
+    ]
+  },
+  "gallery-layout-switcher#desktop": {
+    "children": [
+      "gallery-layout-option#grid-2",
+      "gallery-layout-option#grid-3",
+      "gallery-layout-option#grid-4"
+    ]
+  },
+  "gallery-layout-option#simple-mobile": {
+    "props": {
+      "name": "simple-mobile"
+    },
+    "children": [
+      "icon#simple-grid"
+    ]
+  },
+  "gallery-layout-option#grid-mobile-2": {
+    "props": {
+      "name": "grid-mobile-2"
+    },
+    "children": [
+      "icon#grid-2"
+    ]
+  },
+  "gallery-layout-option#grid-2": {
+    "props": {
+      "name": "grid-2"
+    },
+    "children": [
+      "icon#grid-2"
+    ]
+  },
+  "gallery-layout-option#grid-3": {
+    "props": {
+      "name": "grid-3"
+    },
+    "children": [
+      "icon#grid-3"
+    ]
+  },
+  "gallery-layout-option#grid-4": {
+    "props": {
+      "name": "grid-4"
+    },
+    "children": [
+      "icon#grid-4"
+    ]
+  },
+  "icon#grid-2": {
+    "props": {
+      "id": "grid-2",
+      "size" : 14,
+      "viewBox" : "0 0 15 15"
+    }
+  },
+  "icon#simple-grid": {
+    "props": {
+      "id": "simple-grid",
+      "size" : 14,
+      "viewBox" : "0 0 15 15"
+    }
+  },
+
+  "icon#grid-3": {
+    "props": {
+      "id": "grid-3",
+      "size" : 20,
+      "viewBox" : "0 0 25 15"
+    }
+  },
+  "icon#grid-4": {
+    "props": {
+      "id": "grid-4",
+      "size" : 25,
+      "viewBox" : "0 0 34 15"
+    }
+  }
+
+}

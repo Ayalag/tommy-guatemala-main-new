@@ -1,0 +1,30 @@
+.formSubmitContainer--boton-enviar {
+    margin-top: 15px;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.formSubmitButton--boton-enviar-newsletter{
+    display: flex;
+    justify-content: center;
+}
+
+.formSubmitButton--boton-enviar-newsletter :global(.vtex-button){
+    background-color: #D51F36;
+    border:2px solid #D51F36;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem 2rem;
+    transition: all .3s;
+}
+
+.formSubmitButton--boton-enviar-newsletter :global(.vtex-button):hover{
+    background-color: #00174f;
+    border:2px solid white;
+}
+
+.formSubmitButton--boton-enviar-newsletter:global(.vtex-button__label){
+    padding: 0!important;
+    font-size: .875rem;
+}

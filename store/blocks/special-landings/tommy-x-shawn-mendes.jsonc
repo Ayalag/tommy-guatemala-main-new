@@ -1,0 +1,171 @@
+{
+    "store.custom#tommy-x-shawn-mendes": {
+        "blocks": [
+            "responsive-layout.desktop#categorias-shawn-mendes",
+            "responsive-layout.mobile#categorias-shawn-mendes-mobile"
+        ]
+    },
+    "responsive-layout.desktop#categorias-shawn-mendes": {
+        "children": [
+            "info-card#categoria-shawn-mendes",
+            "rich-text#legend-shawn-mendes",
+            "info-card#section-1-shawn-mendes",
+            "rich-text#titulo-shawn-mendes",
+            "flex-layout.row#categorias-shawn-mendes-1",
+            "info-card#section-2-shawn-mendes"
+        ]
+    },
+    "info-card#categoria-shawn-mendes": {
+        "props": {
+            "id": "shawn-mendes",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "headline": "PLAY IT FORWARD",
+            "subhead": "Colaboramos con el artista, escritor y activista Shawn Mendes en la reinvención de nuestros modelos más icónicos para crear un estilo consciente y sostenible.",
+            "blockClass": "categoria-shawn-mendes",
+            "callToActionMode": "none",
+            "textAlignment": "left",
+            "imageUrl": "/arquivos/SMxTH_LP_module-1_3412x1892_extra_height.jpg",
+            "mobileImageUrl":"/arquivos/SMxTH_LP_Elevated_Hotspot_2_960x960px_mobile-2.jpg"
+        }
+    },
+    "rich-text#legend-shawn-mendes": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Shawn no solo es un músico polifacético, sino que también representa a una nueva generación que comprende la necesidad de actuar. Y aunque reconocemos que nos queda un largo camino por delante, juntos podemos fomentar aún más la concienciación y tener un impacto positivo y duradero.",
+            "blockClass": "legend-shawn-mendes"
+        }
+    },
+    "info-card#section-1-shawn-mendes": {
+        "props": {
+            "id": "info-card-shawn-mendes",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "/arquivos/SMxTH_LP_module-3_01_1286x1106px_desktop.jpg",
+            "headline": "UNA COLABORACIÓN CON PROPÓSITO",
+            "subhead": "Nuestra colaboración con Shawn Mendes comienza con la campaña \"Classics Reborn\", que presenta piezas elaboradas con materiales sostenibles de nuestra colección icónica,1985. Además, incluye una donación de 1 millón de dólares para mitigar los impactos ambientales de la gira mundial de Shawn.",
+            "blockClass": "info-card-shawn-mendes",
+            "callToActionMode": "none",
+            "textAlignment": "left"
+        }
+    },
+    "rich-text#titulo-shawn-mendes": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "CLASSIC REBORN",
+            "blockClass": "titulo-categoria-landing"
+        }
+    },
+    "flex-layout.row#categorias-shawn-mendes-1": {
+        "props": {
+          // "blockClass": "categorias-hombre",
+          "horizontalAlign": "center",
+          "fullWidth": true
+        },
+        "children": [
+          "flex-layout.col#categorias-sm-2",
+          "flex-layout.col#categorias-sm-1"
+    
+        ]
+      },
+    "flex-layout.col#categorias-sm-1": {
+        "children": [
+          "info-card#categoria-sm-1"
+        ],
+        "props": {
+          // "blockClass": "col-categorias-hombre",
+          "paddingRight": 3,
+          "width": "100%"
+        }
+      },
+      "info-card#categoria-sm-1": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "textAlignment": "center",
+            "headline": "COMPRAR CAMISAS",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/t-shirts/genero_Hombre",
+            "blockClass": "image-categories-shawn-mendes",
+          "imageUrl": "/arquivos/smxth-lp-elevated-hotspot-2-1276x1150px-desktop-corrected.jpg"
+        }
+      },
+      "flex-layout.col#categorias-sm-2": {
+        "children": [
+          "info-card#categoria-sm-2"
+        ],
+        "props": {
+          // "blockClass": "col-categorias-hombre",
+          "paddingRight": 3,
+          "width": "100%"
+        }
+      },
+      "info-card#categoria-sm-2": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "textAlignment": "center",
+            "headline": "COMPRAR POLOS",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/polos/genero_Hombre",
+            "blockClass": "image-categories-shawn-mendes",
+          "imageUrl": "/arquivos/smxth-lp-elevated-hotspot-1-1276x1150px-desktop.jpg"
+        }
+      },
+      "info-card#section-2-shawn-mendes": {
+        "props": {
+            "id": "info-card-shawn-mendes",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "/arquivos/SMxTH_LP_module-3_02_960x1020px_mobile.jpg",
+            "headline": "UNA VISIÓN CONSCIENTE",
+            "subhead": "Nuestra misión compartida de Play It Forward acelera nuestro viaje continuo de sostenibilidad, que comenzó hace más de una década. En 2019, nos convertimos en una de las primeras marcas en usar algodón 100 % reciclado a escala y, en 2020, casi el 60 % de nuestras colecciones globales se fabricaron con materiales que se obtuvieron de manera más sostenible, un número que continúa aumentando temporada tras temporada, y estación.",
+            "blockClass": "info-card-shawn-mendes",
+            "callToActionMode": "button",
+            "callToActionText": "CONOCE MÁS",
+            "callToActionUrl": "https://responsibility.pvh.com/tommy/",
+            "textAlignment": "left"
+        }
+    },
+    "responsive-layout.mobile#categorias-shawn-mendes-mobile":{
+        "children": [
+            "info-card#categoria-shawn-mendes",
+            "rich-text#legend-shawn-mendes",
+            "info-card#section-1-shawn-mendes",
+            "rich-text#titulo-shawn-mendes",
+            "flex-layout.row#categorias-shawn-mendes-1",
+            "info-card#section-2-shawn-mendes"
+          ]
+    },
+    "info-card#categoria-shawn-mendes-mobile": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "headline": "PLAY IT FORWARD",
+            "subhead": "Colaboramos con el artista, escritor y activista Shawn Mendes en la reinvención de nuestros modelos más icónicos para crear un estilo consciente y sostenible.",
+            "blockClass": "categoria-shawn-mendes",
+            "callToActionMode": "none",
+            "textAlignment": "left",
+            "imageUrl": "/arquivos/SMxTH_LP_Elevated_Hotspot_2_960x960px_mobile-2.jpg"
+        }
+    },
+    "info-card#section-2-shawn-mendes-mobile": {
+        "props": {
+            "id": "info-card-shawn-mendes",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "/arquivos/SMxTH_LP_module-3_02_960x1020px_mobile.jpg",
+            "headline": "UNA VISIÓN CONSCIENTE",
+            "subhead": "Nuestra misión compartida de Play It Forward acelera nuestro viaje continuo de sostenibilidad, que comenzó hace más de una década. En 2019, nos convertimos en una de las primeras marcas en usar algodón 100 % reciclado a escala y, en 2020, casi el 60 % de nuestras colecciones globales se fabricaron con materiales que se obtuvieron de manera más sostenible, un número que continúa aumentando temporada tras temporada, y estación.",
+            "blockClass": "info-card-shawn-mendes-mobile",
+            "callToActionMode": "button",
+            "callToActionText": "CONOCE MÁS",
+            "callToActionUrl": "https://responsibility.pvh.com/tommy/",
+            "textAlignment": "left"
+        }
+    }
+}

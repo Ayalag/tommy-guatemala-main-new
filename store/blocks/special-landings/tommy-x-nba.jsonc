@@ -1,0 +1,90 @@
+{
+  "store.custom#tommy-x-nba": {
+    "blocks": [
+      "responsive-layout.desktop#tommy-x-nba",
+      "responsive-layout.mobile#tommy-x-nba-mobile",
+      "search-result-layout.customQuery#nba"
+     
+    ]
+  },
+  "responsive-layout.desktop#tommy-x-nba": {
+    "children": [
+      "rich-text#nba-title",
+      "info-card#nba",
+      "rich-text#nba-paragraph-1",
+      "rich-text#nba-paragraph-2"
+    ]
+  },
+  "rich-text#nba-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "TOMMY JEANS CAPSULE TOMMY X NBA",
+      "blockClass": "titulo-nba"
+    }
+  },
+  "info-card#nba": {
+    "props": {
+      "id": "hombre",
+      "isFullModeStyle": true,
+      "blockClass": "categoria",
+      "callToActionMode": "none",
+      "textAlignment": "left",
+      "imageUrl": "/arquivos/PDP-NBA-DESKTOP.jpg"
+    }
+  },
+  "rich-text#nba-paragraph-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "TOMMY & NBA",
+      "blockClass": "titulo-nba"
+    }
+  },
+  "rich-text#nba-paragraph-2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Tommy Jeans & NBA una capsula que celebra el espíritu del basketball. Conoce los esenciales que traemos para ti.",
+      "blockClass": "titulo-nba-paragraph-2"
+    }
+  },
+
+  "search-result-layout.customQuery#nba": {
+    "props": {
+        "querySchema": {
+            "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "facetsBehavior": "Dynamic",
+            "maxItemsPerPage": 8,
+            "queryField": "146",
+            "mapField": "productClusterIds",
+            "skusFilter": "ALL_AVAILABLE",
+            "simulationBehavior": "default"
+        }
+    },
+    "blocks":[
+      "search-result-layout.desktop",
+      "search-result-layout.mobile"
+    ]
+},
+
+  "responsive-layout.mobile#tommy-x-nba-mobile": {
+    "children": [
+      "rich-text#nba-title",
+      "info-card#nba-mobile",
+      "rich-text#nba-paragraph-1",
+      "rich-text#nba-paragraph-2"
+    ]
+  },
+  "info-card#nba-mobile": {
+    "props": {
+      "id": "hombre",
+      "isFullModeStyle": true,
+      "blockClass": "categoria",
+      "callToActionMode": "none",
+      "textAlignment": "left",
+      "imageUrl": "/arquivos/MODULO-1-MOBILE-NBA.jpg"
+    }
+  }
+}

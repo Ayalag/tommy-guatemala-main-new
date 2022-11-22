@@ -1,0 +1,152 @@
+{
+    "store.custom#envio": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-envio",
+            "responsive-layout.mobile#mobile-envio"
+        ]
+    },
+    "responsive-layout.desktop#desktop-envio": {
+        "children": [
+            "flex-layout.row#contenedor-envio"
+        ]
+    },
+    "flex-layout.row#contenedor-envio": {
+        "children": [
+            "flex-layout.row#contenedor-envio-general"
+        ],
+        "props": {
+            "blockClass": "contenedor-institucional"
+        }
+    },
+    "flex-layout.row#contenedor-envio-general": {
+        "children": [
+            "flex-layout.col#menu-envio",
+            "flex-layout.col#contenedor-envio"
+        ],
+        "props": {
+            "blockClass": "contenedor-general-institucional",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#menu-envio": {
+        "children": [
+            "rich-text#menu-envio-envio",
+            "rich-text#menu-devolucion-envio",
+            "rich-text#menu-localizador-envio",
+            "rich-text#menu-tallas-envio",
+            "rich-text#menu-cliente-envio",
+            "rich-text#menu-nosotros-envio",
+            "rich-text#menu-prensa-envio",
+            "rich-text#menu-terminos-envio",
+            "rich-text#menu-pp-envio",
+            "rich-text#menu-pc-envio"
+        ],
+        "props": {
+            "blockClass": "menu-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#menu-cliente-envio": {
+        "props": {
+            "text": "[Servicio al Cliente](/servicio-cliente)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-localizador-envio": {
+        "props": {
+            "text": "[Localizador de Tiendas](/localizador-tiendas)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-tallas-envio": {
+        "props": {
+            "text": "[Guía de Tallas](/guia-tallas)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-devolucion-envio": {
+        "props": {
+            "text": "[Devoluciónes](/terminos-devoluciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-envio-envio": {
+        "props": {
+            "text": "[Envios](/terminos-envio)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-nosotros-envio": {
+        "props": {
+            "text": "[Sobre Nosotros](https://global.tommy.com/en_int/about-us)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-prensa-envio": {
+        "props": {
+            "text": "[Sala de Prensa](https://global.tommy.com/en_int/newsroom)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-terminos-envio": {
+        "props": {
+            "text": "[Terminos y Condiciones](/terminos-y-condiciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-pp-envio": {
+        "props": {
+            "text": "[Politica de Privacidad](/politica-de-privacidad)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-pc-envio": {
+        "props": {
+            "text": "[Politica de Cookies](/politica-de-cookies)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "flex-layout.col#contenedor-envio": {
+        "children": [
+            "rich-text#envio-1"
+        ],
+        "props": {
+            "blockClass": "col-contenedor-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#envio-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "## **ENVIOS** \n\n\n ### **Tommy Hilfiger** \n\n\n **AVISO IMPORTANTE SOBRE TUS ENVÍOS** \n\n Debido a la emergencia sanitaria, los operadores encargados del despacho de pedidos, se han visto afectados por la alta demanda del servicio. Por lo tanto, las gestiones de entregas pueden demorar más tiempo de lo normal. Agradecemos su comprensión. \n\n **ENVÍOS** \n\n Los Envíos se procesan en nuestra bodega en un plazo de hasta 4 días hábiles, si tu pedido lo realizaste un fin de semana o día festivo, se procesará el día hábil siguiente. El tiempo de despacho y entrega del pedido, dependerá del corregimiento, esto puede demorar entre 3 a 10 días hábiles. Debido a la contingencia sanitaria estos plazos de despacho pueden aumentar. Realizamos envíos gratis a las principales ciudades de Guatemala por compras superiores a Q1000.00 (incluyendo el monto del IVA). \n\n **ZONAS DE ENTREGA** \n\n Entregamos casi a todo Guatemala, tenemos cobertura 95% a nivel Nacional. \n\n **SEGUIMIENTO DEL PEDIDO** \n\n Si eres cliente registrado, puedes hacer seguimiento a tu pedido en la sección Mis Pedidos - Historial de Pedidos, cuando tu pedido sea despachado, te aparecerá el número de seguimiento, haz clic sobre el, para ver el estado real de tu pedido. Si no estás registrado, puedes hacer seguimiento en el siguiente link, ingresando tu correo electrónico y número de pedido. Si necesitas ayuda, no dudes en contactarnos. \n\n **MI PEDIDO NO LLEGÓ** \n\n Si no has recibido el pedido en el plazo estipulado, te pedimos que por favor nos contactes a nuestro mail de servicio al cliente tommyguatemala@aswgr.com. Verificaremos lo ocurrido y nos contactaremos para entregarte una respuesta y solución. \n\n",
+            "blockClass": "institucional-texto"
+        }
+    },
+    "responsive-layout.mobile#mobile-envio": {
+        "children": [
+            "flex-layout.row#contenedor-envio"
+        ]
+    }
+}

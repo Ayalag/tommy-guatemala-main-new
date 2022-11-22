@@ -1,0 +1,287 @@
+{
+    "store.custom#categorias-jeans": {
+        "blocks": [
+            "responsive-layout.desktop#categorias-jeans",
+            "responsive-layout.mobile#categorias-jeans"
+        ]
+    },
+    "responsive-layout.desktop#categorias-jeans": {
+        "children": [
+            // "flex-layout.row#container-cintillo-especial",
+            "info-card#categoria-jeans",
+            "rich-text#titulo-categoria-jeans",
+            "flex-layout.row#categorias-jeans-1",
+            "flex-layout.row#categorias-jeans-texto-imagen-top-1",
+            "info-card#categoria-jeans-2",
+            "flex-layout.row#texto-prefooter-jeans"
+        ]
+    },
+    "info-card#categoria-jeans": {
+        "props": {
+            "id": "jeans",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "headline": "COZY DOES IT BEST",
+            "subhead": "Los esenciales de esta temporada para que permanezcas cálido y no pierdas tu estilo.<br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/tommy-jeans?initialMap=c&initialQuery=ropa&map=b'>Comprar Ahora</a><br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/tommy-jeans?initialMap=c&initialQuery=ropa&map=b'>Ver camisetas</a>",
+            "blockClass": "categoria",
+            "callToActionMode": "none",
+            "textAlignment": "left",
+            "imageUrl": "/arquivos/jeansbannertop.jpg"
+        }
+    },
+    "rich-text#titulo-categoria-jeans": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "COMPRAR POR CATEGORÍA",
+            "blockClass": "titulo-categoria-landing"
+        }
+    },
+    "flex-layout.row#categorias-jeans-1": {
+        "props": {
+            "blockClass": "categorias-jeans",
+            "horizontalAlign": "center",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#categorias-jeans-1",
+            "flex-layout.col#categorias-jeans-2",
+            "flex-layout.col#categorias-jeans-3"
+
+        ]
+    },
+    "flex-layout.col#categorias-jeans-1": {
+        "props": {
+            "blockClass": "col-categorias-jeans",
+            "paddingRight": 3,
+            "width": "25%"
+        },
+        "children": [
+            "info-card#categoria-jeans-camhim"
+
+        ]
+    },
+    "info-card#categoria-jeans-camhim": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "CAMISETAS PARA ÉL",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/t-shirts/tommy-jeans/hombre?initialMap=c&initialQuery=ropa&map=category-1,category-2,brand,genero",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/jeans1.jpg"
+        }
+    },
+    "flex-layout.col#categorias-jeans-2": {
+        "props": {
+            "blockClass": "col-categorias-jeans",
+            "paddingRight": 3,
+            "width": "50%"
+        },
+        "children": [
+            "info-card#categoria-jeans-polohim"
+
+        ]
+    },
+    "info-card#categoria-jeans-polohim": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "POLOS PARA ÉL",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/polos/tommy-jeans/hombre?initialMap=c&initialQuery=ropa&map=category-1,category-2,brand,genero",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/jeans2.jpg"
+        }
+    },
+    "flex-layout.col#categorias-jeans-3": {
+        "props": {
+            "blockClass": "col-categorias-jeans",
+            "paddingLeft": 1,
+            "width": "25%"
+        },
+        "children": [
+            "info-card#categoria-jeans-vesther"
+
+        ]
+    },
+    "info-card#categoria-jeans-vesther": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "VESTIDOS PARA ELLA",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/vestidos/tommy-jeans/mujer?initialMap=c&initialQuery=ropa&map=category-1,category-2,brand,genero",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/jeans3.jpg"
+        }
+    },
+    "flex-layout.row#categorias-jeans-texto-imagen-top-1": {
+        "props": {
+            "blockClass": "row-categorias-jeans-mid",
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "flex-layout.col#categorias-jeans-texto-imagen-top-1",
+            "flex-layout.col#categorias-jeans-texto-imagen-top-2"
+
+        ]
+    },
+    "flex-layout.col#categorias-jeans-texto-imagen-top-1": {
+        "props": {
+            "blockClass": "col-categorias-jeans-mid",
+            "verticalAlign": "middle",
+            "width": "50%"
+        },
+        "children": [
+            "info-card#categoria-jeans-camher"
+        ]
+    },
+    "info-card#categoria-jeans-camher": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "CAMISETAS PARA ELLA",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/t-shirts/tommy-jeans/mujer?initialMap=c&initialQuery=ropa&map=category-1,category-2,brand,genero",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/jeans4.jpg"
+        }
+    },
+    "flex-layout.col#categorias-jeans-texto-imagen-top-2": {
+        "props": {
+            "blockClass": "col-categorias-hombre-mid-texto",
+            "verticalAlign": "middle",
+            "width": "50%"
+        },
+        "children": [
+            "rich-text#categorias-jeans-texto-imagen-1"
+        ]
+    },
+    "rich-text#categorias-jeans-texto-imagen-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "**MORE CATEGORIES**\n\n\n\n [T-SHIRTS](/ropa/t-shirts/tommy-jeans?initialMap=c&initialQuery=ropa&map=category-1,category-2,brand) [ABRIGOS](/ropa/abrigos/tommy-jeans?initialMap=c&initialQuery=ropa&map=category-1,category-2,brand) [JEANS](/ropa/jeans/tommy-jeans?initialMap=c&initialQuery=ropa&map=category-1,category-2,brand) [CAMISAS](/ropa/camisas/tommy-jeans?initialMap=c&initialQuery=ropa&map=category-1,category-2,brand) [SHORTS](/ropa/shorts/tommy-jeans?initialMap=c&initialQuery=ropa&map=category-1,category-2,brand))",
+            "blockClass": "titulo-categoria-texto-imagen"
+        }
+    },
+    "info-card#categoria-jeans-2": {
+        "props": {
+            "id": "jeans",
+            "isFullModeStyle": true,
+            "textPosition": "LEFT",
+            "textAlignment": "center",
+            "headline": "SEASON STAPLES",
+            "subhead": "Prepárate para los días venideros con clásicos<br/> casuales y capas frescas.",
+            "callToActionMode": "button",
+            "callToActionText": "COMPRAR AHORA",
+            "callToActionUrl": "/ropa/tommy-jeans?initialMap=c&initialQuery=ropa&map=b",
+            "blockClass": "categoria-mid",
+            "imageUrl": "/arquivos/jeansbannerbottom.jpg"
+        }
+    },
+    "responsive-layout.mobile#categorias-jeans": {
+        "children": [
+            // "flex-layout.row#container-cintillo-especial-mobile",
+            "info-card#categoria-jeans",
+            "rich-text#titulo-categoria-jeans",
+            "flex-layout.row#categorias-jeans-1",
+            "flex-layout.row#categorias-jeans-texto-imagen-top-1",
+            "info-card#categoria-jeans-2",
+            "flex-layout.row#texto-jeans-container-mobile"
+        ]
+    },
+    "flex-layout.row#texto-prefooter-jeans": {
+        "props": {
+          "blockClass": "home-prefooter"
+        },
+        "children": [
+          "flex-layout.col#texto-prefooter-jeans-container"
+        ]
+      },
+      "flex-layout.col#texto-prefooter-jeans-container": {
+        "props": {
+          "blockClass": "home-container"
+        },
+        "children": [
+          "rich-text#title--prefooter-jeans",
+          "flex-layout.row#texto-prefooter-jeans-wrapper"
+        ]
+      },
+      "flex-layout.row#texto-prefooter-jeans-wrapper": {
+        "props": {
+          "blockClass": "home-wrapper",
+          "preventHorizontalStrech": true
+        },
+        "children": [
+          "rich-text#texto-prefooter-jeans-1",
+          "rich-text#texto-prefooter-jeans-2"
+        ]
+      },
+      "rich-text#title--prefooter-jeans": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "TOMMY HILFIGER JEANS",
+            "blockClass": "home-title"
+        }
+    },
+      "rich-text#texto-prefooter-jeans-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Logra el mejor estilo de la costa este con la última colección de ropa de Tommy Jeans, que presenta versiones modernas de los diseños clásicos de Tommy Hilfiger. Incorpora un toque de la vieja escuela a tu atuendo diario con las últimas camisetas de Tommy Jeans, perfectas como parte de tu atuendo para el fin de semana o simplemente para una noche relajada. Para una estética relajada de los 90, explora nuestra gama de sudaderas y sudaderas con capucha de Tommy Jeans , confeccionado en suave algodón y rematado con atrevidos bordados.",
+            "blockClass": "home-text"
+        }
+    },
+    "rich-text#texto-prefooter-jeans-2": {
+      "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "Complementa tu atuendo con nuestra gama de chaquetas Tommy Jeans, disponibles en una amplia variedad de tonos brillantes y sutiles que están garantizados para hacer una declaración. Alternativamente, completa tu look con nuestra selección de jerséis de Tommy Jeans para un conjunto de estilo preppy clásico que encarna el estilo icónico de Tommy Hilfiger. Independientemente de lo que necesite su guardarropa, la última colección de Tommy Jeans seguramente tendrá algo para hacer que su atuendo se destaque.",
+          "blockClass": "home-text"
+      }
+    },
+      "flex-layout.row#texto-jeans-container-mobile": {
+          "props": {
+            "blockClass": ""
+          },
+          "children": [
+            "flex-layout.col#texto-jeans-container-mobile"
+          ]
+        },
+        "flex-layout.col#texto-jeans-container-mobile": {
+          "props": {
+            "blockClass": "home-container-mobile"
+          },
+          "children": [
+            "rich-text#title-jeans-mobile",
+            "rich-text#texto-jeans-1-mobile"
+          ]
+        },
+        "rich-text#title-jeans-mobile": {
+          "props": {
+              "textAlignment": "LEFT",
+              "textPosition": "LEFT",
+              "text": "TOMMY HILFIGER JEANS",
+              "blockClass": "home-title-mobile"
+          }
+      },
+        "rich-text#texto-jeans-1-mobile": {
+          "props": {
+              "textAlignment": "LEFT",
+              "textPosition": "LEFT",
+              "text": "Logra el mejor estilo de la costa este con la última colección de ropa de Tommy Jeans, que presenta versiones modernas de los diseños clásicos de Tommy Hilfiger. Incorpora un toque de la vieja escuela a tu atuendo diario con las últimas camisetas de Tommy Jeans, perfectas como parte de tu atuendo para el fin de semana o simplemente para una noche relajada. Para una estética relajada de los 90, explora nuestra gama de sudaderas y sudaderas con capucha de Tommy Jeans , confeccionado en suave algodón y rematado con atrevidos bordados. \n\n\n\n Complementa tu atuendo con nuestra gama de chaquetas Tommy Jeans, disponibles en una amplia variedad de tonos brillantes y sutiles que están garantizados para hacer una declaración. Alternativamente, completa tu look con nuestra selección de jerséis de Tommy Jeans para un conjunto de estilo preppy clásico que encarna el estilo icónico de Tommy Hilfiger. Independientemente de lo que necesite su guardarropa, la última colección de Tommy Jeans seguramente tendrá algo para hacer que su atuendo se destaque.",
+              "blockClass": "home-text-mobile"
+          }
+      }
+}

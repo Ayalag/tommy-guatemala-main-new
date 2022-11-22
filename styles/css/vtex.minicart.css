@@ -1,0 +1,49 @@
+.closeIcon{
+    color: #00174F;
+}
+
+.minicartQuantityBadgeDefault {
+    background: #14BE82;
+    top: 0rem;
+    right: 0rem;
+}
+
+.cartIcon {
+    color: #00174F;
+}
+
+.minicartTitle {
+    font-family: 'Futura Std Bold';
+    font-weight: 600;
+    color: #00174F;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.closeIconContainer{
+height: 40px;
+align-items: center;
+justify-content: flex-start;
+}
+
+.overlay--visible{
+    background-color: #00174F;
+    opacity: 0.2 !important;
+}
+
+.flexRow--minicart-footer{
+    box-shadow: none !important;
+}
+
+.minicartCheckoutButton :global(.vtex-button){
+    background-color: #14BE82;
+    border-color: #14BE82;
+    font-size: 15px;
+    font-family: 'Futura Std Bold';
+    letter-spacing: 1px;
+}
+
+.openIconContainer{
+    padding: 0;
+}

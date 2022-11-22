@@ -1,0 +1,33 @@
+
+.currencyContainer {
+    font-family: 'Futura Std Bold';
+    font-size: 14px;
+    color: #00174F;
+    letter-spacing: 1px;
+}
+
+.savings--porcentaje-descuento {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 0px 8px;
+    font-size: 12px;
+    height: 18px;
+    font-family: 'Futura Std';
+    background: #00174F;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.savingsValue--porcentaje-descuento :global(.vtex-product-price-1-x-currencyContainer--porcentaje-descuento){
+    margin-left: 5px;
+    color: white;
+    font-size: 12px;
+    height: 18px;
+    font-family: "Futura Std";
+}
+
+.listPriceValue :global(.vtex-product-price-1-x-currencyContainer){
+    font-size: 13px;
+    font-family: "Futura Std Light";
+}

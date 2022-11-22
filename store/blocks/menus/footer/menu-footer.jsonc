@@ -1,0 +1,110 @@
+{
+  "vtex.menu@2.x:menu#footer-contactanos": {
+    "children": [
+        "menu-item#footer-customer",
+        "menu-item#footer-localizador"
+    ],
+    "props": {
+        "blockClass": "footer-col",
+        "orientation": "vertical"
+    }
+},
+"vtex.menu@2.x:menu#footer-pedidos": {
+    "children": [
+        "menu-item#footer-pedidos",
+        "menu-item#footer-envios",
+        "menu-item#footer-devoluciones"
+    ],
+    "props": {
+        "blockClass": "footer-col",
+        "orientation": "vertical"
+    }
+},
+"vtex.menu@2.x:menu#footer-shopping": {
+    "children": [
+        "menu-item#footer-free",
+        "menu-item#footer-60day"
+    ],
+    "props": {
+        "blockClass": "footer-col",
+        "orientation": "vertical"
+    }
+},
+"vtex.menu@2.x:menu#footer-explore": {
+    "children": [
+        "menu-item#footer-invisible"
+    ],
+    "props": {
+        "blockClass": "footer-col",
+        "orientation": "vertical"
+    }
+},
+
+"vtex.menu@2.x:menu#footer-product": {
+    "children": [
+        "menu-item#footer-size"
+    ],
+    "props": {
+        "blockClass": "footer-col",
+        "orientation": "vertical"
+    }
+},
+"vtex.menu@2.x:menu#footer-about": {
+    "children": [
+        "menu-item#footer-nosotos",
+        "menu-item#footer-prensa",
+        "menu-item#footer-terminos-condiciones",
+        "menu-item#footer-privacidad",
+        "menu-item#footer-cookies"
+    ],
+    "props": {
+        "blockClass": "footer-col",
+        "orientation": "vertical"
+    }
+},
+"vtex.menu@2.x:menu#footer-cliente": {
+    "children": [
+        "menu-item#footer-sesion",
+        "menu-item#footer-pedidos",
+        "menu-item#footer-despacho"
+    ],
+    "props": {
+        "blockClass": "footer-col",
+        "orientation": "vertical"
+    }
+},
+"vtex.menu@2.x:menu#footer-cuenta": {
+    "children": [
+        "menu-item#footer-sesion",
+        "menu-item#footer-pedidos",
+        "menu-item#footer-despacho"
+    ],
+    "props": {
+        "blockClass": "footer-col",
+        "orientation": "vertical"
+    }
+},
+"vtex.menu@2.x:menu#footer-nosotros": {
+    "children": [
+        "menu-item#footer-sesion",
+        "menu-item#footer-pedidos",
+        "menu-item#footer-despacho"
+    ],
+    "props": {
+        "blockClass": "footer-col",
+        "orientation": "vertical"
+    }
+},
+"vtex.menu@2.x:menu#special-landig": {
+    "children": [
+        "menu-item#black-friday",
+        "menu-item#cyber-day",
+        "menu-item#the-factory",
+        "menu-item#tommy-x-nba"
+    ],
+    "props": {
+        "blockClass": "footer-col",
+        "orientation": "vertical"
+    }
+}
+}

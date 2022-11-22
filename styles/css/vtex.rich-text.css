@@ -1,0 +1,1695 @@
+.link:hover {
+    text-decoration: underline;
+}
+
+/* HEADER */
+.paragraph--contacto-top {
+    margin: 0;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.link--contacto-top {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Futura Std Light';
+}
+
+.paragraph--contacto-top-mobile {
+    color: white;
+    font-family: 'Futura Std Light';
+    font-weight: 400;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.paragraph--contacto-top-texto {
+    font-family: 'Futura Std Light' !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: white;
+    margin: 5px 5px;
+    letter-spacing: 0.5px;
+}
+
+.link--contacto-top-texto {
+    font-family: 'Futura Std Light' !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: white;
+    margin: 5px 5px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+.link--contacto-top-texto:hover {
+    text-decoration: none;
+}
+
+.paragraph--header-tiendas {
+    color: #00174f;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.link--header-tiendas {
+    text-decoration: unset;
+    color: unset;
+}
+
+.container--contacto-top-texto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph--visualizador-top {
+    font-size: 9px;
+    color: white;
+    font-family: 'Futura Std Light';
+    font-weight: 400;
+}
+
+.paragraph {
+    font-family: 'Futura Std Light';
+    font-weight: 400;
+    font-size: 15px;
+    outline: none;
+}
+
+.paragraph--menu-explore {
+    margin-top: 24px;
+    margin-bottom: 10px;
+    font-family: 'Futura Std Bold';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #00174f;
+}
+
+.paragraph--menu-home-title {
+    margin: 0;
+}
+
+.link--encuentra-talla {
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(20, 190, 130);
+    line-height: 15px;
+    vertical-align: top;
+    text-decoration: underline;
+}
+
+.paragraph--encuentra-talla {
+    height: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.link--menu-home-title {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Futura Std Bold';
+    color: #00174f;
+}
+
+.link--visualizador-top {
+    font-size: 9px;
+    color: white;
+    font-family: 'Futura Std Light';
+    font-weight: 400;
+}
+
+.container--titulo-menu {
+    margin-left: 10px;
+}
+
+.paragraph--titulo-menu {
+    font-family: 'Futura Std';
+    font-weight: 700;
+    margin: 0 0 5px;
+    font-size: 13px;
+    color: #000;
+}
+
+.paragraph--titulo-informativo-mobile {
+    color: black;
+    font-family: 'Futura Std';
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.container--titulo-informativo-mobile {
+    margin-left: 20px;
+}
+
+/* HOME */
+.container--titulo-shelf {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.paragraph--info-1,
+.paragraph--info-2,
+.paragraph--info-3,
+.paragraph--info-4 {
+    font-family: 'Futura Std';
+    font-weight: 700;
+    font-size: 13px;
+    margin: 0;
+    text-align: left;
+}
+
+.paragraph--info-1::after,
+.paragraph--info-2::after,
+.paragraph--info-3::after,
+.paragraph--info-4::after {
+    content: "";
+    width: 25px;
+    display: block;
+    border-bottom: solid 2px #00174F;
+}
+
+.paragraph--info-1-mobile,
+.paragraph--info-2-mobile,
+.paragraph--info-3-mobile,
+.paragraph--info-4-mobile {
+    font-family: 'Futura Std';
+    font-weight: 900;
+    font-size: 11px;
+    text-align: initial;
+    margin: 0;
+}
+
+.paragraph--info-1-mobile::after,
+.paragraph--info-2-mobile::after,
+.paragraph--info-3-mobile::after,
+.paragraph--info-4-mobile::after {
+    content: "";
+    width: 25px;
+    display: block;
+    border-bottom: solid 2px #00174F;
+}
+
+.paragraph--info-1-texto {
+    margin: 0;
+    font-size: 12px;
+    color: black;
+}
+
+.paragraph--info {
+    font-family: 'Futura Std';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.paragraph--titulo-shelf {
+    font-family: 'Futura Std';
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+}
+
+.paragraph--titulo-shelf::after {
+    border-bottom: solid 4px #00174F;
+    width: 75px;
+    content: "";
+    display: block;
+}
+
+.strong--titulo-sale {
+    font-size: 27px;
+    color: black;
+    font-family: 'Futura Std';
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.paragraph--titulo-sale {
+    font-family: 'Futura Std';
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 1280px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.link--sale-ver-mas {
+    text-decoration: underline;
+    color: black;
+    font-family: 'Futura Std';
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.container--sale-ver-mas {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.container--titulo-sale {
+    margin-top: 40px !important;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.container--titulo-instagram {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--titulo-instagram {
+    margin-top: 0;
+    font-family: 'Futura Std';
+    font-weight: 600;
+    color: #000;
+}
+
+.paragraph--titulo-instagram-mobile {
+    font-family: 'Futura Std';
+    font-weight: 600;
+}
+
+.container--titulo-instagram-mobile {
+    width: 90%;
+    margin: auto;
+}
+
+.paragraph--home-text {
+    color: #00174F;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    font-size: 12.5px;
+    line-height: 24px;
+    font-family: 'Futura Std Light';
+}
+
+.paragraph--home-text-mobile {
+    color: #00174F;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Futura Std Light';
+}
+
+.paragraph--home-title {
+    color: #00174F;
+    font-size: 30px;
+    font-family: 'Futura Std Bold';
+    margin: 0px 0px 0px 20px;
+    letter-spacing: 2px;
+}
+
+.paragraph--home-title-mobile {
+    color: #00174F;
+    font-size: 22px;
+    font-family: 'Futura Std Bold';
+    letter-spacing: 2px;
+}
+
+/* FOOTER */
+.strong--footer-newsletter-text {
+    font-family: 'Futura Std';
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+}
+
+.paragraph--footer-newsletter-text {
+    margin: 0;
+}
+
+.paragraph--footer-newsletter-text {
+    font-family: 'Futura Std';
+    font-weight: 400;
+    color: #606060;
+    font-size: 15px;
+}
+
+.paragraph--titulo-footer {
+    color: #00174f;
+    font-family: 'Futura Std Bold';
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.paragraph--titulo-product-trigger {
+    color: #00174f;
+    font-family: 'Futura Std Bold';
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.paragraph--titulo-product-trigger-sustainable {
+    color: #00AF3F;
+    font-family: 'Futura Std Bold';
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.paragraph--titulo-product-trigger-sustainable-title {
+    color: #00174f;
+    font-family: 'Futura Std Bold';
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.paragraph--titulo-product-trigger-sustainable-text {
+    color: #00174f;
+    font-family: 'Futura Std';
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.paragraph--titulo-transferencia {
+    color: #00174f;
+    font-family: 'Futura Std Bold';
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.link--titulo-informativo-mobile {
+    color: #000;
+    text-decoration: none;
+}
+
+.link--footer-contacto {
+    color: #dad9d9;
+    font-family: 'Futura Std';
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.paragraph--footer-contacto {
+    margin: 0;
+}
+
+.paragraph--titulo-informativo {
+    font-family: 'Futura Std';
+    font-weight: 700;
+    color: black;
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.paragraph--texto-informativo {
+    font-family: 'Futura Std';
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.paragraph--titulo-informativo::after {
+    width: 25px;
+    content: "";
+    display: block;
+    border-bottom: 2px solid #00174F;
+    margin: auto;
+}
+
+.paragraph--texto-newsletter {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+}
+
+.paragraph--texto-medios-pago-footer {
+    color: white;
+    margin: 0;
+    font-size: 13px;
+}
+
+.container--texto-newsletter {
+    margin-left: 1.5rem;
+}
+
+.paragraph--banner-title {
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+    font-family: "Futura Std Bold", "Calibri", sans-serif;
+}
+
+.paragraph--banner-subtext {
+    color: white;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: .8px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Futura Std", "Calibri", sans-serif;
+}
+
+.paragraph--titulo-rights {
+    font-family: "Futura Std Light", "Calibri", sans-serif;
+    letter-spacing: 0.5px;
+    margin-left: 40px;
+    font-size: 12px;
+    color: #00174f;
+    font-weight: 400;
+}
+
+/* MOBILE */
+.wrapper--footer-newsletter-text-mobile {
+    text-align: center;
+    width: 95%;
+}
+
+.strong--footer-newsletter-text-mobile {
+    font-family: 'Futura Std';
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.paragraph--footer-newsletter-text-mobile {
+    font-family: 'Futura Std';
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.wrapper--contacto-top-mobile {
+    color: white;
+}
+
+/* PRODUCTO */
+.wrapper--glosario-titulo,
+.wrapper--glosario {
+    margin: auto;
+}
+
+.paragraph--glosario-button {
+    border: solid 1px;
+    padding: 5px 50px;
+    cursor: pointer;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.paragraph--texto-cotizacion-product {
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 50px;
+    line-height: 17px;
+    font-size: 12px;
+}
+
+.paragraph--boton-cotizacion-product {
+    margin: 0;
+    padding: 5px 20px;
+    border: solid 1px;
+    font-weight: bold;
+    font-family: 'Futura Std';
+    font-size: 12px;
+    background: white;
+}
+
+/* MODAL */
+.strong--glosario-titulo {
+    font-family: 'Futura Std';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.paragraph--glosario-titulo {
+    margin: 3px;
+    font-family: 'Futura Std';
+    font-size: 13px;
+}
+
+.paragraph--titulo-informativo-mobile::after {
+    border-bottom: solid 2px #00174F;
+    width: 35px;
+    content: "";
+    display: block;
+}
+
+.container--titulo-form {
+    width: 90%;
+    margin: auto;
+    border: solid 1px #d2cfcf;
+    border-bottom: unset;
+    padding: 20px 20px 0px 20px;
+    background: #fff;
+}
+
+.paragraph--titulo-form-2 {
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.flexCol--contenedor-form-col {
+    width: fit-content;
+}
+
+.container--titulo-form-servicios {
+    width: 90%;
+    margin: auto;
+    border: solid 1px #d2cfcf;
+    border-bottom: unset;
+    border-top: unset;
+    padding: 20px 30px 0px 30px;
+    background: #fff;
+}
+
+.paragraph--titulo-form {
+    font-size: 30px;
+    margin-bottom: 0;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.paragraph--titulo-form::after,
+.paragraph--titulo-servicios::after,
+.paragraph--titulo-form-servicios-0::after,
+.headingLevel4--texto-info-servicios-institucional::after {
+    display: block;
+    width: 50px;
+    border-bottom: 3px solid #00174F;
+    content: "";
+    margin-top: 10px;
+}
+
+.container--titulo-servicios,
+.container--texto-servicios,
+.container--aclaracion-servicios {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--titulo-servicios,
+.headingLevel4--texto-info-servicios-institucional {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Futura Std';
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.paragraph--texto-servicios {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.paragraph--aclaracion-servicios {
+    margin-top: 0;
+    color: grey;
+}
+
+.container--titulo-form-servicios-0 {
+    width: 90%;
+    margin: auto;
+    border: solid 1px #d2cfcf;
+    border-bottom: unset;
+    padding: 20px 30px 0px 30px;
+    background: #fff;
+}
+
+.paragraph--titulo-form-servicios-0 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Futura Std';
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+
+.paragraph--titulo-form-servicios {
+    margin-top: 0;
+}
+
+.container--titulo-institucional-general {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--titulo-institucional-general {
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Futura Std';
+    color: #000;
+    text-transform: uppercase;
+}
+
+.paragraph--titulo-institucional-general::after {
+    display: block;
+    width: 50px;
+    border-bottom: 3px solid #00174F;
+    content: "";
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container--titulo-form-servicios,
+    .container--titulo-form-servicios-0 {
+        padding: 0 20px 20px 20px;
+    }
+
+    .wrapper--texto-tiendas {
+        width: 93%;
+        margin: auto;
+    }
+
+    .container--titulo-elemento-servicios-institucional,
+    .vtex-rich-text-0-x-paragraph--texto-servicios-institucional,
+    .container--texto-servicios-institucional-instalacion {
+        width: 95%;
+        margin: auto;
+    }
+
+    .container--boton-spaceplanner-institucional {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .container--boton-info-servicios-institucional {
+        margin-bottom: 20px;
+    }
+}
+
+.container--blog-categorias {
+    justify-content: center;
+}
+
+.link--blog-categorias {
+    text-decoration: none;
+    color: #00174F;
+    font-family: 'Futura Std Regular';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.container--blog-categorias-titulo {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--blog-categorias-titulo {
+    font-family: 'Futura Std';
+    font-size: 20px;
+}
+
+.container--texto-servicios-institucional {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--texto-servicios-institucional {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.link--boton-info-servicios-institucional {
+    text-decoration: unset;
+    color: #fff;
+    background: #00174F;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px 20px;
+    font-family: 'Futura Std';
+}
+
+.container--titulo-elemento-servicios-institucional {
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.paragraph--titulo-elemento-servicios-institucional {
+    font-weight: 600;
+    color: #000;
+    font-family: 'Futura Std';
+    font-size: 19px;
+}
+
+.paragraph--titulo-elemento-servicios-institucional::after {
+    display: block;
+    width: 25px;
+    border-bottom: 3px solid #00174F;
+    content: "";
+}
+
+.link--boton-elemento-vermas {
+    text-decoration: unset;
+    color: #000;
+    font-family: 'Futura Std';
+    padding: 5px 25px;
+    font-size: 12px;
+    font-weight: 700;
+    border: solid 1px;
+}
+
+.link--boton-elemento-vermas:hover {
+    color: #000;
+}
+
+.container--texto-servicios-institucional-instalacion {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--texto-servicios-institucional-instalacion {
+    font-weight: 800;
+}
+
+.paragraph--texto-elemento-institucional {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Futura Std';
+    margin-top: 0;
+}
+
+.paragraph--texto-elemento-institucional-titulo {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.container--titulo-form-2 {
+    width: 90%;
+    padding: 15px 20px 15px;
+    border: 1px solid #d2cfcf;
+    border-bottom: unset;
+    border-top: unset;
+    margin: auto;
+    background: #fff;
+}
+
+.container--titulo-institucional-mayor {
+    width: 90%;
+    padding: 15px 20px 15px;
+    border: 1px solid #d2cfcf;
+    border-bottom: unset;
+    margin: auto;
+    background: #fff;
+    padding-bottom: 0;
+}
+
+.paragraph--titulo-institucional-mayor::after {
+    display: block;
+    content: " ";
+    border-bottom: solid 4px #c9052c;
+    width: 25%;
+}
+
+.paragraph--titulo-institucional::after {
+    display: block;
+    content: " ";
+    border-bottom: solid 4px #c9052c;
+    width: 40px;
+}
+
+.paragraph--titulo-institucional {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Futura Std';
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    text-transform: uppercase;
+}
+
+.paragraph--titulo-institucional-mayor {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Futura Std';
+    color: #000;
+    text-transform: uppercase;
+}
+
+.container--titulo-institucional {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.container--texto-cubiertas-institucional {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--texto-cubiertas-institucional {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.wrapper--texto-elemento-institucional-titulo .paragraph--texto-elemento-institucional {
+    font-weight: 600;
+    font-family: 'Futura Std';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wrapper--texto-elemento-institucional-titulo .paragraph--texto-elemento-institucional::after {
+    content: "";
+    display: block;
+    width: 25px;
+    border-bottom: solid 2px #00174F;
+    margin-top: -2px;
+}
+
+.link--boton-elemento-presupuesto {
+    text-decoration: unset;
+    color: white;
+    background: #00174F;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 6px 20px;
+    font-family: 'Futura Std';
+    margin-right: 15px;
+}
+
+.link--boton-elemento-presupuesto:hover {
+    background: #fff;
+    border: solid 1px #00174F;
+}
+
+.container--texto-tiendas {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--texto-tiendas {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.paragraph--titulo-tiendas {
+    margin: 0;
+    font-family: 'Futura Std';
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.paragraph--titulo-tiendas::after {
+    display: block;
+    width: 25px;
+    border-bottom: #00174F solid 3px;
+    content: "";
+}
+
+.paragraph--tiendas-texto {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.wrapper--tiendas-texto {
+    margin: 10px 0;
+}
+
+.container--titulo-tiendas {
+    margin-top: 10px;
+}
+
+.container--tiendas-texto {
+    border-bottom: solid 1px;
+}
+
+.container--texto-form {
+    width: 90%;
+    margin: auto;
+    border: solid 1px #d2cfcf;
+    border-bottom: unset;
+    border-top: unset;
+    padding: 0px 20px 0px 20px;
+    background: #fff;
+}
+
+.container--boton-spaceplanner-institucional {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.link--boton-spaceplanner-institucional {
+    color: #fff;
+    background: #00174F;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: unset;
+    font-family: 'Futura Std';
+}
+
+.link--boton-spaceplanner-institucional:hover {
+    color: #fff;
+}
+
+.wrapper--boton-spaceplanner-institucional {
+    margin: auto;
+}
+
+.container--titulo-spaceplanner-institucional {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.paragraph--texto-spaceplanner-institucional {
+    max-width: 240px;
+}
+
+.wrapper--buyCart {
+    width: 100%;
+}
+
+.paragraph--buyCart {
+    text-align: center;
+}
+
+.link--buyCart {
+    background: #00174F;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 11%;
+    text-decoration: unset;
+    text-transform: uppercase;
+    font-family: 'Futura Std';
+    border: solid 2px #00174F;
+}
+
+.link--buyCart:hover {
+    background: #fff;
+    color: #00174F;
+}
+
+.paragraph--titulo-especificaciones {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container--titulo-especificaciones {
+    align-items: center;
+}
+
+.paragraph--titulo-descargas {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container--titulo-descargas {
+    border-bottom: solid 1px #000;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container--texto-cubiertas-institucional,
+    .container--texto-servicios-institucional {
+        width: 93%;
+    }
+
+    .flexRow--row-materiales-cubiertas-institucional {
+        width: 95%;
+    }
+
+    .container--titulo-shelf {
+        padding: 0px 10px;
+    }
+
+    .paragraph--glosario-button {
+        padding: 5px 40px;
+        font-size: 12px;
+    }
+
+    .container--boton-cotizacion-product {
+        margin-left: 35px;
+    }
+
+    .container--blog-categorias-titulo {
+        width: 95%;
+    }
+
+    .paragraph--titulo-institucional,
+    .paragraph--titulo-institucional-mayor {
+        top: 23%;
+        left: 3.5%;
+    }
+
+    .container--boton-spaceplanner-institucional {
+        margin-bottom: 40px;
+    }
+}
+
+.paragraph--texto-mantencion-tecnico {
+    margin: 0;
+}
+
+.paragraph--titulo-mantencion-tecnico {
+    margin-top: 0;
+    font-family: 'Futura Std';
+    font-size: 19px;
+    font-weight: bold;
+    color: #000;
+}
+
+.link--boton-info-servicios-institucional:hover {
+    color: #fff;
+}
+
+.wrapper--boton-info-servicios-institucional {
+    margin-top: 20px;
+}
+
+.paragraph--titulo-mantencion-tecnico::after {
+    display: block;
+    width: 25px;
+    border-bottom: #00174F solid 3px;
+    content: "";
+}
+
+.paragraph--marcas-left-item {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.paragraph--marcas-right-item {
+    margin: 0;
+}
+
+.container--marcas-left-item {
+    min-width: 200px;
+}
+
+.link--marcas-left-item,
+.link--marcas-right-item {
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 400;
+    color: #00174F;
+}
+
+.paragraph--titulo-institucional-menu {
+    font-family: 'Futura Std';
+    font-weight: 800;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.container--institucional-texto {
+    margin: auto;
+}
+
+.paragraph--institucional-texto :global(.vtex-rich-text-0-x-strong--institucional-texto) {
+    color: #00174f;
+    font-family: "Futura Std Bold";
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.headingLevel3--institucional-texto {
+    text-transform: uppercase;
+    font-family: 'Futura Std Bold';
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #00174F;
+    margin-top: 0;
+    border-bottom: #00174f solid 4px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.headingLevel2--institucional-texto {
+    text-transform: uppercase;
+    font-family: 'Futura Std Bold';
+    font-size: 25px;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    color: #00174F;
+    margin-top: 0;
+}
+
+.wrapper--institucional-texto {
+    padding-top: 80px;
+    min-height: 20px;
+}
+
+.link--menu-institucional-tab,
+.link--menu-institucional-tab-active {
+    color: #00174f;
+    text-decoration: unset;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.container--menu-institucional-tab {
+    border-bottom: none;
+}
+
+.container--menu-institucional-tab-active {
+    border-bottom: none;
+}
+
+
+.paragraph--disclaimer {
+    width: 80%;
+    margin-bottom: 10px !important;
+    margin: auto;
+}
+
+.link--disclaimer {
+    text-decoration: unset;
+    color: #00174F;
+}
+
+/* CATEGORIA */
+.paragraph--titulo-categoria-landing {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    font-family: 'Futura Std Bold';
+    font-size: 34px;
+    color: #00174f;
+}
+
+.container--titulo-categoria-landing {
+    padding: 0 40px;
+}
+
+.paragraph--titulo-categoria-texto-imagen {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strong--titulo-categoria-texto-imagen {
+    font-size: 25px;
+    font-family: 'Futura Std Bold';
+    color: #fff;
+}
+
+.paragraph--titulo-categoria-texto-imagen {
+    font-family: 'Futura Std';
+    color: #fff;
+    font-size: 14px;
+}
+
+.paragraph--titulo-categoria-texto-imagen {
+    margin-bottom: 40px;
+}
+
+.container--titulo-categoria-texto-imagen {
+    margin-left: 20px;
+    padding: 30px;
+    background: #00174f;
+    height: auto;
+}
+
+.wrapper--titulo-categoria-texto-imagen {
+    width: 100%;
+}
+
+.link--titulo-categoria-texto-imagen {
+    padding: 10px 20px;
+    max-width: 175px;
+    min-width: 120px;
+    margin-right: 20px;
+    height: 44px;
+    border: solid 2px #fff;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    text-decoration: none !important;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    font-family: 'Futura Std Bold';
+}
+
+.link--titulo-categoria-texto-imagen:hover {
+    background-color: white;
+    color: #00174f;
+    transition: 0.5s;
+}
+
+/*HEADER TOMMY DAYS */
+
+.paragraph--titulo-tommydays-header {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.wrapper--titulo-tommydays-header {
+    width: 100%;
+}
+
+.link--titulo-tommydays-header {
+    padding: 10px 20px;
+    max-width: 175px;
+    min-width: 120px;
+    margin-right: 20px;
+    height: 44px;
+    border: solid 2px #fff;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    text-decoration: none !important;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    font-family: 'Futura Std Bold';
+}
+
+.link--titulo-tommydays-header-mobile {
+    padding: 10px 20px;
+    max-width: 175px;
+    min-width: 120px;
+    margin-right: 20px;
+    height: 44px;
+    border: solid 2px #fff;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    text-decoration: none !important;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    font-family: 'Futura Std Bold';
+}
+
+.paragraph--titulo-tommydays-header-mobile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.strong--texto-categoria-explorar {
+    font-family: 'Futura Std Bold';
+    font-size: 13px;
+    color: #00174f;
+}
+
+.paragraph--texto-categoria-explorar {
+    font-size: 13px;
+    color: #00174f;
+}
+
+.container--menu-institucional-tab {
+    justify-content: flex-start;
+    height: 30px;
+    padding-bottom: 10px;
+    text-decoration: none !important;
+}
+
+.link--menu-institucional-tab-active {
+    font-family: "Futura Std Light";
+    font-size: 13px;
+    color: #00174f;
+    letter-spacing: 0.5px;
+    text-decoration: none !important;
+}
+
+.container--menu-institucional-tab-active {
+    justify-content: flex-start;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.link--menu-institucional-tab {
+    font-family: "Futura Std Light";
+    font-size: 15px;
+    color: #00174f;
+}
+
+.paragraph--slider-text {
+    margin: 0;
+    font-size: 9px;
+    line-height: 11px;
+    font-family: "Futura Std Bold";
+    color: #00174f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.container--categorias-texto {
+    background-color: #F4F4F4;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.headingLevel2--categorias-texto {
+    margin-top: -35px;
+    font-size: 25px;
+    color: #cc0c2f;
+    letter-spacing: 2px;
+}
+
+.paragraph--categorias-texto {
+    font-size: 13px;
+    font-family: "Futura Std Book";
+}
+
+.paragraph--home-cookies {
+    color: white;
+    font-family: 'Futura Std';
+    font-size: 15px;
+    margin: 0;
+    margin-top: 12px;
+}
+
+.link--home-cookies {
+    color: white;
+}
+
+.strong--home-cookies {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+
+.wrapper--home-cookies {
+    width: 80%;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .container--home-cookies {
+        justify-content: center;
+    }
+
+    .paragraph--home-cookies {
+        font-size: 14px;
+    }
+
+    .wrapper--home-cookies {
+        width: 275px;
+        margin: auto;
+    }
+
+    .container--home-cookies {
+        margin: auto;
+    }
+
+    .strong--home-cookies {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1100px) {
+    .container--titulo-categoria-texto-imagen {
+        margin-left: 0px;
+    }
+}
+
+.paragraph--institucional-texto {
+    font-family: "Futura Std Book";
+    font-size: 14px;
+    text-align: justify;
+}
+
+.container--institucional-texto {
+    margin: 0 40px 0 40px;
+}
+
+.wrapper--texto-countdown-mobile {
+    color: #fff;
+}
+
+.strong--texto-countdown-mobile {
+    color: #D51F36;
+}
+
+.paragraph--texto-countdown-mobile {
+    font-size: 16px;
+    font-family: 'Futura Std Bold';
+    margin-bottom: 0;
+}
+
+.wrapper--texto-countdown {
+    color: #fff;
+    margin-top: 4%;
+}
+
+.strong--texto-countdown {
+    color: #D51F36;
+}
+
+.paragraph--texto-countdown {
+    font-size: 16px;
+    font-family: 'Futura Std Bold';
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.container--texto-countdown {
+    align-items: center;
+}
+
+.link--guia-regalos-papa{
+    width: auto;
+    min-width: 7.5rem;
+    min-height: 2.5rem;
+    line-height: 1;
+    display: inline-block;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    font-size: 0.875rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    border-color: white;
+}
+
+.link--guia-regalos-papa:hover{
+    color: #00174f;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+/* CINTILLO ESPECIAL */
+
+.paragraph--texto-cintillo-especial-title{
+    margin-top: 15px;
+    color: #D51F36 ;
+    font-size: 1rem;
+    font-family: 'Futura Std Bold';
+}
+
+.container--texto-cintillo-especial-title{
+    margin-bottom: -15px;
+}
+
+.paragraph--texto-cintillo-especial-paragraph{
+    /* padding-top: 10px; */
+    color: #00174f ;
+    font-size: 0.9rem;
+    font-family: 'Futura Std Book';
+}
+
+.link--link-cintillo-especial{
+    text-decoration: none;
+    color: white;
+    background-color: #0000ff;
+    font-family: "Futura Std ";
+    margin: 6px 10px;
+    padding: 7px 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+@media (max-width: 768px){
+    .paragraph--texto-cintillo-especial-title{
+        margin-top: 35px;
+    }
+}
+
+/* CINTILLO ESPECIAL FIN */
+
+
+
+/* TABLA TALLAS */
+
+.container--tallas-tabla {
+    width: 100%;
+}
+
+.wrapper--tallas-tabla {
+    width: 100%;
+}
+
+.wrapper--tallas-tabla .table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wrapper--tallas-tabla .table,
+.wrapper--tallas-tabla .tableTh,
+.wrapper--tallas-tabla .tableTd {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+/* FOOTER CUSTOM FORM */
+
+.wrapper--success-newsletter {
+    padding: 0rem 1rem;
+    border-radius: 0.3rem;
+    border: solid 2px #00AF3F;
+    color: #00AF3F;
+    margin-top: 1rem;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .headingLevel3--institucional-texto {
+        text-align: center;
+    }
+
+    .container--categorias-texto {
+        width: 100%;
+    }
+
+    .headingLevel2--institucional-texto {
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 4px;
+    }
+
+    .container--institucional-texto {
+        margin: 0 20px 0 20px;
+        justify-content: center;
+    }
+
+    .paragraph--menu-institucional-tab-active {
+        margin: 10px;
+    }
+
+    .wrapper--institucional-texto {
+        padding-top: 10px;
+    }
+
+    .paragraph--titulo-categoria-landing {
+        font-size: 25px;
+    }
+
+    .container--titulo-categoria-texto-imagen {
+        padding: 10px;
+    }
+
+    .paragraph--titulo-categoria-texto-imagen {
+        justify-content: center;
+    }
+
+    .paragraph--titulo-rights {
+        margin-left: 0;
+    }
+
+    .paragraph--titulo-footer {
+        margin: 0;
+        padding: 11px 0;
+    }
+
+    .container--menu-explore {
+        justify-content: flex-start;
+        padding: 0 25px;
+    }
+
+    .paragraph--banner-title {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+}
+
+/* SHAWN MENDEZ */
+.container--legend-shawn-mendes {
+    background-color: #00174f;
+    text-align: center;
+    width: 100%;
+    padding: 70px 205px;
+    margin-bottom: 5%;
+}
+
+.paragraph--legend-shawn-mendes {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 12rem;
+    font-family: 'Futura Std Bold';
+    font-size: 1.5rem;
+    color: white;
+}
+
+@media screen and (max-width: 820px) {
+    .container--legend-shawn-mendes {
+        padding: 20px 0px;
+    }
+    .paragraph--legend-shawn-mendes {
+        padding: 0;
+        font-size: 1.2rem;
+        max-width: 50%;
+        margin: auto;
+    }
+}
+
+.paragraph--tommy-hilfiger-explorer-rich-text{
+    font-size: 1.5rem;
+    font-family: 'Futura Std Bold';
+    padding-left: 6px;
+}
+
+.paragraph--titulo-nba{
+    color: #00174f;
+    font-family: 'Futura Std Bold';
+    font-size: 2rem;
+}
+
+.paragraph--titulo-nba-paragraph-2{
+    color: #00174f;
+    font-family: 'Futura Std';
+    font-size: 1.2rem;
+}
+
+.paragraph--titulo-sale-page{
+    color: #cc0c2f;
+    font-family: 'Futura Std Bold';
+    font-size: 2rem;
+}
+
+
+
+
+

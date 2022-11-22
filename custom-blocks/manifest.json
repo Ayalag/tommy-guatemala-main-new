@@ -1,0 +1,18 @@
+{
+  "vendor": "tommyguatemala",
+  "name": "custom-blocks",
+  "version": "0.0.1",
+  "title": "Custom blocks",
+  "description": "Custom blocks to use in Store",
+  "defaultLocale": "es-ES",
+  "builders": {
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.css-handles": "0.x",
+    "vtex.store-graphql": "2.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

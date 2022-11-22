@@ -1,0 +1,147 @@
+{
+  "slider-layout#mobile-categories-women": {
+    "children": ["flex-layout.row#slider-1-women", "flex-layout.row#slider-2-women", "flex-layout.row#slider-3-women", "flex-layout.row#slider-4-women", "flex-layout.row#slider-5-women"],
+    "props": {
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "itemsPerPage":	{ "mobile": 4},
+      "blockClass": "slider-categories"
+      
+  }
+  },
+  "flex-layout.row#slider-1-women": {
+    "props": {
+      "blockClass": "slider-flex"
+    },
+    "children": [
+      "info-card#slider-1-women",
+      "rich-text#slider-1-women"
+    ]
+  },
+  "info-card#slider-1-women": {
+    "props": {
+      "imageUrl": "/arquivos/mobile-women-cloth.jpg",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "blockClass": "slider-image",
+      "callToActionMode": "link",
+      "callToActionUrl": "/ropa/genero_Mujer"
+    }
+  },
+  "rich-text#slider-1-women": {
+    "props": {
+      "text": "ROPA",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "slider-text"
+    }
+  },
+  "flex-layout.row#slider-2-women": {
+    "props": {
+      "blockClass": "slider-flex"
+    },
+    "children": [
+      "info-card#slider-2-women",
+      "rich-text#slider-2-women"
+    ]
+  },
+  "info-card#slider-2-women": {
+    "props": {
+      "imageUrl": "/arquivos/mobile-women-shoes.jpg",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "blockClass": "slider-image",
+      "callToActionMode": "link",
+      "callToActionUrl": "/zapatos"
+    }
+  },
+  "rich-text#slider-2-women": {
+    "props": {
+      "text": "ZAPATOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "slider-text"
+    }
+  },
+  "flex-layout.row#slider-3-women": {
+    "props": {
+      "blockClass": "slider-flex"
+    },
+    "children": [
+      "info-card#slider-3-women",
+      "rich-text#slider-3-women"
+    ]
+  },
+  "info-card#slider-3-women": {
+    "props": {
+      "imageUrl": "/arquivos/mobile-women-bags.jpg",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "blockClass": "slider-image",
+      "callToActionMode": "link",
+      "callToActionUrl": "/accesorios/bolsos"
+    }
+  },
+  "rich-text#slider-3-women": {
+    "props": {
+      "text": "BOLSOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "slider-text"
+    }
+  },
+  "flex-layout.row#slider-4-women": {
+    "props": {
+      "blockClass": "slider-flex"
+    },
+    "children": [
+      "info-card#slider-4-women",
+      "rich-text#slider-4-women"
+    ]
+  },
+  "info-card#slider-4-women": {
+    "props": {
+      "imageUrl": "/arquivos/mobile-women-ac.jpg",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "blockClass": "slider-image",
+      "callToActionMode": "link",
+      "callToActionUrl": "/accesorios"
+    }
+  },
+  "rich-text#slider-4-women": {
+    "props": {
+      "text": "ACCESORIOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "slider-text"
+    }
+  },
+  "flex-layout.row#slider-5-women": {
+    "props": {
+      "blockClass": "slider-flex"
+    },
+    "children": [
+      "info-card#slider-5-women",
+      "rich-text#slider-5-women"
+    ]
+  },
+  "info-card#slider-5-women": {
+    "props": {
+      "imageUrl": "/arquivos/mobile-women-jeans.jpg",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "blockClass": "slider-image",
+      "callToActionMode": "link",
+      "callToActionUrl": "/ropa/tommy-jeans/genero_Mujer?initialMap=c&initialQuery=ropa&map=b"
+    }
+  },
+  "rich-text#slider-5-women": {
+    "props": {
+      "text": "TOMMY JEANS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "slider-text"
+    }
+  }
+}

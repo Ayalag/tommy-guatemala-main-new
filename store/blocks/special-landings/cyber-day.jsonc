@@ -1,0 +1,209 @@
+{
+  "store.custom#cyber-day": {
+    "blocks": [
+      "responsive-layout.desktop#desktop-cyber-day",
+      "responsive-layout.mobile#mobile-cyber-day"
+    ]
+  },
+  "responsive-layout.desktop#desktop-cyber-day": {
+    "children": [
+      "info-card#cyber-day",
+      "rich-text#titulo-black-friday",
+      "flex-layout.row#categorias-blackfriday-1",
+      "flex-layout.row#categorias-blackfriday-2"
+    ]
+  },
+  "info-card#cyber-day": {
+    "props": {
+      "id": "hombre",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "subhead": "CYBER MONDAY 2022 en Tommy Hilfiger <br/> Cyber Monday es uno de los eventos más esperados del año en Tommy Hilfiger, este día podrás encontrar una gran variedad de artículos disponibles, con ofertas y descuentos que no te puedes perder. Es una oportunidad única para llenar tu armario de nuestra clásica y cómoda ropa, además de accesorios y electrónicos.<br/>Los descuentos de Cyber Lunes ofrecen una amplia gama de codiciados artículos a un gran valor. Los mismos estarán disponibles solo por un tiempo limitado.<br/>Descubre todos los estilos que tendremos en el Cyber lunes, será una inversión en vestimenta atemporal a una fracción de su precio usual.<br/> Conoce todo lo que tenemos para ti online, y descubre nuestros estilos en jeans, camisetas, camisas, zapatillas y mucho más, programa tus compras con tiempo para que puedas aprovechar al máximo de nuestros Cyber Lunes<br/> Disfruta del Cyber Lunes sin salir de la comodidad de tu casa.<br/>Subscribete a nuestro newsletter y obtén información sobre nuestras mejores promociones <br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='#newsletter'>SUSCRIBIRME</a>",
+      "blockClass": "special-landings__cyber",
+      "callToActionMode": "none",
+      "textAlignment": "left",
+      "mobileImageUrl": "/arquivos/Cyber_lunes_Chile_mobile.jpg",
+      "imageUrl": "/arquivos/Cyber_lunes_Chile_mobile.jpg"
+    }
+  },
+  "rich-text#titulo-black-friday": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "COMPRAR POR CATEGORÍA",
+      "blockClass": "titulo-categoria-landing"
+    }
+  },
+  "flex-layout.row#categorias-blackfriday-1": {
+    "props": {
+      "blockClass": "categorias-hombre",
+      "horizontalAlign": "center",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#categorias-bf-2",
+      "flex-layout.col#categorias-bf-1",
+      "flex-layout.col#categorias-bf-3"
+
+    ]
+  },
+  "flex-layout.col#categorias-bf-1": {
+    "children": [
+      "info-card#categoria-bf-1"
+    ],
+    "props": {
+      "blockClass": "col-categorias-hombre",
+      "paddingRight": 3,
+      "width": "33.33%"
+    }
+  },
+  "info-card#categoria-bf-1": {
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "textAlignment": "center",
+      "headline": "HOMBRE",
+      "callToActionMode": "button",
+      "callToActionText": "",
+      "callToActionUrl": "/ropa/t-shirts/genero_Hombre",
+      "blockClass": "special-landings-cat",
+      "imageUrl": "/arquivos/Cyberlunes-hombre.jpg"
+    }
+  },
+  "flex-layout.col#categorias-bf-2": {
+    "children": [
+      "info-card#categoria-bf-2"
+    ],
+    "props": {
+      "blockClass": "col-categorias-hombre",
+      "paddingRight": 3,
+      "width": "33.33%"
+    }
+  },
+  "info-card#categoria-bf-2": {
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "textAlignment": "center",
+      "headline": "MUJER",
+      "callToActionMode": "button",
+      "callToActionText": "",
+      "callToActionUrl": "/ropa/t-shirts/genero_Hombre",
+      "blockClass": "special-landings-cat",
+      "imageUrl": "/arquivos/cyberlunes-women.jpg"
+    }
+  },
+  "flex-layout.col#categorias-bf-3": {
+    "children": [
+      "info-card#categoria-bf-3"
+    ],
+    "props": {
+      "blockClass": "col-categorias-hombre",
+      "paddingRight": 3,
+      "width": "33.33%"
+    }
+  },
+  "info-card#categoria-bf-3": {
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "textAlignment": "center",
+      "headline": "TOMMY JEANS",
+      "callToActionMode": "button",
+      "callToActionText": "",
+      "callToActionUrl": "/ropa/t-shirts/genero_Hombre",
+      "blockClass": "special-landings-cat",
+      "imageUrl": "/arquivos/cyberlunes-tommy_jeans.jpg"
+    }
+  },
+  "flex-layout.row#categorias-blackfriday-2": {
+    "props": {
+      "blockClass": "categorias-hombre",
+      "horizontalAlign": "center",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#categorias-bf-4",
+      "flex-layout.col#categorias-bf-5",
+      "flex-layout.col#categorias-bf-6"
+
+    ]
+  },
+  "flex-layout.col#categorias-bf-4": {
+    "children": [
+      "info-card#categoria-bf-4"
+    ],
+    "props": {
+      "blockClass": "col-categorias-hombre",
+      "paddingRight": 3,
+      "width": "33.33%"
+    }
+  },
+  "info-card#categoria-bf-4": {
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "textAlignment": "center",
+      "headline": "ACCESORIOS",
+      "callToActionMode": "button",
+      "callToActionText": "",
+      "callToActionUrl": "/accesorios/genero_mujer",
+      "blockClass": "special-landings-cat",
+      "imageUrl": "/arquivos/cyberlunes-accesorios.jpg"
+    }
+  },
+  "flex-layout.col#categorias-bf-5": {
+    "children": [
+      "info-card#categoria-bf-5"
+    ],
+    "props": {
+      "blockClass": "col-categorias-hombre",
+      "paddingRight": 3,
+      "width": "33.33%"
+    }
+  },
+  "info-card#categoria-bf-5": {
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "textAlignment": "center",
+      "headline": "KIDS",
+      "callToActionMode": "button",
+      "callToActionText": "",
+      "callToActionUrl": "/ninos",
+      "blockClass": "special-landings-cat",
+      "imageUrl": "/arquivos/cyberlunes-tommy_kids.jpg"
+    }
+  },
+  "flex-layout.col#categorias-bf-6": {
+    "children": [
+      "info-card#categoria-bf-6"
+    ],
+    "props": {
+      "blockClass": "col-categorias-hombre",
+      "paddingRight": 3,
+      "width": "33.33%"
+    }
+  },
+  "info-card#categoria-bf-6": {
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "textAlignment": "center",
+      "headline": "SALE",
+      "callToActionMode": "button",
+      "callToActionText": "",
+      "callToActionUrl": "/sale",
+      "blockClass": "special-landings-cat",
+      "imageUrl": "/arquivos/cyberlunes-sale.jpg"
+    }
+  },
+  "responsive-layout.mobile#mobile-cyber-day":{
+    "children": [
+      "info-card#cyber-day",
+      "rich-text#titulo-black-friday",
+      "flex-layout.row#categorias-blackfriday-1",
+      "flex-layout.row#categorias-blackfriday-2"
+    ]
+  }
+}

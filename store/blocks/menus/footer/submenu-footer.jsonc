@@ -1,0 +1,282 @@
+{
+  "menu-item#footer-customer": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/servicio-cliente",
+        "text": "Servicio al Cliente"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-email": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/",
+        "text": "Email"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-localizador": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/localizador-tiendas",
+        "text": "Localizador de Tiendas"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-pedidos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/account#/orderss",
+        "text": "Pedidos"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-envios": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/terminos-envio",
+        "text": "Envíos"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-devoluciones": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/terminos-devoluciones",
+        "text": "Devoluciones"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-after": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/",
+        "text": "After pay"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-invisible": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "",
+        "text": ""
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-free": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/terminos-envio",
+        "text": "Envío gratis"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-60day": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/terminos-devoluciones",
+        "text": "Devolución gratuita de 30 días"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-size": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/guia-tallas",
+        "text": "Guía de tallas"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-falsificacion": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/",
+        "text": "Productos falsificados"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-site": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/",
+        "text": "Mapa del sitio"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-faq": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/",
+        "text": "FAQ"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-nosotos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "https://global.tommy.com/en_int/about-us",
+        "text": "Sobre nosotros"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-sustentabilidad": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/",
+        "text": "Sustentabilidad"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-prensa": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "https://global.tommy.com/en_int/newsroom",
+        "text": "Sala de prensa"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-odr": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/",
+        "text": "ODR"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-terminos-condiciones": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/terminos-y-condiciones",
+        "text": "Términos y Condiciones"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-privacidad": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/politica-de-privacidad",
+        "text": "Política de privacidad"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-cookies": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/politica-de-cookies",
+        "text": "Política de cookies"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-legal": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/",
+        "text": "Aviso Legal"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-sesion": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/",
+        "text": "Iniciar Sesión"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#footer-despacho": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/account#/orders",
+        "text": "Envíos"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#black-friday": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/black-friday",
+        "text": "Black friday"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#cyber-day": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/cyber-day",
+        "text": "Cyber day"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#the-factory": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/tommy-hilfiger-explorer",
+        "text": "The Factory"
+      },
+      "blockClass": "footer-item"
+    }
+  },
+  "menu-item#tommy-x-nba": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/brand-tommy-jeans/tommy-jeans-capsule-tommy-x-nba",
+        "text": "TOMMY X NBA"
+      },
+      "blockClass": "footer-item"
+    }
+  }
+}

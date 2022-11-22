@@ -1,0 +1,152 @@
+{
+    "store.custom#privacidad": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-privacidad",
+            "responsive-layout.mobile#mobile-privacidad"
+        ]
+    },
+    "responsive-layout.desktop#desktop-privacidad": {
+        "children": [
+            "flex-layout.row#contenedor-privacidad"
+        ]
+    },
+    "flex-layout.row#contenedor-privacidad": {
+        "children": [
+            "flex-layout.row#contenedor-privacidad-general"
+        ],
+        "props": {
+            "blockClass": "contenedor-institucional"
+        }
+    },
+    "flex-layout.row#contenedor-privacidad-general": {
+        "children": [
+            "flex-layout.col#menu-privacidad",
+            "flex-layout.col#contenedor-privacidad"
+        ],
+        "props": {
+            "blockClass": "contenedor-general-institucional",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#menu-privacidad": {
+        "children": [
+            "rich-text#menu-envio-privacidad",
+            "rich-text#menu-devolucion-privacidad",
+            "rich-text#menu-localizador-privacidad",
+            "rich-text#menu-tallas-privacidad",
+            "rich-text#menu-cliente-privacidad",
+            "rich-text#menu-nosotros-privacidad",
+            "rich-text#menu-prensa-privacidad",
+            "rich-text#menu-terminos-privacidad",
+            "rich-text#menu-pp-privacidad",
+            "rich-text#menu-pc-privacidad"
+        ],
+        "props": {
+            "blockClass": "menu-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#menu-cliente-privacidad": {
+        "props": {
+            "text": "[Servicio al Cliente](/servicio-cliente)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-localizador-privacidad": {
+        "props": {
+            "text": "[Localizador de Tiendas](/localizador-tiendas)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-tallas-privacidad": {
+        "props": {
+            "text": "[Guía de Tallas](/guia-tallas)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-devolucion-privacidad": {
+        "props": {
+            "text": "[Devoluciónes](/terminos-devoluciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-envio-privacidad": {
+        "props": {
+            "text": "[Envios](/terminos-envio)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-nosotros-privacidad": {
+        "props": {
+            "text": "[Sobre Nosotros](https://global.tommy.com/en_int/about-us)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-prensa-privacidad": {
+        "props": {
+            "text": "[Sala de Prensa](https://global.tommy.com/en_int/newsroom)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-terminos-privacidad": {
+        "props": {
+            "text": "[Terminos y Condiciones](/terminos-y-condiciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-pp-privacidad": {
+        "props": {
+            "text": "[Politica de Privacidad](/politica-de-privacidad)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-pc-privacidad": {
+        "props": {
+            "text": "[Politica de Cookies](/politica-de-cookies)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "flex-layout.col#contenedor-privacidad": {
+        "children": [
+            "rich-text#privacidad-1"
+        ],
+        "props": {
+            "blockClass": "col-contenedor-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#privacidad-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "## **POLITICA DE PRIVACIDAD** \n\n\n ### **Tommy Hilfiger** \n\n\n **GENERAL** \n\n Esta Política de Privacidad explica cómo obtenemos, utilizamos y mantenemos sus datos personales en relación con el Sitio Web gt.tommy.com (en adelante “Sitio Web”), del que es titular y propietario AMERICAN APPAREL GUATEMALA, S.A. (de ahora en adelante “A.A. GUA”).\n\n Se considerarán Usuarios todas aquellas personas que accedan a cualquier parte del Sitio Web o adquieran cualquiera de sus servicios o productos a través del Sitio Web (en adelante “Usuario”).\n\n El Usuario debe leer, entender y aceptar todas las condiciones establecidas en estas Políticas de Privacidad, así como en los demás documentos incorporados a los mismos por referencia.\n\n Si el Usuario hiciera uso del Sitio Web, ello implicará la aceptación tácita y plena de las Políticas establecidas en las Políticas de Privacidad del Sitio Web. Por dicha utilización del sitio y/o sus servicios, el Usuario se obligará a cumplir expresamente con las mismas, no pudiendo alegar el desconocimiento de tales Políticas de Privacidad. El Usuario es consciente de quedar vinculado por estas Políticas, por lo que, si no está Usted de acuerdo con todas las Políticas, no debe realizar uso de este Sitio Web en ningún caso.\n\n A.A. GUA se reserva el derecho de modificar y actualizar las Políticas de Privacidad del Sitio Web, en cualquier momento y sin previo aviso, mediante la publicación de una nueva versión en el Sitio Web. Si estos cambios afectaran los derechos del Usuario, se le informarán de los mismos por email (a la última dirección que nos facilitaste). El Usuario acepta que será su responsabilidad exclusiva revisar regularmente las Políticas de Privacidad para mantenerse informado de las políticas actuales aplicables al Sitio Web. Al haber accedido, navegado y utilizado o continuar accediendo, navegando y utilizando este Sitio Web, se considerará que acepta cualquier cambio o actualización de las Políticas de Privacidad.\n\n Si alguna de las políticas incluidas en las presentes Políticas de Privacidad fuera declarada inválida, nula o por cualquier causa ineficaz, dicha condición se entenderá excluida sin que dicha declaración pueda afectar a la validez ni a la exigibilidad del resto de condiciones.\n\n Sus datos personales son datos que, por sí mismos o con otros datos disponibles, pueden utilizarse para identificarlo.\n\n **TIPO DE DATOS PERSONALES Y USO** \n\n Los tipos de datos personales que A.A. GUA captura dependerán de lo que esté haciendo en el Sitio Web. A.A. GUA utilizará sus datos personales por algunos o todos los motivos establecidos en esta Política de Privacidad. Los ejemplos, a título enunciativo no limitativo, de los datos personales que A.A. GUA utilizará en relación con el Sitio Web pueden incluir:\n\n • Nombre completo e información personal, incluida la información de contacto (por ejemplo, dirección del domicilio y el historial de la dirección, dirección de correo electrónico, números de teléfono del hogar, teléfono celular, identificación personal, talla, género, etc.).\n • Fecha de nacimiento y/o edad (por ejemplo, para asegurarse de que es elegible para solicitar un producto o servicio).\n • Detalles financieros (por ejemplo, métodos de pago).\n • Registros de los productos y servicios que ha obtenido o solicitado, cómo los utiliza y la tecnología relevante utilizada para acceder o gestionarlos (por ejemplo, datos de ubicación de teléfonos móviles, dirección IP, dirección MAC).\n • Datos biométricos (por ejemplo, huellas dactilares y grabaciones de voz para reconocimiento de voz, imágenes del usuario, etc.).\n • Familia, estilo de vida o circunstancias sociales (por ejemplo, la cantidad de dependientes que tiene).\n • Detalles de educación y empleo / estado de empleo.\n • Datos personales sobre otras personas nombradas según sea necesario. Cuando proporcione los datos personales de otras personas, debe tener su autorización para proporcionarnos sus datos personales.\n Si voluntariamente el Usuario utiliza los servicios del Sitio Web, está manifestando su consentimiento explícito para que A.A. GUA procese sus datos como aquí se explica.\n\n • Serán utilizados con la siguiente finalidad:\n o Facilitarle la información que solicite\n o En el caso de que compre un producto o contrate un servicio, perfeccionar, cumplir y controlar el correcto cumplimiento del contrato \n o Cumplir con las obligaciones legales de A.A. GUA \n o Mandar comunicaciones promocionales, en el caso de que así lo hubiera solicitado expresamente el Usuario (se enviarán comunicaciones promocionales relacionadas con cualquier producto o servicio disponible en el Sitio Web, por cualquier medio (i.e. postal, telefónico, email o cualquier otro medio electrónico).) \n Si el Usuario no quiere seguir recibiendo comunicaciones: En relación con las comunicaciones promocionales por medios electrónicos, se le informará en cada una de las mismas, cómo darse de baja de una forma sencilla y sin ningún coste (exceptuando el coste que te pueda producir la transmisión de tu solicitud de baja). Se atenderá su solicitud tan pronto como sea posible.\n No obstante, a pesar de que el Usuario se dé de baja del envío de comunicaciones publicitarias, A.A. GUA se reserva el derecho de seguir enviándole mensajes con otras finalidades.\n\n **MONITOREO DE COMUNICACIONES E INTERACCIONES DE CUALQUIER ÍNDOLE** \n\n Sujeto a las leyes vigentes, A.A. GUA se reserva el derecho a controlar, registrar y grabar todas las llamadas, correos electrónicos, mensajes de texto, mensajes de redes sociales y otras comunicaciones e interacciones con nosotros. A.A. GUA controlará, registrará y grabará toda información que considere relevante para el cumplimiento normativo, las prácticas de autorregulación, la prevención y detección de delitos, para proteger la seguridad de nuestros sistemas y procedimientos de comunicaciones, para verificar si hay contenido obsceno o profano, para el control de calidad y la capacitación del personal, o para cualquier otro escenario en el que requiramos un registro de lo que se ha comunicado a ejecutado. Si el Usuario usa o navega el Sitio Web, A.A. GUA también se reserva el derecho a monitorear y grabar todas las actividades que el Usuario realice previamente, durante y posteriormente a su uso o navegación. \n\n **INTERCAMBIO DE SUS DATOS PERSONALES** \n\n A.A. GUA puede compartir sus datos personales con: \n\n• Sus respectivos grupos empresariales y empresas asociadas en las que tengan participaciones; \n• Los subcontratistas y otras personas que les ayuden a proporcionar y promocionar sus productos y servicios; \n• Empresas y otras personas que les prestan servicios; \n• Sus asesores legales y otros asesores profesionales, incluidos sus auditores; \n • Organismos de orden público;\n • Órganos y agencias gubernamentales en la República de Guatemala y en el extranjero;\n • Los tribunales, para cumplir con los requisitos legales;\n • En caso de emergencia o para proteger sus intereses vitales;\n • Para proteger la seguridad o integridad de nuestras operaciones comerciales;\n • Organizaciones de investigación de mercado que ayudan a mejorar los productos o servicios de A.A. GUA;\n • Cualquier otra persona o entidad que A.A. GUA considere pertinente.\n En el supuesto de fusión, compraventa, alianza estratégica, cesión global de activos y pasivos u otra operación societaria, los datos del Usuario pasarán a ser controlados por la sociedad que resulte de dicha operación societaria, para los mismos fines que los aquí especificados (salvo que (i) se acuerde otra cosa con el Usuario, o (ii) lo imponga la legislación aplicable).\n\n **ALMACENAMIENTO Y TRANSMISIÓN DE INFORMACIÓN** \n\n A.A. GUA tiene el derecho a que la información provista por el Usuario pueda ser almacenada, procesada, transmitida o replicada en servidores, aplicaciones y redes ubicados dentro o fuera del territorio de la República de Guatemala.\n Los datos personales del Usuario serán procesados e incorporados a una base de datos titularidad de A.A. GUA.\n\n **CONFIDENCIALIDAD, RECTIFICACIÓN, SEGURIDAD, INTEGRIDAD DE LA INFORMACIÓN PERSONAL PRIVADA Y RESPONSABILIDAD** \n\n A.A. GUA, para proteger la información personal del Usuario, toma las precauciones razonables y prácticas estándar de la industria para asegurarse de que no haya pérdida, mal uso, acceso, divulgación, alteración o destrucción de la misma. \n El Usuario podrá contactarse en tommyguatemala@aswgr.com con el propósito de ejercer sus derechos de acceso, rectificación, cancelación y/o oposición (sin perjuicio del procedimiento de opt-out específico para las comunicaciones promocionales con fines publicitarios por medios electrónicos). \n A.A. GUA y sus administradores, directores, agentes, subsidiarias, empresas conjuntas, empresas vinculadas, empleados y proveedores de servicios, no será responsable en ninguna circunstancia, por daños y/o perjuicios de toda naturaleza causados por pérdida, mal uso, acceso, divulgación, alteración o destrucción involuntaria de la información personal. \n\n **PERIODOS DE RETENCIÓN DE LA INFORMACIÓN PERSONAL** \n\n A.A. GUA se reserva el derecho a conservar la información personal de los Usuarios por el tiempo que considere necesario para todos los usos descritos en las presentes Políticas de Privacidad.",
+            "blockClass": "institucional-texto"
+        }
+    },
+    "responsive-layout.mobile#mobile-privacidad": {
+        "children": [
+            "flex-layout.row#contenedor-privacidad"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+
+
+.closeIconContainer {
+    justify-content: flex-start;
+}
+
+.closeIconButton {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #00164E;
+}
+
+.opened {
+    background: white;
+    width: 100%!important;
+    overflow-y: scroll;
+}

@@ -1,0 +1,8 @@
+{
+  "guia-tallas-content": {
+    "component": "GuiaTallas"
+  },
+  "guia-tallas-trigger": {
+    "component" : "GuiaTallasTrigger"
+  }
+}

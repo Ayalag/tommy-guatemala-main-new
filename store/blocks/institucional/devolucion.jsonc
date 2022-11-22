@@ -1,0 +1,152 @@
+{
+    "store.custom#devolucion": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-devolucion",
+            "responsive-layout.mobile#mobile-devolucion"
+        ]
+    },
+    "responsive-layout.desktop#desktop-devolucion": {
+        "children": [
+            "flex-layout.row#contenedor-devolucion"
+        ]
+    },
+    "flex-layout.row#contenedor-devolucion": {
+        "children": [
+            "flex-layout.row#contenedor-devolucion-general"
+        ],
+        "props": {
+            "blockClass": "contenedor-institucional"
+        }
+    },
+    "flex-layout.row#contenedor-devolucion-general": {
+        "children": [
+            "flex-layout.col#menu-devolucion",
+            "flex-layout.col#contenedor-devolucion"
+        ],
+        "props": {
+            "blockClass": "contenedor-general-institucional",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#menu-devolucion": {
+        "children": [
+            "rich-text#menu-envio-devolucion",
+            "rich-text#menu-devolucion-devolucion",
+            "rich-text#menu-localizador-devolucion",
+            "rich-text#menu-tallas-devolucion",
+            "rich-text#menu-cliente-devolucion",
+            "rich-text#menu-nosotros-devolucion",
+            "rich-text#menu-prensa-devolucion",
+            "rich-text#menu-terminos-devolucion",
+            "rich-text#menu-pp-devolucion",
+            "rich-text#menu-pc-devolucion"
+        ],
+        "props": {
+            "blockClass": "menu-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#menu-cliente-devolucion": {
+        "props": {
+            "text": "[Servicio al Cliente](/servicio-cliente)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-localizador-devolucion": {
+        "props": {
+            "text": "[Localizador de Tiendas](/localizador-tiendas)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-tallas-devolucion": {
+        "props": {
+            "text": "[Guía de Tallas](/guia-tallas)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-devolucion-devolucion": {
+        "props": {
+            "text": "[Devoluciónes](/terminos-devoluciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-envio-devolucion": {
+        "props": {
+            "text": "[Envios](/terminos-envio)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-nosotros-devolucion": {
+        "props": {
+            "text": "[Sobre Nosotros](https://global.tommy.com/en_int/about-us)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-prensa-devolucion": {
+        "props": {
+            "text": "[Sala de Prensa](https://global.tommy.com/en_int/newsroom)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-terminos-devolucion": {
+        "props": {
+            "text": "[Terminos y Condiciones](/terminos-y-condiciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-pp-devolucion": {
+        "props": {
+            "text": "[Politica de Privacidad](/politica-de-privacidad)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-pc-devolucion": {
+        "props": {
+            "text": "[Politica de Cookies](/politica-de-cookies)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "flex-layout.col#contenedor-devolucion": {
+        "children": [
+            "rich-text#devolucion-1"
+        ],
+        "props": {
+            "blockClass": "col-contenedor-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#devolucion-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "## **DEVOLUCIONES Y CAMBIOS** \n\n\n ### **Tommy Hilfiger** \n\n\n **¿CÓMO HAGO UN CAMBIO DE TALLA O DEVOLUCIÓN?** \n\n Para efectuar la devolución, el Usuario debe seguir los siguientes pasos:\n\n • El Usuario debe informar vía correo electrónico a tommyguatemala@aswgr.com especificando los artículos que desea devolver, el motivo, copia de la factura de compra. No se aceptarán devoluciones si no se incluyen los documentos mencionados.\n • En caso de ser aprobada, A.A. GUA le hará llegar vía correo electrónico la guía de transporte para efectuar la devolución.\n • La compañía de transporte coordinará directamente con el Usuario la fecha y hora de la entrega.\n • A.A. GUA confirmará vía correo electrónico la recepción del producto en su almacén.\n En caso de devolución del producto en tiendas, el procedimiento es el siguiente:\n • El Usuario debe acercarse a la tienda de su indicada con el artículo que desea devolver, con su cédula y copia de manifiesto de entrega.\n • La tienda recibirá el artículo, lo revisará y validará que se encuentre en condiciones adecuadas para aceptar la devolución.\n • Toda devolución de producto en tiendas deber ser debidamente autorizado por el gerente o encargado de la tienda.\n • En caso de ser aprobada, le haremos llegar vía correo electrónico la confirmación e indicaciones para realizar la nueva compra del producto deseado en la página web.\n • *Los cambios de talla están sujetos a disponibilidad de stock.\n • *Por la emergencia sanitaría los couriers están sufriendo una demora en sus servicios, por lo tanto, tu pedido enviado de vuelta a nuestras instalaciones, pueden sufrir demoras de hasta 20 días hábiles.\n Está prohibido aceptar devolución de producto no comprado previamente en el Sitio Web. Tampoco aplica por este medio devoluciones de COMPRAS realizadas en tienda.\n\n El Usuario debe cumplir los siguientes requisitos para que A.A. GUA admita la devolución del producto:\n\n • El producto debe estar en el mismo estado en que se entregó y deberá conservar, en perfecto estado su embalaje y etiquetado original.\n • El envío debe realizarse empleando la misma caja en que el artículo fue recibido para proteger el producto de forma adecuada.\n • En el caso de devoluciones de calzados, zapatillas, textiles o accesorios, los mismos deberán ser devueltos con sus cajas o embalajes originales. No se aceptarán devoluciones de estos productos si no se presentan con su respectiva caja o embalaje, salvo los casos de productos que serán cambiados por el mismo producto en otra talla, para lo cual se retendrá la caja o embalaje del mismo, para ubicar el producto devuelto. Tampoco se requerirá que el producto venga con su caja o embalaje si el mismo está siendo devuelto por defecto de fabricación. En este caso el producto será enviado al área de defectuosos.\n\n **POLÍTICAS DE DEVOLUCIÓN**\n\n Todos los artículos comprados en la tienda online de Tommy Hilfiger Guatemala se pueden devolver y cambiar en un período de 30 días calendario tras la recepción. Por favor tener en cuenta las siguientes políticas de cambio: \n • Por temas de sanidad, no se aceptan cambios ni devoluciones de productos de cuidado personal tales como ropa interior, vestidos de baño, medias, tops deportivos.\n • Las devoluciones por concepto de garantía deben corresponderse con el uso normal para que la mercancía. La garantía legal de nuestros productos es de los 60 días calendario tras la recepción del producto. Consulte las instrucciones sobre derechos legales para devolver artículos en nuestros Términos y condiciones. \n\n**NUESTRA SUGERENCIA** \n\n Para elegir la mejor opción en cuanto a talla y corte, te sugerimos que consultes nuestra descripción del producto. Ahí es donde indicamos si el artículo que ha elegido es pequeño, holgado o se ajusta a la talla, puedes revisar también la guía de tallas disponible en cada producto. \n\n",
+            "blockClass": "institucional-texto"
+        }
+    },
+    "responsive-layout.mobile#mobile-devolucion": {
+        "children": [
+            "flex-layout.row#contenedor-devolucion"
+        ]
+    }
+}

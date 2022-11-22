@@ -1,0 +1,332 @@
+{
+  /* DESKTOP BLOCK */
+  "store.home": {
+    "parent": {
+      "header": "header#home-special"
+    },
+    "blocks": [
+      "responsive-layout.desktop#desktop-home",
+      "responsive-layout.mobile#mobile-home"
+    ]
+  },
+  "responsive-layout.desktop#desktop-home": {
+    "children": [
+      "flex-layout.row#container-countdown",
+      "modal-trigger#popup-cookies",
+      "flex-layout.row#categorias-home",
+      "flex-layout.row#texto-home"
+    ]
+  },
+  "flex-layout.row#container-countdown": {
+    "props": {
+      "blockClass": "container-countdown"
+    },
+    "children": [
+      "flex-layout.row#container-countdown-left",
+      "countdown"
+    ]
+  },
+
+  "flex-layout.row#container-countdown-left":{
+    "props": {
+      "blockClass": "container-countdown-left"
+    },
+    "children": [
+      "flex-layout.row#container-countdown-left-text",
+      "flex-layout.row#container-countdown-left-ctn"
+    ]
+  },
+  "flex-layout.row#container-countdown-left-text":{
+    "children": [
+      "rich-text#texto-countdown"
+    ]
+  },
+
+  "rich-text#texto-countdown": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**TOMMY DAYS** \n Ya llego el evento más esperado del año.\n Hasta 50% de descuento en mercancía seleccionada \n Del 22 al 27 de noviembre ",
+      "blockClass": "texto-countdown"
+    }
+  },
+
+  "flex-layout.row#container-countdown-left-ctn":{
+    "children": [
+      "flex-layout.col#container-countdown-left-ctn__ctn"
+    ]
+  },
+
+  "flex-layout.col#container-countdown-left-ctn__ctn":{
+    "props": {
+      "blockClass": "countdown-left-ctn-ctn",
+      "width": "100%"
+    },
+    "children": [
+      "rich-text#ctn-1"
+    ]
+  },
+
+  "rich-text#ctn-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[HOMBRE](/ropa/genero_Hombre/139?map=c,productClusterIds&order=OrderByScoreDESC) [MUJER](/ropa/genero_Mujer/139?map=c,productClusterIds&order=OrderByScoreDESC) [NIÑOS](/ropa/genero_nino/139?map=c,productClusterIds&order=OrderByScoreDESC) [NIÑAS](/ropa/genero_nina/139?map=c,productClusterIds&order=OrderByScoreDESC)",
+      "blockClass": "titulo-tommydays-header"
+    }
+  },
+   
+  "countdown": {
+    "props": {
+      "startDate": "November 21, 2022 00:00:00",
+      "targetDate": "November 29, 2022 23:59:00"
+    }
+  },
+
+  "modal-trigger#popup-cookies": {
+    "children": [
+      "modal-layout#popup-cookies"
+    ],
+    "props": {
+      "trigger": "load-session",
+      "blockClass": "modal-cookies"
+    }
+  },
+  "modal-layout#popup-cookies": {
+    "children": [
+      "flex-layout.row#cookies"
+    ],
+    "props": {
+      "blockClass": "modal-cookies"
+    }
+  },
+  "flex-layout.row#cookies": {
+    "props": {
+      "blockClass": "wrapper-cookies",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#cookies",
+      "modal-actions.close"
+    ]
+  },
+  "modal-actions.close": {
+    "props": {
+      "label": "ACEPTAR",
+      "blockClass": "modal-cookies"
+    }
+  },
+  "rich-text#cookies": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "**POLÍTICA DE PRIVACIDAD Y COOKIES** \n\n\n Tommy Hilfiger utiliza cookies para proporcionarle la mejor experiencia. Con las cookies le facilitamos que pueda hacer uso pleno de las compras online y las características personalizadas disponibles en nuestro sitio web. Consulta nuestra [Política de privacidad y cookies](/politica-de-cookies) para obtener más información",
+      "blockClass": "home-cookies"
+    }
+  },
+  "flex-layout.row#categorias-home": {
+    "props": {
+      "blockClass": "row-categorias"
+    },
+    "children": [
+      "info-card#categoria-home-1",
+      "info-card#categoria-home-2",
+      "info-card#categoria-home-3",
+      "info-card#categoria-home-4"
+    ]
+  },
+  "info-card#categoria-home-1": {
+    "props": {
+      "id": "home-men",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "textAlignment": "center",
+      "headline": "MEN",
+      "subhead": "DESCUBRE",
+      "callToActionMode": "button",
+      "callToActionText": "DESCUBRE",
+      "callToActionUrl": "/hombre",
+      "blockClass": "imagen-categorias",
+      "imageUrl": "/arquivos/tommymen.jpg"
+    }
+  },
+  "info-card#categoria-home-2": {
+    "props": {
+      "id": "home-women",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "textAlignment": "center",
+      "headline": "WOMEN",
+      "subhead": "DESCUBRE",
+      "callToActionMode": "button",
+      "callToActionText": "DESCUBRE",
+      "callToActionUrl": "/mujer",
+      "blockClass": "imagen-categorias",
+      "imageUrl": "/arquivos/tommywomen.jpg"
+    }
+  },
+  "info-card#categoria-home-3": {
+    "props": {
+      "id": "home-kids",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "textAlignment": "center",
+      "headline": "TOMMY KIDS",
+      "subhead": "DESCUBRE",
+      "callToActionMode": "button",
+      "callToActionText": "DESCUBRE",
+      "callToActionUrl": "/ninos",
+      "blockClass": "imagen-categorias",
+      "imageUrl": "/arquivos/tommykids.jpg"
+    }
+  },
+  "info-card#categoria-home-4": {
+    "props": {
+      "id": "home-jeans",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "textAlignment": "center",
+      "headline": "TOMMY JEANS",
+      "subhead": "DESCUBRE",
+      "callToActionMode": "button",
+      "callToActionText": "DESCUBRE",
+      "callToActionUrl": "/tommy-jeans",
+      "blockClass": "imagen-categorias-right",
+      "imageUrl": "/arquivos/tommyjeans.jpg"
+    }
+  },
+  "flex-layout.row#texto-home": {
+    "props": {
+      "blockClass": "home-prefooter"
+    },
+    "children": [
+      "flex-layout.col#texto-home-container"
+    ]
+  },
+  "flex-layout.col#texto-home-container": {
+    "props": {
+      "blockClass": "home-container"
+    },
+    "children": [
+      "rich-text#title-home",
+      "flex-layout.row#texto-home-wrapper"
+    ]
+  },
+  "flex-layout.row#texto-home-wrapper": {
+    "props": {
+      "blockClass": "home-wrapper",
+      "preventHorizontalStrech": true
+    },
+    "children": [
+      "rich-text#texto-home-1",
+      "rich-text#texto-home-2"
+    ]
+  },
+  "rich-text#title-home": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "TOMMY HILFIGER GUATEMALA",
+      "blockClass": "home-title"
+    }
+  },
+  "rich-text#texto-home-1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Descubre las últimas tendencias y deslumbra con la nueva colección de ropa, calzado, bolsos y accesorios para mujer y hombre de Tommy Hilfiger. La colección de hombre de Tommy Hilfiger es ideal para quienes buscan un look diferente. Combinando unos vaqueros con una camisa formal lograrás un conjunto de estilo clásico y casual, mientras que vistiendo uno de nuestros trajes a medida estarás más elegante que nunca. Para poner la guinda al pastel, añade un cinturón, un reloj o un par de zapatos para hombre. Nuestra colección para mujer también cuenta con una amplia variedad de diseños. Desde vestidos, bolsos y tacones ideales para una noche de fiesta hasta pantalones de chándal o zapatillas para una sesión nocturna de película, sofá y manta, necesites lo que necesites, lo encontrarás en nuestro sitio web.",
+      "blockClass": "home-text"
+    }
+  },
+  "rich-text#texto-home-2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Además, también podrás elegir entre una gran selección de ropa de punto, abrigos y chaquetas perfectos para abrigarte en cualquier estación. Viste a la última con nuestras novedades o aprovecha las ofertas para hacerte con esa prenda que quieres desde hace tanto tiempo. No importa si tu estilo es colorido, atrevido o minimalista, Tommy Hilfiger tiene algo para ti.",
+      "blockClass": "home-text"
+    }
+  },
+  /* MOBILE BLOCKS */
+  "responsive-layout.mobile#mobile-home": {
+    "children": [
+      "modal-trigger#popup-cookies",
+      "flex-layout.row#container-countdown-mobile",
+      "info-card#categoria-home-mobile",
+      "flex-layout.row#texto-home-container-mobile"
+    ]
+  },
+  "flex-layout.row#container-countdown-mobile": {
+    "props": {
+      "blockClass": "container-countdown-mobile"
+    },
+    "children": [
+      "rich-text#texto-countdown-mobile",
+      "rich-text#ctn-1-mobile",
+      "countdown"
+    ]
+  },
+  "rich-text#ctn-1-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[HOMBRE](/ropa/genero_Hombre/139?map=c,productClusterIds&order=OrderByScoreDESC) [MUJER](/ropa/genero_Mujer/139?map=c,productClusterIds&order=OrderByScoreDESC) [NIÑOS](/ropa/genero_nino/139?map=c,productClusterIds&order=OrderByScoreDESC) [NIÑAS](/ropa/genero_nina/139?map=c,productClusterIds&order=OrderByScoreDESC)",
+      "blockClass": "titulo-tommydays-header-mobile"
+    }
+  },
+  "rich-text#texto-countdown-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**TOMMY DAYS** \n Ya llego el evento más esperado del año.\n Hasta 50% de descuento en mercancía seleccionada \n Del 22 al 27 de noviembre ",
+      "blockClass": "texto-countdown-mobile"
+    }
+  },
+  "info-card#categoria-home-mobile": {
+    "props": {
+      "id": "home-jeans",
+      "isFullModeStyle": true,
+      "textMode": "rich-text",
+      "textPosition": "center",
+      "textAlignment": "center",
+      "callToActionMode": "none",
+      "subhead": "[HOMBRE](/hombre) [MUJER](/mujer) [NIÑOS](/ninos) [TOMMY JEANS](/tommy-jeans)",
+      "blockClass": "imagen-categorias-mobile",
+      "imageUrl": "/arquivos/tommyjeans.jpg"
+    }
+  },
+  "flex-layout.row#texto-home-container-mobile": {
+    "props": {
+      "blockClass": "text-container-mobile"
+    },
+    "children": [
+      "flex-layout.col#texto-home-container-mobile"
+    ]
+  },
+  "flex-layout.col#texto-home-container-mobile": {
+    "props": {
+      "blockClass": "home-container-mobile"
+    },
+    "children": [
+      "rich-text#title-home-mobile",
+      "rich-text#texto-home-1-mobile"
+    ]
+  },
+  "rich-text#title-home-mobile": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "TOMMY HILFIGER GUATEMALA",
+      "blockClass": "home-title-mobile"
+    }
+  },
+  "rich-text#texto-home-1-mobile": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Descubre las últimas tendencias y deslumbra con la nueva colección de ropa, calzado, bolsos y accesorios para mujer y hombre de Tommy Hilfiger. La colección de hombre de Tommy Hilfiger es ideal para quienes buscan un look diferente. Combinando unos vaqueros con una camisa formal lograrás un conjunto de estilo clásico y casual, mientras que vistiendo uno de nuestros trajes a medida estarás más elegante que nunca. Para poner la guinda al pastel, añade un cinturón, un reloj o un par de zapatos para hombre. Nuestra colección para mujer también cuenta con una amplia variedad de diseños. Desde vestidos, bolsos y tacones ideales para una noche de fiesta hasta pantalones de chándal o zapatillas para una sesión nocturna de película, sofá y manta, necesites lo que necesites, lo encontrarás en nuestro sitio web. \n\n\n\n Además, también podrás elegir entre una gran selección de ropa de punto, abrigos y chaquetas perfectos para abrigarte en cualquier estación. Viste a la última con nuestras novedades o aprovecha las ofertas para hacerte con esa prenda que quieres desde hace tanto tiempo. No importa si tu estilo es colorido, atrevido o minimalista, Tommy Hilfiger tiene algo para ti.",
+      "blockClass": "home-text-mobile"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+
+.profileIcon {
+    color: #00174f;
+    width: 40px;
+    height: 40px;
+}
+
+.icon-favoritos {
+    color: #00174f;
+    width: 40px;
+    height: 40px;
+}
+
+.formTitle {
+    font-family: 'Futura Std Bold';
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    color: #00174f;
+}
+
+.profile{
+    display: none;
+}
+
+.accessCodeOptionBtn :global(.vtex-button){
+    background-color: #14BE82;
+    color: white;
+    height: 54px;
+}
+
+.accessCodeOptionBtn :global(.vtex-button__label){
+    padding: 10px !important;
+    font-family: "Futura Std Bold";
+    font-size: 13px;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button){
+    background-color: #00174f;
+    color: white;
+    height: 54px;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button__label){
+    padding: 10px !important;
+    font-family: "Futura Std Bold";
+    font-size: 13px;
+}
+
+:global(.vtex-login-2-x-label) {
+    color: #00174f;
+    font-size: 11px;
+    font-family: 'Futura Std Bold';
+    padding-left: 5px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+    display: flex;
+}
+
+.container :global(.vtex-button__label) {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+.container :global(.vtex-button):hover {
+    background: unset;
+    color: #00174f;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 1024px){
+    :global(.vtex-login-2-x-label) {
+        padding-left: 0px;
+        padding-right: 0px;
+        letter-spacing: 2px;
+        display: flex;
+        padding: 0px;
+    }
+
+    .flexColChild--in-drawer-menu :global(.vtex-login-2-x-container){
+        float: left !important;
+    }
+
+    .contentForm{
+        margin-top: 30px;
+    }
+}

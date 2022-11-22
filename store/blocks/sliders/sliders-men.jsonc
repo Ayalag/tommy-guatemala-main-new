@@ -1,0 +1,147 @@
+{
+  "slider-layout#mobile-categories-men": {
+    "children": ["flex-layout.row#slider-1-men", "flex-layout.row#slider-2-men", "flex-layout.row#slider-3-men", "flex-layout.row#slider-4-men", "flex-layout.row#slider-5-men"],
+    "props": {
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "itemsPerPage":	{ "mobile": 4},
+      "blockClass": "slider-categories"
+      
+  }
+  },
+  "flex-layout.row#slider-1-men": {
+    "props": {
+      "blockClass": "slider-flex"
+    },
+    "children": [
+      "info-card#slider-1-men",
+      "rich-text#slider-1-men"
+    ]
+  },
+  "info-card#slider-1-men": {
+    "props": {
+      "imageUrl": "/arquivos/mobile-men-cloth.jpg",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "blockClass": "slider-image",
+      "callToActionMode": "link",
+      "callToActionUrl": "/ropa/genero_Hombre"
+    }
+  },
+  "rich-text#slider-1-men": {
+    "props": {
+      "text": "ROPA",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "slider-text"
+    }
+  },
+  "flex-layout.row#slider-2-men": {
+    "props": {
+      "blockClass": "slider-flex"
+    },
+    "children": [
+      "info-card#slider-2-men",
+      "rich-text#slider-2-men"
+    ]
+  },
+  "info-card#slider-2-men": {
+    "props": {
+      "imageUrl": "/arquivos/mobile-men-shoes.jpg",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "blockClass": "slider-image",
+      "callToActionMode": "link",
+      "callToActionUrl": "/zapatos"
+    }
+  },
+  "rich-text#slider-2-men": {
+    "props": {
+      "text": "ZAPATOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "slider-text"
+    }
+  },
+  "flex-layout.row#slider-3-men": {
+    "props": {
+      "blockClass": "slider-flex"
+    },
+    "children": [
+      "info-card#slider-3-men",
+      "rich-text#slider-3-men"
+    ]
+  },
+  "info-card#slider-3-men": {
+    "props": {
+      "imageUrl": "/arquivos/mobile-men-bags.jpg",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "blockClass": "slider-image",
+      "callToActionMode": "link",
+      "callToActionUrl": "/accesorios/bolsos"
+    }
+  },
+  "rich-text#slider-3-men": {
+    "props": {
+      "text": "BOLSOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "slider-text"
+    }
+  },
+  "flex-layout.row#slider-4-men": {
+    "props": {
+      "blockClass": "slider-flex"
+    },
+    "children": [
+      "info-card#slider-4-men",
+      "rich-text#slider-4-men"
+    ]
+  },
+  "info-card#slider-4-men": {
+    "props": {
+      "imageUrl": "/arquivos/mobile-men-ac.jpg",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "blockClass": "slider-image",
+      "callToActionMode": "link",
+      "callToActionUrl": "/accesorios"
+    }
+  },
+  "rich-text#slider-4-men": {
+    "props": {
+      "text": "ACCESORIOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "slider-text"
+    }
+  },
+  "flex-layout.row#slider-5-men": {
+    "props": {
+      "blockClass": "slider-flex"
+    },
+    "children": [
+      "info-card#slider-5-men",
+      "rich-text#slider-5-men"
+    ]
+  },
+  "info-card#slider-5-men": {
+    "props": {
+      "imageUrl": "/arquivos/mobile-men-jeans.jpg",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "blockClass": "slider-image",
+      "callToActionMode": "link",
+      "callToActionUrl": "/ropa/tommy-jeans/genero_Hombre?initialMap=c&initialQuery=ropa&map=b"
+    }
+  },
+  "rich-text#slider-5-men": {
+    "props": {
+      "text": "TOMMY JEANS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "slider-text"
+    }
+  }
+}

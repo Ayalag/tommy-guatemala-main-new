@@ -1,0 +1,395 @@
+{
+  "menu-item#Categorias-Ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ninos",
+        "text": "Niños"
+      },
+      "blockClass": "categoria-header-big"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Ninos-home"
+    ]
+  },
+  /* SUBMENU NINOS */
+  "vtex.menu@2.x:submenu#Ninos-home": {
+    "children": [
+      "flex-layout.row#submenu-ninos-home"
+    ],
+    "props": {
+      "blockClass": "header-submenu-custom"
+    }
+  },
+  "flex-layout.row#submenu-ninos-home": {
+    "children": [
+      // "flex-layout.col#submenu-ninos-home-novedades",
+      "flex-layout.col#submenu-ninos-home-ropa-ninas",
+      // "flex-layout.col#submenu-ninas-home-novedades",
+      "flex-layout.col#submenu-ninos-home-ropa-ninos"
+    ],
+    "props": {
+      "blockClass": "row-submenu-custom",
+      "preventHorizontalStretch": true,
+      "colGap": 8,
+      "fullWidth": true
+    }
+  },
+  ///////
+  "flex-layout.col#submenu-ninos-home-novedades": {
+    "children": [
+      "rich-text#ninos-home-novedades-ninos",
+      "menu-item#Categoria-normal-new-arrivals-ninos",
+      "menu-item#Categoria-normal-arrival-sustainable-ninos"
+    ],
+    "props": {
+      "blockClass": "col-submenu-custom",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#ninos-home-novedades-ninos":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[Novedades Niños](/ropa/nino?initialMap=c&initialQuery=ropa&map=category-1,genero)",
+      "blockClass": "menu-home-title"
+    }
+  },
+  "menu-item#Categoria-normal-new-arrivals-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/nino?initialMap=c&initialQuery=ropa&map=category-1,genero",
+        "text": "New Arrivals Niños"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-arrival-sustainable-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/nino?initialMap=c&initialQuery=ropa&map=category-1,genero",
+        "text": "Sustainable Style Niños"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "flex-layout.col#submenu-ninas-home-novedades": {
+    "children": [
+      "rich-text#ninos-home-novedades-ninas",
+      "menu-item#Categoria-normal-new-arrivals-ninas",
+      "menu-item#Categoria-normal-arrival-sustainable-ninas"
+    ],
+    "props": {
+      "blockClass": "col-submenu-custom",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#ninos-home-novedades-ninas":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[Novedades Niñas](/ropa/nina?initialMap=c&initialQuery=ropa&map=category-1,genero)",
+      "blockClass": "menu-home-title"
+    }
+  },
+  "menu-item#Categoria-normal-new-arrivals-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/nina?initialMap=c&initialQuery=ropa&map=category-1,genero",
+        "text": "New Arrivals Niñas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-arrival-sustainable-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/nina?initialMap=c&initialQuery=ropa&map=category-1,genero",
+        "text": "Sustainable Style Niñas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+    /* ROPA NINOS */
+  "flex-layout.col#submenu-ninos-home-ropa-ninos": {
+    "children": [
+      "rich-text#ninos-home-ropa-ninos",
+      "menu-item#Categoria-normal-clothing-abrigos-kids-ninos",
+      "menu-item#Categoria-normal-clothing-camisas-kids-ninos",
+      "menu-item#Categoria-normal-clothing-camisetas-kids-ninos",
+      "menu-item#Categoria-normal-clothing-jeans-kids-ninos",
+      "menu-item#Categoria-normal-clothing-pantalones-kids-ninos",
+      "menu-item#Categoria-normal-clothing-polos-kids-ninos",
+      "menu-item#Categoria-normal-clothing-shorts-kids-ninos",
+      "menu-item#Categoria-normal-clothing-sueteres-kids-ninos",
+      "menu-item#Categoria-normal-clothing-vestidos-de-bano-kids-ninos",
+      "menu-item#Categoria-normal-clothing-zapatillas-kids-ninos"
+    ],
+    "props": {
+      "blockClass": "col-submenu-custom",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#ninos-home-ropa-ninos":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[TOMMY NIÑOS](/ropa/nino?initialMap=c&initialQuery=ropa&map=category-1,genero)",
+      "blockClass": "menu-home-title"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-abrigos-kids-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/abrigos/nino?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Abrigos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-camisas-kids-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/camisas/nino?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Camisas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-camisetas-kids-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/t-shirts/nino?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Camisetas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-jeans-kids-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/jeans/nino?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Jeans"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-pantalones-kids-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/pantalones/nino?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Pantalones"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-polos-kids-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/polos/nino?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Polos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-shorts-kids-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/shorts/nino?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Shorts"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-sueteres-kids-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/sweaters/nino?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Suéteres"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-vestidos-de-bano-kids-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/vestidos-de-ba-o/nino?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Vestidos de Baño"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-zapatillas-kids-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/zapatos/zapatillas/nino?initialMap=c&initialQuery=zapatos&map=category-1,category-2,genero",
+        "text": "Zapatillas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  /* ROPA NINAS */
+  "flex-layout.col#submenu-ninos-home-ropa-ninas": {
+    "children": [
+      "rich-text#ninos-home-ropa-ninas",
+      "menu-item#Categoria-normal-clothing-abrigos-kids-ninas",
+      "menu-item#Categoria-normal-clothing-camisas-kids-ninas",
+      "menu-item#Categoria-normal-clothing-camisetas-kids-ninas",
+      "menu-item#Categoria-normal-clothing-faldas-kids-ninas",
+      "menu-item#Categoria-normal-clothing-jeans-kids-ninas",
+      "menu-item#Categoria-normal-clothing-pantalones-kids-ninas",
+      "menu-item#Categoria-normal-clothing-polos-kids-ninas",
+      "menu-item#Categoria-normal-clothing-shorts-kids-ninas",
+      "menu-item#Categoria-normal-clothing-sueteres-kids-ninas",
+      "menu-item#Categoria-normal-clothing-vestidos-kids-ninas",
+      "menu-item#Categoria-normal-clothing-vestidos-de-bano-kids-ninas",
+      "menu-item#Categoria-normal-clothing-zapatillas-kids-ninas"
+    ],
+    "props": {
+      "blockClass": "col-submenu-custom",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#ninos-home-ropa-ninas":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[TOMMY NIÑAS](/ropa/nina?initialMap=c&initialQuery=ropa&map=category-1,genero)",
+      "blockClass": "menu-home-title"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-abrigos-kids-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/abrigos/nina?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Abrigos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-camisas-kids-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/camisas/nina?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Camisas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-camisetas-kids-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/t-shirts/nina?initialMap=category-1&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Camisetas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-faldas-kids-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/faldas/nina?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Faldas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-jeans-kids-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/jeans/nina?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Jeans"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-pantalones-kids-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/pantalones/nina?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Pantalones"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-polos-kids-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/polos/nina?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Polos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-shorts-kids-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/shorts/nina?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Shorts"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-sueteres-kids-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/sweaters/nina?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Suéteres"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-vestidos-kids-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/vestidos/nina?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Vestidos"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-vestidos-de-bano-kids-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/vestidos-de-ba-o/nina?initialMap=c&initialQuery=ropa&map=category-1,category-2,genero",
+        "text": "Vestidos de Baño"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-normal-clothing-zapatillas-kids-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/zapatos/zapatillas/nino?initialMap=c&initialQuery=zapatos&map=category-1,category-2,genero",
+        "text": "Zapatillas"
+      },
+      "blockClass": "header-item-custom"
+    }
+  }
+}

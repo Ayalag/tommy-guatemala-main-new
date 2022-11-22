@@ -1,0 +1,122 @@
+
+.term--breadcrumb {
+    color: #9F9F9F;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Futura Std";
+}
+
+.caretIcon{
+    width: 0;
+    visibility: hidden;
+    display: none;
+}
+
+.homeIcon {
+    width: 0;
+    visibility: hidden;
+    display: none;
+}
+
+.homeLink {
+    align-items: center;
+    display: contents;
+}
+
+.arrow {
+    padding: 0px;
+}
+
+.container--breadcrumb {
+    color: #00174F;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Futura Std";
+    margin-top: 10px;
+}
+
+.arrow, .link {
+    color: #00174F;
+}
+
+.link {
+    color: #00174F;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Futura Std";
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.link::before{
+    visibility: visible;
+    content: "/ \00a0";
+    padding-right: 2px;
+    padding-left: 2px;
+    align-items: center;
+    display: contents;
+}
+
+.term--breadcrumb::before{
+    visibility: visible;
+    content: "/ \00a0";
+    padding-right: 2px;
+    padding-left: 2px;
+    align-items: center;
+    display: contents;
+}
+
+.homeLink::before{
+    visibility: visible;
+    content: "Inicio \00a0";
+    padding-right: 2px;
+    align-items: center;
+    display: contents;
+}
+
+.container {
+    font-size: 14px;
+    font-family: 'Futura Std';
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+:global(.vtex-breadcrumb-1-x-homeIcon){
+    width: 16px;
+}
+
+:global(.vtex-breadcrumb-1-x-link){
+    color: #00174F;
+}
+
+@media screen and (max-width: 768px){
+    .container--breadcrumb {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .homeLink{
+        display: none;
+    }
+    .term--breadcrumb {
+        display: none;
+    }
+    .link {
+        color: white;
+        font-size: 12px;
+        font-family: "Futura Std Bold";
+        text-transform: uppercase;
+    }
+    .arrow--1{
+        display: none;
+    }
+    .link::before{
+        font-size: 8px;
+        content: "VOLVER A \00a0";
+        padding-right: 25px;
+    }
+    .link:hover {
+        color: white;
+    }
+}

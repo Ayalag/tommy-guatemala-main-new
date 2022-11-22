@@ -1,0 +1,333 @@
+{
+    "store.custom#categorias-ninos": {
+        "parent": {
+            "header": "header#home-special"
+        },
+        "blocks": [
+            "responsive-layout.desktop#categorias-ninos",
+            "responsive-layout.mobile#categorias-ninos"
+        ]
+    },
+    "responsive-layout.desktop#categorias-ninos": {
+        "children": [
+            // "flex-layout.row#container-cintillo-especial",
+            "info-card#categoria-ninos",
+            "rich-text#titulo-categoria-ninos",
+            "flex-layout.row#categorias-ninos-1",
+            "flex-layout.row#categorias-ninos-texto-imagen-top-1",
+            "flex-layout.row#banner-slider-category-n",
+            "flex-layout.row#texto-prefooter-ninos"
+        ]
+    },
+    "info-card#categoria-ninos": {
+        "props": {
+            "id": "ninos",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "headline": "THE INBETWEEN",
+            "subhead": "Una mezcla de patrones y telas perfecta para los pequeños de la casa.<br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/nina/nino?initialMap=category-1&initialQuery=ropa&map=category-1,genero,genero'>Comprar Ahora</a><br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/t-shirts/nina/nino?initialMap=category-1&initialQuery=ropa&map=category-1,category-2,genero,genero'>Ver camisetas</a>",
+            "blockClass": "categoria",
+            "callToActionMode": "none",
+            "textAlignment": "left",
+            "imageUrl": "/arquivos/bannerkidsnew.jpg"
+        }
+    },
+    "rich-text#titulo-categoria-ninos": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "COMPRAR POR CATEGORÍA",
+            "blockClass": "titulo-categoria-landing"
+        }
+    },
+    "flex-layout.row#categorias-ninos-1": {
+        "props": {
+            "blockClass": "categorias-ninos",
+            "horizontalAlign": "center",
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#categorias-ninos-1",
+            "flex-layout.col#categorias-ninos-2",
+            "flex-layout.col#categorias-ninos-3"
+
+        ]
+    },
+    "flex-layout.col#categorias-ninos-1": {
+        "props": {
+            "blockClass": "col-categorias-ninos",
+            "paddingRight": 3,
+            "width": "25%"
+        },
+        "children": [
+            "info-card#categoria-ninos-camhim"
+
+        ]
+    },
+    "info-card#categoria-ninos-camhim": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "CAMISETAS DE NIÑO",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/t-shirts/nino?initialMap=category-1&initialQuery=ropa&map=category-1,category-2,genero",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/kids1.jpg"
+        }
+    },
+    "flex-layout.col#categorias-ninos-2": {
+        "props": {
+            "blockClass": "col-categorias-ninos",
+            "paddingRight": 3,
+            "width": "50%"
+        },
+        "children": [
+            "info-card#categoria-ninos-sueher"
+        ]
+    },
+    "info-card#categoria-ninos-sueher": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "SUÉTERES DE NIÑA",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/sweaters/nina?initialMap=category-1&initialQuery=ropa&map=category-1,category-2,genero",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/kids2.jpg"
+        }
+    },
+    "flex-layout.col#categorias-ninos-3": {
+        "props": {
+            "blockClass": "col-categorias-ninos",
+            "paddingLeft": 1,
+            "width": "25%"
+        },
+        "children": [
+            "info-card#categoria-ninos-vesher"
+
+        ]
+    },
+    "info-card#categoria-ninos-vesher": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "VESTIDOS DE NIÑA",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/vestidos/nina?initialMap=category-1&initialQuery=ropa&map=category-1,category-2,genero",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/kids3.jpg"
+        }
+    },
+    "flex-layout.row#categorias-ninos-texto-imagen-top-1": {
+        "props": {
+            "blockClass": "row-categorias-ninos-mid",
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "flex-layout.col#categorias-ninos-texto-imagen-top-1",
+            "flex-layout.col#categorias-ninos-texto-imagen-top-2"
+
+        ]
+    },
+    "flex-layout.col#categorias-ninos-texto-imagen-top-1": {
+        "props": {
+            "blockClass": "col-categorias-ninos-mid",
+            "verticalAlign": "middle",
+            "width": "50%"
+        },
+        "children": [
+            "info-card#categoria-ninos-suehim"
+        ]
+    },
+    "info-card#categoria-ninos-suehim": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "textAlignment": "center",
+            "headline": "SUÉTERES DE NIÑO",
+            "callToActionMode": "button",
+            "callToActionText": "",
+            "callToActionUrl": "/ropa/sweaters/nino?initialMap=category-1&initialQuery=ropa&map=category-1,category-2,genero",
+            "blockClass": "imagen-categoria-landing",
+            "imageUrl": "/arquivos/kids4.jpg"
+        }
+    },
+    "flex-layout.col#categorias-ninos-texto-imagen-top-2": {
+        "props": {
+            "blockClass": "col-categorias-hombre-mid-texto",
+            "verticalAlign": "middle",
+            "width": "50%"
+        },
+        "children": [
+            "rich-text#categorias-ninos-texto-imagen-1"
+        ]
+    },
+    "rich-text#categorias-ninos-texto-imagen-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "**MORE CATEGORIES**\n\n\n\n [ZAPATILLAS](/zapatos/zapatillas/nina/nino?initialMap=category-1&initialQuery=ropa&map=category-1,category-2,genero,genero) [T-SHIRTS](/ropa/t-shirts/nina/nino?initialMap=category-1&initialQuery=ropa&map=category-1,category-2,genero,genero) [PANTALONES](/ropa/pantalones/nina/nino?initialMap=category-1&initialQuery=ropa&map=category-1,category-2,genero,genero) [JEANS](/ropa/jeans/nina/nino?initialMap=category-1&initialQuery=ropa&map=category-1,category-2,genero,genero) [SUÉTERES](/ropa/sweaters/nina/nino?initialMap=category-1&initialQuery=ropa&map=category-1,category-2,genero,genero) [SHORTS](/ropa/shorts/nina/nino?initialMap=category-1&initialQuery=ropa&map=category-1,category-2,genero,genero)",
+            "blockClass": "titulo-categoria-texto-imagen"
+        }
+    },
+    "info-card#categoria-ninos-2": {
+        "props": {
+            "id": "ninos",
+            "isFullModeStyle": true,
+            "textPosition": "LEFT",
+            "textAlignment": "center",
+            "headline": "CELEBRATE THEIR STYLE",
+            "subhead": "Nuestros mejores estilos para niños y niñas están aquí.<br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/nino?initialMap=category-1&initialQuery=ropa&map=category-1,genero'>Comprar Niños</a><br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/nina?initialMap=category-1&initialQuery=ropa&map=category-1,genero'>Comprar Niñas</a>",
+            "callToActionMode": "none",
+            // "blockClass": "categoria-mid-blue",
+            "blockClass": "categoria-mid",
+            "imageUrl": "/arquivos/kidsbannerbottom.jpg"
+        }
+    },
+    "responsive-layout.mobile#categorias-ninos": {
+        "children": [
+            // "flex-layout.row#container-cintillo-especial-mobile",
+            "slider-layout#mobile-categories-kids",
+            "info-card#categoria-ninos",
+            "rich-text#titulo-categoria-ninos",
+            "flex-layout.row#categorias-ninos-1",
+            "flex-layout.row#categorias-ninos-texto-imagen-top-1",
+            "info-card#categoria-ninos-2",
+            "list-context.product-list#shelf-ninos",
+            "flex-layout.row#texto-ninos-container-mobile"
+        ]
+    },
+    "flex-layout.row#texto-prefooter-ninos": {
+        "props": {
+          "blockClass": "home-prefooter"
+        },
+        "children": [
+          "flex-layout.col#texto-prefooter-ninos-container"
+        ]
+      },
+      "flex-layout.col#texto-prefooter-ninos-container": {
+        "props": {
+          "blockClass": "home-container"
+        },
+        "children": [
+          "rich-text#title--prefooter-ninos",
+          "flex-layout.row#texto-prefooter-ninos-wrapper"
+        ]
+      },
+      "flex-layout.row#texto-prefooter-ninos-wrapper": {
+        "props": {
+          "blockClass": "home-wrapper",
+          "preventHorizontalStrech": true
+        },
+        "children": [
+          "rich-text#texto-prefooter-ninos-1",
+          "rich-text#texto-prefooter-ninos-2"
+        ]
+      },
+      "rich-text#title--prefooter-ninos": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "TOMMY HILFIGER NIÑOS",
+            "blockClass": "home-title"
+        }
+    },
+      "rich-text#texto-prefooter-ninos-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Descubre la nueva colección de ropa para niños de Tommy Hilfiger y asegúrate de que vistan con estilo desde el primer día. Ya busques prendas de bebé para un recién nacido, un vestido para que tu hija esté espléndida en su cumpleaños o, simplemente, su primer par de zapatillas Tommy Hilfiger, esta colección tiene de todo para todas las edades. En lo que se refiere a la moda, la colección de ropa infantil de Tommy Hilfiger cumple con todos los requisitos.",
+            "blockClass": "home-text"
+        }
+    },
+    "rich-text#texto-prefooter-ninos-2": {
+      "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "En esta línea encontrarás estilos alegres, funcionales y con un inconfundible toque estadounidense para que tus pequeños estén contentos escojas lo que escojas. Hay una amplia variedad de artículos, desde abrigos y chaquetas para los meses más fríos hasta una amplia selección de bañadores para el verano. Haz que disfruten de cada momento con la colección de ropa para niños de Tommy Hilfiger.",
+          "blockClass": "home-text"
+      }
+    },
+    "flex-layout.row#texto-ninos-container-mobile": {
+        "props": {
+          "blockClass": ""
+        },
+        "children": [
+          "flex-layout.col#texto-ninos-container-mobile"
+        ]
+      },
+      "flex-layout.col#texto-ninos-container-mobile": {
+        "props": {
+          "blockClass": "home-container-mobile"
+        },
+        "children": [
+          "rich-text#title-ninos-mobile",
+          "rich-text#texto-ninos-1-mobile"
+        ]
+      },
+      "rich-text#title-ninos-mobile": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "TOMMY HILFIGER NIÑOS",
+            "blockClass": "home-title-mobile"
+        }
+    },
+      "rich-text#texto-ninos-1-mobile": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Descubre la nueva colección de ropa para niños de Tommy Hilfiger y asegúrate de que vistan con estilo desde el primer día. Ya busques prendas de bebé para un recién nacido, un vestido para que tu hija esté espléndida en su cumpleaños o, simplemente, su primer par de zapatillas Tommy Hilfiger, esta colección tiene de todo para todas las edades. En lo que se refiere a la moda, la colección de ropa infantil de Tommy Hilfiger cumple con todos los requisitos. \n\n\n\n En esta línea encontrarás estilos alegres, funcionales y con un inconfundible toque estadounidense para que tus pequeños estén contentos escojas lo que escojas. Hay una amplia variedad de artículos, desde abrigos y chaquetas para los meses más fríos hasta una amplia selección de bañadores para el verano. Haz que disfruten de cada momento con la colección de ropa para niños de Tommy Hilfiger.",
+            "blockClass": "home-text-mobile"
+        }
+    },
+    "list-context.product-list#shelf-ninos": {
+        "blocks": ["product-summary.shelf#cat-slide"],
+        "children": [
+            "slider-layout#banners-categorias"
+        ],
+        "props": {
+            "maxItems": 6,
+            "specificationFilters": [
+                { "id": "genero", "value": "niño" },
+                { "id": "genero", "value": "niña" }
+            ]
+        }
+    },
+      "flex-layout.row#banner-slider-category-n": {
+        "props": {
+          "blockClass": "banner-slider-category"
+        },
+        "children": [
+            "flex-layout.col#banner-slider-left-n",
+            "flex-layout.col#banner-slider-right-n"
+            
+        ]
+      },
+      "flex-layout.col#banner-slider-left-n": {
+        "props": {
+            "blockClass": "banner-slider-left",
+            "width": "75%"
+        },
+        "children": [
+            "info-card#categoria-ninos-2"
+        ]
+    },
+    "flex-layout.col#banner-slider-right-n": {
+        "props": {
+            "blockClass": "banner-slider-right",
+            "width": "25%",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "list-context.product-list#shelf-ninos"
+        ]
+    }
+}

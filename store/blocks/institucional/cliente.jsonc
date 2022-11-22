@@ -1,0 +1,152 @@
+{
+    "store.custom#cliente": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-cliente",
+            "responsive-layout.mobile#mobile-cliente"
+        ]
+    },
+    "responsive-layout.desktop#desktop-cliente": {
+        "children": [
+            "flex-layout.row#contenedor-cliente"
+        ]
+    },
+    "flex-layout.row#contenedor-cliente": {
+        "children": [
+            "flex-layout.row#contenedor-cliente-general"
+        ],
+        "props": {
+            "blockClass": "contenedor-institucional"
+        }
+    },
+    "flex-layout.row#contenedor-cliente-general": {
+        "children": [
+            "flex-layout.col#menu-cliente",
+            "flex-layout.col#contenedor-cliente"
+        ],
+        "props": {
+            "blockClass": "contenedor-general-institucional",
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#menu-cliente": {
+        "children": [
+            "rich-text#menu-envio-cliente",
+            "rich-text#menu-devolucion-cliente",
+            "rich-text#menu-localizador-cliente",
+            "rich-text#menu-tallas-cliente",
+            "rich-text#menu-cliente-cliente",
+            "rich-text#menu-nosotros-cliente",
+            "rich-text#menu-prensa-cliente",
+            "rich-text#menu-terminos-cliente",
+            "rich-text#menu-pp-cliente",
+            "rich-text#menu-pc-cliente"
+        ],
+        "props": {
+            "blockClass": "menu-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#menu-cliente-cliente": {
+        "props": {
+            "text": "[Servicio al Cliente](/servicio-cliente)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-localizador-cliente": {
+        "props": {
+            "text": "[Localizador de Tiendas](/localizador-tiendas)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-tallas-cliente": {
+        "props": {
+            "text": "[Guía de Tallas](/guia-tallas)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-devolucion-cliente": {
+        "props": {
+            "text": "[Devoluciónes](/terminos-devoluciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-envio-cliente": {
+        "props": {
+            "text": "[Envios](/terminos-envio)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-nosotros-cliente": {
+        "props": {
+            "text": "[Sobre Nosotros](https://global.tommy.com/en_int/about-us)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-prensa-cliente": {
+        "props": {
+            "text": "[Sala de Prensa](https://global.tommy.com/en_int/newsroom)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-terminos-cliente": {
+        "props": {
+            "text": "[Terminos y Condiciones](/terminos-y-condiciones)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-pp-cliente": {
+        "props": {
+            "text": "[Politica de Privacidad](/politica-de-privacidad)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "rich-text#menu-pc-cliente": {
+        "props": {
+            "text": "[Politica de Cookies](/politica-de-cookies)",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "menu-institucional-tab-active"
+        }
+    },
+    "flex-layout.col#contenedor-cliente": {
+        "children": [
+            "rich-text#cliente-1"
+        ],
+        "props": {
+            "blockClass": "col-contenedor-institucional",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#cliente-1": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "## **ATENCION AL CLIENTE** \n\n\n ### **Tommy Hilfiger** \n\n\n Actualmente estamos atravesando una alta demanda de solicitudes y tickets por nuestro correo electrónico. Si tienes dudas o necesitas ayuda para comprar en nuestro sitio, contáctanos aquí:\n\n • tommyguatemala@aswgr.com\n\n Nuestros horarios de atención son de lunes a viernes de 9:00 a.m. a 6:00 p.m.\n\n Gracias por tu compresión.",
+            "blockClass": "institucional-texto"
+        }
+    },
+    "responsive-layout.mobile#mobile-cliente": {
+        "children": [
+            "flex-layout.row#contenedor-cliente"
+        ]
+    }
+}

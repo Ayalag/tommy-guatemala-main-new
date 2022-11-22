@@ -1,0 +1,9 @@
+
+
+.specificationName--specification-text-specification, .specificationValue--specification-text-value {
+    display: flex;
+    font-family: 'Futura Std Light';
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0.2rem;
+}

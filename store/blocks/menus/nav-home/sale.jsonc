@@ -1,0 +1,296 @@
+{
+    "menu-item#Categorias-Sale": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "/sale",
+          "text": "Sale"
+        },
+        "blockClass": "categoria-header-big-sale"
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#Sale-home"
+      ]
+    },
+    /* SUBMENU HOMBRE */
+    "vtex.menu@2.x:submenu#Sale-home": {
+      "children": [
+        "flex-layout.row#submenu-sale-home"
+      ],
+      "props": {
+        "blockClass": "header-submenu-custom"
+      }
+    },
+    "flex-layout.row#submenu-sale-home": {
+      "children": [
+        "flex-layout.col#submenu-sale-home-sale-hombre",
+        "flex-layout.col#submenu-sale-home-sale-mujer",
+        "flex-layout.col#submenu-sale-home-sale-niños",
+        "flex-layout.col#submenu-sale-home-sale-niñas"
+        // "flex-layout.col#submenu-sale-home-sale-tommy-jeans"
+      ],
+      "props": {
+        "blockClass": "row-submenu-custom",
+        "preventHorizontalStretch": true,
+        "colGap": 8,
+        "fullWidth": true
+      }
+    },
+      /*SALE ROPA HOMBRE */
+    "flex-layout.col#submenu-sale-home-sale-hombre": {
+      "children": [
+        "rich-text#sale-home-hombre"
+      ],
+      "props": {
+        "blockClass": "col-submenu-custom",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#sale-home-hombre":{
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "[Sale Hombre](/ropa/genero_Hombre/139?map=c,productClusterIds&order=OrderByScoreDESC)",
+        "blockClass": "menu-home-title"
+      }
+    },
+  
+      /*SALE ROPA MUJER */
+    "flex-layout.col#submenu-sale-home-sale-mujer": {
+      "children": [
+        "rich-text#sale-home-mujer"
+      ],
+      "props": {
+        "blockClass": "col-submenu-custom",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#sale-home-mujer":{
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "[Sale Mujer](/ropa/genero_Mujer/139?map=c,productClusterIds&order=OrderByScoreDESC)",
+        "blockClass": "menu-home-title"
+      }
+    },
+      /*SALE ROPA NIÑOS */
+    "flex-layout.col#submenu-sale-home-sale-niños": {
+      "children": [
+        "rich-text#sale-home-niños"
+      ],
+      "props": {
+        "blockClass": "col-submenu-custom",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#sale-home-niños":{
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "[Sale Niños](/ropa/genero_nino/139?map=c,productClusterIds&order=OrderByScoreDESC)",
+        "blockClass": "menu-home-title"
+      }
+    },
+      /*SALE ROPA NIÑAS */
+    "flex-layout.col#submenu-sale-home-sale-niñas": {
+      "children": [
+        "rich-text#sale-home-niñas"
+      ],
+      "props": {
+        "blockClass": "col-submenu-custom",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#sale-home-niñas":{
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "[Sale Niñas](/ropa/genero_nina/139?map=c,productClusterIds&order=OrderByScoreDESC)",
+        "blockClass": "menu-home-title"
+      }
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    // "flex-layout.col#submenu-sale-home-sale-tommy-jeans": {
+    //   "children": [
+    //     "rich-text#hombre-home-ropa-interior",
+    //     "menu-item#Categoria-normal-clothing-ropa-interior-men-boxers",
+    //     "menu-item#Categoria-normal-clothing-ropa-interior-men-medias"
+    //   ],
+    //   "props": {
+    //     "blockClass": "col-submenu-custom",
+    //     "preventVerticalStretch": true
+    //   }
+    // },
+    // "rich-text#hombre-home-ropa-interior":{
+    //   "props": {
+    //     "textAlignment": "LEFT",
+    //     "textPosition": "LEFT",
+    //     "text": "[Ropa Interior](/ropa-interior/hombre?initialMap=c&initialQuery=ropa-interior&map=category-1,genero)",
+    //     "blockClass": "menu-home-title"
+    //   }
+    // },
+    // "menu-item#Categoria-normal-clothing-ropa-interior-men-boxers": {
+    //   "props": {
+    //     "type": "custom",
+    //     "itemProps": {
+    //       "href": "/ropa-interior/boxers/hombre?initialMap=c&initialQuery=ropa-interior&map=category-1,category-2,genero",
+    //       "text": "Boxers"
+    //     },
+    //     "blockClass": "header-item-custom"
+    //   }
+    // },
+    // "menu-item#Categoria-normal-clothing-ropa-interior-men-medias": {
+    //   "props": {
+    //     "type": "custom",
+    //     "itemProps": {
+    //       "href": "/ropa-interior/medias/hombre?initialMap=c&initialQuery=ropa-interior&map=category-1,category-2,genero",
+    //       "text": "Medias"
+    //     },
+    //     "blockClass": "header-item-custom"
+    //   }
+    // },
+    //   /* ACCESORIOS HOMBRE */
+    // "flex-layout.col#submenu-sale-home-sale-mujer": {
+    //   "children": [
+    //     "rich-text#hombre-home-bolsos-men",
+    //     "menu-item#Categoria-normal-bags-bolsos-men",
+    //     "menu-item#Categoria-normal-bags-billeteras-men",
+    //     "menu-item#Categoria-normal-bags-gorras-men",
+    //     "menu-item#Categoria-normal-bags-mascarillas-men",
+    //     "menu-item#Categoria-normal-bags-cinturones-men"
+    //   ],
+    //   "props": {
+    //     "blockClass": "col-submenu-custom",
+    //     "preventVerticalStretch": true
+    //   }
+    // },
+    // "rich-text#hombre-home-bolsos-men":{
+    //   "props": {
+    //     "textAlignment": "LEFT",
+    //     "textPosition": "LEFT",
+    //     "text": "[Bolsos & Accesorios](/accesorios/hombre?initialMap=c&initialQuery=accesorios&map=category-1,genero)",
+    //     "blockClass": "menu-home-title"
+    //   }
+    // },
+    // "menu-item#Categoria-normal-bags-bolsos-men": {
+    //   "props": {
+    //     "type": "custom",
+    //     "itemProps": {
+    //       "href": "/accesorios/bolsos/hombre?initialMap=c&initialQuery=accesorios&map=category-1,category-2,genero",
+    //       "text": "Bolsos"
+    //     },
+    //     "blockClass": "header-item-custom"
+    //   }
+    // },
+    // "menu-item#Categoria-normal-bags-billeteras-men": {
+    //   "props": {
+    //     "type": "custom",
+    //     "itemProps": {
+    //       "href": "/accesorios/billeteras/hombre?initialMap=c&initialQuery=accesorios&map=category-1,category-2,genero",
+    //       "text": "Billeteras"
+    //     },
+    //     "blockClass": "header-item-custom"
+    //   }
+    // },
+    // "menu-item#Categoria-normal-bags-mascarillas-men": {
+    //   "props": {
+    //     "type": "custom",
+    //     "itemProps": {
+    //       "href": "/accesorios/mascarillas/hombre?initialMap=c&initialQuery=accesorios&map=category-1,category-2,genero",
+    //       "text": "Mascarillas"
+    //     },
+    //     "blockClass": "header-item-custom"
+    //   }
+    // },
+  
+    // "menu-item#Categoria-normal-bags-cinturones-men": {
+    //   "props": {
+    //     "type": "custom",
+    //     "itemProps": {
+    //       "href": "/accesorios/cinturones/hombre?initialMap=c&initialQuery=accesorios&map=category-1,category-2,genero",
+    //       "text": "Cinturones"
+    //     },
+    //     "blockClass": "header-item-custom"
+    //   }
+    // },
+    // "menu-item#Categoria-normal-bags-gorras-men": {
+    //   "props": {
+    //     "type": "custom",
+    //     "itemProps": {
+    //       "href": "/accesorios/gorras/hombre?initialMap=c&initialQuery=accesorios&map=category-1,category-2,genero",
+    //       "text": "Gorras"
+    //     },
+    //     "blockClass": "header-item-custom"
+    //   }
+    // },
+    //   /* ZAPATOS HOMBRE */
+    // "flex-layout.col#submenu-sale-home-sale-niños": {
+    //   "children": [
+    //     "rich-text#hombre-home-zapatos-men",
+    //     "menu-item#Categoria-normal-mocasines-men",
+    //     "menu-item#Categoria-normal-botas-men",
+    //     "menu-item#Categoria-normal-zapatillas-men",
+    //     "menu-item#Categoria-normal-chancletas-men"
+    //   ],
+    //   "props": {
+    //     "blockClass": "col-submenu-custom",
+    //     "preventVerticalStretch": true
+    //   }
+    // },
+    // "rich-text#hombre-home-zapatos-men":{
+    //   "props": {
+    //     "textAlignment": "LEFT",
+    //     "textPosition": "LEFT",
+    //     "text": "[Zapatos](/zapatos/hombre?initialMap=c&initialQuery=zapatos&map=category-1,category-2,genero)",
+    //     "blockClass": "menu-home-title"
+    //   }
+    // },
+    // "menu-item#Categoria-normal-zapatillas-men": {
+    //   "props": {
+    //     "type": "custom",
+    //     "itemProps": {
+    //       "href": "/zapatos/zapatillas/hombre?initialMap=c&initialQuery=zapatos&map=category-1,category-2,genero",
+    //       "text": "Zapatillas"
+    //     },
+    //     "blockClass": "header-item-custom"
+    //   }
+    // },
+    // "menu-item#Categoria-normal-mocasines-men": {
+    //   "props": {
+    //     "type": "custom",
+    //     "itemProps": {
+    //       "href": "/zapatos/mocasines/hombre?initialMap=c&initialQuery=zapatos&map=category-1,category-2,genero",
+    //       "text": "Mocasines"
+    //     },
+    //     "blockClass": "header-item-custom"
+    //   }
+    // },
+    // "menu-item#Categoria-normal-chancletas-men": {
+    //   "props": {
+    //     "type": "custom",
+    //     "itemProps": {
+    //       "href": "/zapatos/chancletas/hombre?initialMap=c&initialQuery=zapatos&map=category-1,category-2,genero",
+    //       "text": "Chancletas"
+    //     },
+    //     "blockClass": "header-item-custom"
+    //   }
+    // },
+    // "menu-item#Categoria-normal-botas-men": {
+    //   "props": {
+    //     "type": "custom",
+    //     "itemProps": {
+    //       "href": "/zapatos/botas/hombre?initialMap=c&initialQuery=zapatos&map=category-1,category-2,genero",
+    //       "text": "Botas"
+    //     },
+    //     "blockClass": "header-item-custom"
+    //   }
+    // }
+  }

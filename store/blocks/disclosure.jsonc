@@ -1,0 +1,376 @@
+{
+    
+    ////FOOTER MOBILE ///// 
+    
+    "disclosure-layout#contacto": {
+        "children": [
+            "disclosure-trigger#contacto", 
+            "disclosure-content#contacto"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#contacto": {
+        "children": [
+            "rich-text#footer-titulo-contactanos",
+            "disclosure-state-indicator"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+    "disclosure-content#contacto": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-contactanos"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    },
+
+        /////////
+        
+    "disclosure-layout#special-landing": {
+        "children": [
+            "disclosure-trigger#special-landing", 
+            "disclosure-content#special-landing"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#special-landing": {
+        "children": [
+            "rich-text#footer-titulo-special-days",
+            "disclosure-state-indicator"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+
+    "disclosure-content#special-landing": {
+        "children": [
+            "vtex.menu@2.x:menu#special-landig"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    },
+
+        /////////
+
+
+    "disclosure-layout#tus-pedidos": {
+        "children": [
+            "disclosure-trigger#tus-pedidos", 
+            "disclosure-content#tus-pedidos"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#tus-pedidos": {
+        "children": [
+            "rich-text#footer-titulo-pedidos",
+            "disclosure-state-indicator"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+    "disclosure-content#tus-pedidos": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-pedidos"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    },
+
+    /////////
+
+    "disclosure-layout#compra-facil": {
+        "children": [
+            "disclosure-trigger#compra-facil", 
+            "disclosure-content#compra-facil"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#compra-facil": {
+        "children": [
+            "rich-text#footer-titulo-shopping",
+            "disclosure-state-indicator"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+    "disclosure-content#compra-facil": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-shopping"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    },
+
+    /////////
+    
+    "disclosure-layout#acerca-de": {
+        "children": [
+            "disclosure-trigger#acerca-de", 
+            "disclosure-content#acerca-de"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#acerca-de": {
+        "children": [
+            "rich-text#footer-titulo-about",
+            "disclosure-state-indicator"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+    "disclosure-content#acerca-de": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-about"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    },
+    
+    /////////
+    
+    "disclosure-layout#informacion": {
+        "children": [
+            "disclosure-trigger#informacion", 
+            "disclosure-content#informacion"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#informacion": {
+        "children": [
+            "rich-text#footer-titulo-product",
+            "disclosure-state-indicator"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+    "disclosure-content#informacion": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-product"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    },
+    
+    /////////
+    
+    "disclosure-layout#medios-pago": {
+        "children": [
+            "disclosure-trigger#medios-pago",
+            "disclosure-content#medios-pago"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#medios-pago": {
+        "children": [
+            "rich-text#footer-titulo-conecta",
+            "disclosure-state-indicator"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+    "disclosure-content#medios-pago": {
+        "children": [
+            "flex-layout.row#footer-general-payment"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    },
+    
+    /////////
+    
+    "disclosure-layout#idioma": {
+        "children": [
+            "disclosure-trigger#idioma", 
+            "disclosure-content#idioma"
+        ],
+        "props":{
+            "blockClass": "container-item"
+        }
+    },
+    "disclosure-trigger#idioma": {
+        "children": [
+            "rich-text#footer-titulo-language",
+            "disclosure-state-indicator"
+        ],
+        "props":{
+            "blockClass": "trigger-footer"
+        }
+    },
+    "disclosure-content#idioma": {
+        "children": [
+            "locale-switcher#footer"
+        ],
+        "props":{
+            "blockClass": "contenido-footer"
+        }
+    },
+    
+    /////////
+    
+
+    "disclosure-layout#details": {
+        "children": [
+            "disclosure-trigger#details", 
+            "disclosure-content#details"
+        ],
+        "props":{
+            "initialVisibility": "visible",
+            "blockClass": "disclosure-product"
+        }
+    },
+    "disclosure-trigger#details": {
+        "children": [
+            "rich-text#details"
+        ],
+        "props":{
+            "blockClass": "trigger-product"
+        }
+    },
+    "disclosure-content#details": {
+        "children": [
+            "product-description"
+        ],
+        "props":{
+            "blockClass": "contenido-product"
+        }
+    },
+    "rich-text#details": {
+        "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "LEFT",
+        "text": "DETALLES",
+        "blockClass": "titulo-product-trigger"
+        }
+    },
+    /////////
+    
+
+    "disclosure-layout#shipping": {
+        "children": [
+            "disclosure-trigger#shipping", 
+            "disclosure-content#shipping"
+        ],
+        "props":{
+            "blockClass": "disclosure-product"
+        }
+    },
+    "disclosure-trigger#shipping": {
+        "children": [
+            "rich-text#shipping"
+        ],
+        "props":{
+            "blockClass": "trigger-product"
+        }
+    },
+    "disclosure-content#shipping": {
+        "children": [
+            "shipping-simulator"
+        ],
+        "props":{
+            "blockClass": "contenido-product"
+        }
+    },
+    "rich-text#shipping": {
+        "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "LEFT",
+        "text": "ENVIO",
+        "blockClass": "titulo-product-trigger"
+        }
+    },
+    "disclosure-layout#flag": {
+        "children": [
+            "disclosure-trigger#flag", 
+            "disclosure-content#flag"
+        ],
+        "props":{
+            "blockClass": "disclosure-product"
+        }
+    },
+    "disclosure-trigger#flag": {
+        "children": [
+            "rich-text#flag"
+        ],
+        "props":{
+            "blockClass": "trigger-product-sustainable"
+        }
+    },
+    "disclosure-content#flag": {
+        "children": [
+            "rich-text#flag-title",
+            "rich-text#flag-text"
+        ],
+        "props":{
+            "blockClass": "contenido-product"
+        }
+    },
+    "rich-text#flag": {
+        "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "LEFT",
+        "text": "SUSTAINABLE STYLE",
+        "blockClass": "titulo-product-trigger-sustainable"
+        }
+    },
+    "rich-text#flag-title": {
+        "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "LEFT",
+        "text": "MATERIAL RECICLADO (POLIÉSTER)",
+        "blockClass": "titulo-product-trigger-sustainable-title"
+        }
+    },
+    "rich-text#flag-text": {
+        "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Este producto contiene poliéster reciclado con certificado independiente, procedente de tejidos usados, restos de fábrica o botellas de plástico para reducir el impacto medioambiental.",
+        "blockClass": "titulo-product-trigger-sustainable-text"
+        }
+    },
+    "disclosure-state-indicator": {
+        "props": {
+            "Show": "icon#angle--down",
+            "Hide": "icon#angle--up"
+        }
+        },
+    "icon#angle--down": {
+            "props": {
+            "id": "mpa-angle--down"
+            }
+        },
+    "icon#angle--up": {
+            "props": {
+            "id": "mpa-angle--up"
+            }
+        }
+}

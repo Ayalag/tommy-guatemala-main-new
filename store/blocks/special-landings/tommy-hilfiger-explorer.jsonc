@@ -1,0 +1,126 @@
+{
+    "store.custom#tommy-hilfiger-explorer": {
+        "blocks": [
+            "responsive-layout.desktop#tommy-hilfiger-explorer",
+            "responsive-layout.mobile#tommy-hilfiger-explorer"
+
+        ]
+    },
+    "responsive-layout.desktop#tommy-hilfiger-explorer": {
+        "children": [
+            "iframe#blive-desktop",
+            "info-card#tommy-hilfiger-explorer",
+            "rich-text#stars"
+            ,"list-context.image-list#tommy-hilfiger-explorer-carrousel"
+            ,"info-card#section-3-tommy-hilfiger-explorer"
+        ]
+    },
+    "iframe#blive-desktop": {
+        "props": {
+            "src": "https://aplicaciones.aswgr.com/aplicaciones/blive/blive.html",
+            "width": "1920",
+            "height": "800"
+        }
+    },
+    "info-card#tommy-hilfiger-explorer": {
+        "props": {
+            "id": "info-card-blive",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "headline": "ESTA TEMPORADA, DESCUBRE EL <br> TOMMY FACTORY",
+            "subhead": "En conmemoración a la esencia del Factory de Andy Warhol en los colores rojo, blanco y azul hemos conectado con diferentes personalidades y perspectiva para encontrar nuevos horizantes creativos",
+            "blockClass": "categoria-shawn-mendes",
+            "callToActionMode": "none",
+            "textAlignment": "left",
+            "imageUrl": "/arquivos/MODULO-1-FALL-DESKTOP.jpg"
+        }
+    },
+
+    "rich-text#stars": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "LEFT",
+          "text": "CONOCE LAS ESTRELLAS",
+          // "font": "t-heading-5",
+          "blockClass": "tommy-hilfiger-explorer-rich-text"
+        }
+      },
+
+    "list-context.image-list#tommy-hilfiger-explorer-carrousel": {
+        "children": ["slider-layout#demo-images"],
+        "props": {
+          "height": 650,
+          "images": [
+            {
+              "image": "/arquivos/read-more_560x700px_mobile_new.jpg",
+              "description": ""
+            },
+            {
+              "image": "/arquivos/read-more_560x700px_mobile_2_new.jpg",
+              "description": ""
+            },
+            {
+              "image": "/arquivos/read-more_560x700px_mobile_3_new.jpg",
+              "description": ""
+            },
+            {
+              "image": "/arquivos/read-more_560x700px_mobile_4_new.jpg",
+              "description": ""
+            }
+          ]
+        }
+      },
+      "slider-layout#demo-images": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 2,
+            "phone": 1
+          },
+          "infinite": true
+        }
+      },
+      "info-card#section-3-tommy-hilfiger-explorer": {
+        "props": {
+            "id": "info-card-shawn-mendes",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "/arquivos/section-3-tommy-hilfiger-explorer.png",
+            "headline": "La Historia detrás de la Factoria",
+            "subhead": "Esta temporada sumergente en la Factoria con Tommy Hilfiger. Inspirada en el epicentro creativo de Andy Warhol, homenajeamos el pasado que fue construido para inspirar el futuro. Espacios diseñados para expandir nuestra creatividad mediante graffiti, tatuajes, proyecciones, fotografía, TV y música. Hemos fusionado un elenco sin igual que cruza generaciones y culturas",
+            "blockClass": "info-card-shawn-mendes",
+            "callToActionMode": "none",
+            "textAlignment": "left"
+        }
+    },
+
+    "responsive-layout.mobile#tommy-hilfiger-explorer": {
+        "children":[
+            "iframe#blive-mobile",
+            "info-card#tommy-hilfiger-explorer-mobile"
+            ,"rich-text#stars"
+            ,"list-context.image-list#tommy-hilfiger-explorer-carrousel"
+            ,"info-card#section-3-tommy-hilfiger-explorer"
+        ]
+    },
+    "iframe#blive-mobile": {
+        "props": {
+            "src": "https://aplicaciones.aswgr.com/aplicaciones/blive/blive.html",
+            "width": "800",
+            "height": "300"
+        }
+    },
+    "info-card#tommy-hilfiger-explorer-mobile": {
+        "props": {
+            "id": "info-card-blive",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "headline": "ESTA TEMPORADA, DESCUBRE EL <br> TOMMY FACTORY",
+            "subhead": "En conmemoración a la esencia del Factory de Andy Warhol en los colores rojo, blanco y azul hemos conectado con diferentes personalidades y perspectiva para encontrar nuevos horizantes creativos",
+            "blockClass": "categoria-shawn-mendes",
+            "callToActionMode": "none",
+            "textAlignment": "left",
+            "imageUrl": "/arquivos/MODULO-1-MOBILE.jpg"
+        }
+    }
+}

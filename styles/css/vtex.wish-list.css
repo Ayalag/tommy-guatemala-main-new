@@ -1,0 +1,61 @@
+
+
+.wishlistIconContainer--whish-product {
+    position: relative!important;
+    margin-left: auto;
+    width: 710px!important;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.wishlistIconContainer--whish-vitrina {
+    position: relative;
+    margin-bottom: -55px;
+    margin-left: auto;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.wishlistIconContainer--whish-vitrina :global(.vtex-button){
+    border-radius: 100%;
+    padding: 2px 8px;
+    margin: 8px;
+    background-color: white;
+}
+
+.wishlistIconContainer :global(.vtex-button__label){
+    padding: 0 !important;
+}
+
+.wishlistIconContainer :global(.vtex-wish-list-1-x-wishlistIcon) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21px !important;
+    height: 20px !important;
+}
+
+.fill {
+    background: url('data:image/svg+xml;utf,<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" data-name="Layer 1" fill="red" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 400"><title>heart-other</title><path d="M295.706,35.522C295.706,35.522,295.706,35.522,295.706,35.522c-34.43-0.184-67.161,14.937-89.339,41.273    c-22.039-26.516-54.861-41.68-89.339-41.273C52.395,35.522,0,87.917,0,152.55C0,263.31,193.306,371.456,201.143,375.636    c3.162,2.113,7.286,2.113,10.449,0c7.837-4.18,201.143-110.759,201.143-223.086C412.735,87.917,360.339,35.522,295.706,35.522z"/></svg>')!important;
+    background-repeat: no-repeat !important;
+}
+
+.outline {
+    background: url('data:image/svg+xml;utf,<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" data-name="Layer 1" fill="%23c1c1c1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 400"><title>heart-other</title><path d="M295.706,35.522C295.706,35.522,295.706,35.522,295.706,35.522c-34.43-0.184-67.161,14.937-89.339,41.273    c-22.039-26.516-54.861-41.68-89.339-41.273C52.395,35.522,0,87.917,0,152.55C0,263.31,193.306,371.456,201.143,375.636    c3.162,2.113,7.286,2.113,10.449,0c7.837-4.18,201.143-110.759,201.143-223.086C412.735,87.917,360.339,35.522,295.706,35.522z"/></svg>')!important;
+    background-repeat: no-repeat !important;
+}
+
+.wishlistIconContainer--whish-product-new{
+    height: 40px !important;
+}
+
+.wishlistIconContainer--whish-product-new :global(.vtex-button){
+    border-radius: 100%;
+    padding: 2px 8px;
+    margin: 0px 10px;
+    background-color: #F4F4F4;
+}

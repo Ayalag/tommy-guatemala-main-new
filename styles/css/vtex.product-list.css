@@ -1,0 +1,121 @@
+
+.availabilityMessageText {
+    font-family: 'Futura Std Light';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.productListUnavailableItemsMessage {
+    font-family: 'Futura Std Light';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.productBrandName {
+    text-transform: uppercase;
+    font-family: 'Futura Std Bold';
+    color: #CC0C2F;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.productName {
+    text-transform: uppercase;
+    font-family: 'Futura Std Bold';
+    color: #00174F;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.productVariationsItem{
+    font-family: 'Futura Std';
+    color: #00174F;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.quantitySelectorContainer--quantityMinicart {
+    max-width: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.quantitySelectorDecrease--quantityMinicart {
+    padding: 5px 8px;
+    height: 25px;
+    color: #00174F;
+    background-color: #F9FAFB;
+    border: 1px solid #CACBCC;
+    border-right: none;
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.quantitySelectorIncrease--quantityMinicart {
+    padding: 5px 8px;
+    height: 25px;
+    color: #00174F;
+    background-color: #F9FAFB;
+    border: 1px solid #CACBCC;
+    border-left: none;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.productPrice {
+    color: #00174F;
+    font-family: 'Futura Std';
+}
+
+.inputContainer {
+    width: 50px !important;
+    height: 25px;
+    padding: 0;
+    border: 1px solid #CACBCC;
+}
+
+.inputContainer ::global(input) {
+    height: 20px;
+    width: 30px;
+    font-family: 'Futura Std Regular';
+}
+
+.price {
+    font-family: 'Futura Std';
+}
+
+.productImage {
+    border-radius: 0;
+}
+
+.productImageContainer{
+    width: 135px !important;
+}
+
+.minicartProductListContainer ::-webkit-scrollbar{
+    width: 9px;
+    height: 9px;
+    }
+
+.minicartProductListContainer  ::-webkit-scrollbar-thumb{
+    background: #B3AFB3;
+    border-radius: 16px;
+    }
+
+.minicartProductListContainer  ::-webkit-scrollbar-thumb:hover{
+    background: #00174F;
+    }
+
+.minicartProductListContainer::-webkit-scrollbar-track{
+    background: #F0F0F0;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+    }

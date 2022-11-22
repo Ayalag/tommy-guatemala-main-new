@@ -1,0 +1,10 @@
+.gc-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 1rem;
+  background-color: #ffff;
+}
+
+.gc-container__banner {
+  padding: 1rem;
+}

@@ -1,0 +1,44 @@
+.container{
+  flex-direction: column;
+}
+
+.addressListLink{
+  display: none;
+}
+
+.storesMapCol{
+  width: 90%;
+  height: 60vh;
+}
+
+.addressList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.addressListItem{
+  width: 255px;
+  height: 90px;
+  margin: 5px;
+  border: 1px solid #E3E4E6;
+}
+
+.storesListCol{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.storesList{
+  min-width: 320px;
+}
+
+@media (min-width: 320px) and (max-width: 1024px){
+  .storesListCol{
+    width: 100%;
+  }
+  .storesMapCol{
+    width: 100%;
+  }
+}

@@ -1,0 +1,123 @@
+
+.trigger--trigger-footer {
+    background: transparent;
+    border: unset;
+}
+
+.trigger--trigger-footer {
+    width: 100%;
+    border-bottom: solid 1px #606060;
+    border-top: solid 1px #606060;
+    padding: 5px 15px 5px 5px;
+    outline: none;
+}
+
+.trigger--trigger-product{
+    width: auto;
+    border: none;
+    background: transparent;
+    border-bottom: solid 4px #00174f ;
+    padding: 16px 0px 0px 0px;
+    outline: none;
+}
+
+.trigger--trigger-product-sustainable{
+    width: auto;
+    border: none;
+    background: transparent;
+    border-bottom: solid 4px #00AF3F ;
+    padding: 16px 0px 0px 0px;
+    outline: none;
+}
+
+.content--contenido-footer--visible {
+    padding: 5px;
+}
+
+.trigger--trigger-institucional {
+    width: 25%;
+    height: fit-content;
+    max-width: 1280px;
+    background: #fff;
+    border-left: unset!important;
+    border-right: unset!important;
+    border-bottom: unset!important;
+    border: solid 1px #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--col-contenedor-institucional):last-child .trigger--trigger-institucional {
+    border-bottom: solid 2px #00174f!important;
+}
+
+.trigger--trigger-institucional--visible {
+    background: #e3e4e6;
+    color: #000;
+}
+
+.content--contenido-institucional {
+    width: 100%;
+    display: block!important;
+}
+
+.content--contenido-institucional--visible {
+    visibility: visible;
+    height: auto;
+}
+
+.content--contenido-institucional--hidden {
+    visibility: hidden;
+    height: 0;
+}
+
+@media screen and (max-width: 768px){
+    .trigger--trigger-institucional {
+        width: 100%;
+    }
+
+    .content--contenido-institucional {
+        display: none!important;
+    }
+
+    .content--contenido-institucional--visible {
+        visibility: visible;
+        display: block!important;
+        height: auto;
+        margin-top: 30px;
+    }
+}
+
+.trigger--trigger-producto--hidden {
+    margin-top: 60px;
+    background: white;
+    border-left: 0;
+    border-right: 0;
+    padding: 5px 6px;
+    width: 100%;
+}
+
+.trigger--trigger-producto--visible {
+    width: 100%;
+    background: #fff;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 40px;
+    padding: 5px 6px;
+}
+
+@media screen and (max-width: 768px){
+    .trigger--trigger-producto--hidden {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .trigger--trigger-footer {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

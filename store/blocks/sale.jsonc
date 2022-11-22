@@ -1,0 +1,47 @@
+{
+    "store.custom#sale": {
+      "blocks": [
+        "responsive-layout.desktop#sale",
+        "responsive-layout.mobile#sale-mobile",
+        "search-result-layout.customQuery#sale"
+       
+      ]
+    },
+    "responsive-layout.desktop#sale": {
+      "children": [
+        "rich-text#sale-title"
+      ]
+    },
+    "rich-text#sale-title": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "SALE",
+        "blockClass": "titulo-sale-page"
+      }
+    }, 
+    "search-result-layout.customQuery#sale": {
+      "props": {
+          "querySchema": {
+              "orderByField": "OrderByReleaseDateDESC",
+              "hideUnavailableItems": true,
+              "facetsBehavior": "Dynamic",
+              "maxItemsPerPage": 8,
+              "queryField": "139",
+              "mapField": "productClusterIds",
+              "skusFilter": "ALL_AVAILABLE",
+              "simulationBehavior": "default"
+          }
+      },
+      "blocks":[
+        "search-result-layout.desktop",
+        "search-result-layout.mobile"
+      ]
+  },
+  
+    "responsive-layout.mobile#sale-mobile": {
+      "children": [
+        "rich-text#sale-title"
+      ]
+    }
+  }

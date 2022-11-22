@@ -1,0 +1,93 @@
+{
+  "slider-layout#mobile-categories-kids": {
+    "children": ["flex-layout.row#slider-1-kids", "flex-layout.row#slider-2-kids", "flex-layout.row#slider-3-kids"],
+    "props": {
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "itemsPerPage":	{ "mobile": 4},
+      "blockClass": "slider-categories"
+      
+  }
+  },
+  "flex-layout.row#slider-1-kids": {
+    "props": {
+      "blockClass": "slider-flex"
+    },
+    "children": [
+      "info-card#slider-1-kids",
+      "rich-text#slider-1-kids"
+    ]
+  },
+  "info-card#slider-1-kids": {
+    "props": {
+      "imageUrl": "/arquivos/mobile-kids-girls.jpg",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "blockClass": "slider-image",
+      "callToActionMode": "link",
+      "callToActionUrl": "/ropa/genero_Niño"
+    }
+  },
+  "rich-text#slider-1-kids": {
+    "props": {
+      "text": "NIÑAS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "slider-text"
+    }
+  },
+  "flex-layout.row#slider-2-kids": {
+    "props": {
+      "blockClass": "slider-flex"
+    },
+    "children": [
+      "info-card#slider-2-kids",
+      "rich-text#slider-2-kids"
+    ]
+  },
+  "info-card#slider-2-kids": {
+    "props": {
+      "imageUrl": "/arquivos/mobile-kids-boys.jpg",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "blockClass": "slider-image",
+      "callToActionMode": "link",
+      "callToActionUrl": "/ropa/genero_Niño"
+    }
+  },
+  "rich-text#slider-2-kids": {
+    "props": {
+      "text": "NIÑOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "slider-text"
+    }
+  },
+  "flex-layout.row#slider-3-kids": {
+    "props": {
+      "blockClass": "slider-flex"
+    },
+    "children": [
+      "info-card#slider-3-kids",
+      "rich-text#slider-3-kids"
+    ]
+  },
+  "info-card#slider-3-kids": {
+    "props": {
+      "imageUrl": "/arquivos/mobile-kids-baby.jpg",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "blockClass": "slider-image",
+      "callToActionMode": "link",
+      "callToActionUrl": "/ropa/genero_Niño"
+    }
+  },
+  "rich-text#slider-3-kids": {
+    "props": {
+      "text": "BEBÉS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "slider-text"
+    }
+  }
+}

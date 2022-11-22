@@ -1,0 +1,260 @@
+.orderPlacedWrapper{
+  margin-bottom: -25px;
+  background-color: #F9FAFB;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.confirmationIconWrapper{
+  display: none;
+}
+
+.orderWrapper{
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+}
+
+.confirmationTitle{
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.confirmationMessage{
+  color: #00174f;
+  font-family: "Futura Std Light";
+}
+
+.orderNumber {
+  color: #00174f;
+  text-transform: uppercase;
+}
+
+.noticesList{
+  display: none;
+}
+
+.packageHeaderColumn{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 2px solid #e5e5e5;
+  width: 50%;
+  margin-top: 0;
+}
+
+.orderPlacedMainWrapper{
+  max-width: 800px;
+}
+
+.productListItem{
+  max-height: 360px;
+  width: 100%;
+}
+
+.productList{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 2px solid #e5e5e5;
+  width: 50%;
+  margin-top: 0;
+  justify-content: center;
+}
+
+.productPrice{
+  font-size: 16px;
+  font-family: "Futura Std";
+    color: #00174f;
+    padding-top: 2px;
+}
+
+.productName {
+  font-size: 16px;
+  font-family: "Futura Std";
+  color: #00174f;
+}
+
+.totalList{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 2px solid #e5e5e5;
+  width: 100%;
+  margin-top: 0;
+}
+
+.section{
+  border: none;
+}
+
+.productList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.productInfoColumn{
+  justify-content: flex-start;
+}
+
+.productImageColumn {
+  margin-right: 10px;
+}
+
+.productInfoColumn  {
+  margin-right: 10px;
+}
+
+.package--delivery{
+  margin: 0;
+}
+
+.orderList{
+  padding: 0px;
+  border-radius: 8px;
+}
+
+.cancelOrderButton :global(.vtex-button){
+  font-family: "Futura Std Bold";
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 5px;
+  background: #DC3545;
+  border: 1px solid #DC3545;
+  color: white;
+}
+
+.cancelOrderButton :global(.vtex-button):hover{
+  background: #DC3545;
+  border: 1px solid #DC3545;
+  color: white;
+}
+
+.updateOrderButton :global(.vtex-button){
+  font-family: "Futura Std Bold";
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 5px;
+  background: #00174f;
+  border: 1px solid #00174f;
+  color: white;
+  display: none;
+}
+
+.updateOrderButton :global(.vtex-button):hover{
+  background: #00174f;
+  border: 1px solid #00174f;
+  color: white;
+}
+
+.myOrdersButton :global(.vtex-button){
+  font-family: "Futura Std Bold";
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 5px;
+  background: #14BE82;
+  border: 1px solid #14BE82;
+  color: white;
+}
+
+.myOrdersButton :global(.vtex-button):hover{
+  background: #14BE82;
+  border: 1px solid #14BE82;
+  color: white;
+}
+
+.addressContainer :first-child {
+  font-family: "Futura Std";
+  color: #00174f;
+}
+
+.packageShippingEstimate {
+  font-size: 16px;
+  font-family: "Futura Std Light";
+  color: #00174f;
+}
+
+.packageSLA{
+  font-size: 16px;
+  font-family: "Futura Std Light";
+  color: #00174f;
+}
+
+.orderDatetime{
+  font-size: 16px;
+  font-family: "Futura Std Light";
+  color: #00174f;
+}
+
+.orderSoldBy{
+  font-size: 16px;
+  font-family: "Futura Std Light";
+  color: #00174f;
+}
+
+.customerInfoListName{
+  font-size: 16px;
+  font-family: "Futura Std Bold";
+  text-transform: uppercase;
+  color: #00174f;
+}
+
+.packageDeliveryTitle{
+  text-transform: uppercase;
+  font-family: "Futura Std Bold";
+  color: #00174f;
+}
+
+.totalListItemLabel{
+  text-transform: uppercase;
+  font-family: "Futura Std Bold";
+  color: #00174f;
+  font-size: 16px;
+}
+
+.totalListItemValue{
+  text-transform: uppercase;
+  font-family: "Futura Std Bold";
+  color: #00174f;
+  font-size: 16px;
+}
+
+.customerInfoListEmail{
+  font-family: "Futura Std";
+  color: #00174f;
+}
+
+.customerInfoListDocument{
+  font-family: "Futura Std";
+  color: #00174f;
+}
+
+.customerInfoListPhone{
+  font-family: "Futura Std";
+  color: #00174f;
+}
+
+.paymentGroup{
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-family: "Futura Std Bold";
+  color: #00174f;
+}
+
+.orderPaymentItem{
+  padding-bottom: 20px;
+}
+
+
+@media (min-width: 320px) and (max-width: 1024px){
+  .productList{
+    width: 100%;
+  }
+
+  .packageHeaderColumn{
+    width: 100%;
+  }
+
+  .orderNumber{
+    font-size: 22px;
+  }
+}

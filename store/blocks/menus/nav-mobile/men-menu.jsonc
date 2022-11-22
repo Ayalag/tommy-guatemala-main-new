@@ -1,0 +1,199 @@
+{
+  "menu-item#Categoria-2-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "HOMBRE"
+      },
+      "blockClass": "categoria-header-mobile-men"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Categoria-2-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Categoria-2-mobile": {
+    "children": [
+        "menu-item#Categoria-2-SubCategoria-Ver-Todo-men",
+        "menu-item#Categoria-2-SubCategoria-novedades-mobile",
+        "menu-item#Categoria-2-SubCategoria-accesorios-mobile",
+        "menu-item#Categoria-2-SubCategoria-calzado-mobile",
+        "menu-item#Categoria-2-SubCategoria-ropa-mobile"
+    ],
+    "props": {
+        "blockClass": "submenu-header-mobile"
+    }
+},
+"menu-item#Categoria-2-SubCategoria-Ver-Todo-men": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/hombre",
+        "text": "VER TODO"
+      },
+      "blockClass": "submenu-mobile"
+    }
+  },
+  "menu-item#Categoria-2-SubCategoria-accesorios-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "ACCESORIOS"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "submenu-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#2-SubCategoria-accesorios-mobile"
+    ]
+  },
+  "menu-item#Categoria-2-SubCategoria-novedades-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "NOVEDADES"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "submenu-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#2-SubCategoria-novedades-mobile"
+    ]
+  },
+"vtex.menu@2.x:submenu#2-SubCategoria-novedades-mobile": {
+    "children": [
+      "menu-item#Categoria-normal-tommy-x-shawn-mendes"
+    ],
+    "props": {
+        "blockClass": "itemmenu-header-mobile"
+    }
+},
+"vtex.menu@2.x:submenu#2-SubCategoria-accesorios-mobile": {
+    "children": [
+        "menu-item#See-all-accesorios-hombre",
+        "menu-item#Categoria-normal-bags-bolsos-men",
+        "menu-item#Categoria-normal-bags-billeteras-men",
+        "menu-item#Categoria-normal-bags-gorras-men",
+        "menu-item#Categoria-normal-bags-mascarillas-men",
+        "menu-item#Categoria-normal-bags-cinturones-men",
+        "menu-item#Categoria-normal-bags-electronicos-men"
+    ],
+    "props": {
+        "blockClass": "itemmenu-header-mobile"
+    }
+},
+"menu-item#See-all-accesorios-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/accesorios/hombre?initialMap=c&initialQuery=accesorios&map=category-1,genero",
+        "text": "Ver todo"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-2-SubCategoria-calzado-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "CALZADO"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "submenu-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#2-SubCategoria-calzado-mobile"
+    ]
+  },
+"vtex.menu@2.x:submenu#2-SubCategoria-calzado-mobile": {
+    "children": [
+        "menu-item#See-all-calzado-hombre",
+        "menu-item#Categoria-normal-mocasines-men",
+        "menu-item#Categoria-normal-botas-men",
+        "menu-item#Categoria-normal-zapatillas-men",
+        "menu-item#Categoria-normal-chancletas-men"
+    ],
+    "props": {
+        "blockClass": "itemmenu-header-mobile"
+    }
+},
+"menu-item#See-all-calzado-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/zapatos/hombre?initialMap=c&initialQuery=zapatos&map=category-1,category-2,genero",
+        "text": "Ver todo"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-2-SubCategoria-ropa-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "ROPA"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "submenu-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#2-SubCategoria-ropa-mobile"
+    ]
+  },
+"vtex.menu@2.x:submenu#2-SubCategoria-ropa-mobile": {
+    "children": [
+        "menu-item#See-all-ropa-hombre",
+        "menu-item#Categoria-normal-clothing-abrigos-men",
+        "menu-item#Categoria-normal-clothing-camisas-men",
+        "menu-item#Categoria-normal-clothing-camisetas-men",
+        "menu-item#Categoria-normal-clothing-jeans-men",
+        "menu-item#Categoria-normal-clothing-pantalones-men",
+        "menu-item#Categoria-normal-clothing-polos-men",
+        "menu-item#Categoria-normal-clothing-shorts-men",
+        "menu-item#Categoria-normal-clothing-sueteres-men",
+        "menu-item#Categoria-normal-clothing-ropa-interior-men-boxers",
+        "menu-item#Categoria-normal-clothing-ropa-interior-men-medias"
+    ],
+    "props": {
+        "blockClass": "itemmenu-header-mobile"
+    }
+},
+"menu-item#See-all-ropa-hombre": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/genero_Hombre",
+        "text": "Ver todo"
+      },
+      "blockClass": "header-item-custom"
+    }
+  }
+}

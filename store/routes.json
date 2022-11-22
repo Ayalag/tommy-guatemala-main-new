@@ -1,0 +1,56 @@
+{
+    "store.custom#cookies": {
+        "path": "/politica-de-cookies"
+    },
+    "store.custom#privacidad": {
+        "path": "/politica-de-privacidad"
+    },
+    "store.custom#envio": {
+        "path": "/terminos-envio"
+    },
+    "store.custom#terminos": {
+        "path": "/terminos-y-condiciones"
+    },
+    "store.custom#tallas": {
+        "path": "/guia-tallas"
+    },
+    "store.custom#localizador": {
+        "path": "/localizador-tiendas"
+    },
+    "store.custom#cliente": {
+        "path": "/servicio-cliente"
+    },
+    "store.custom#devolucion": {
+        "path": "/terminos-devoluciones"
+    },
+    "store.custom#categorias-hombre": {
+        "path": "/hombre"
+    },
+    "store.custom#categorias-mujer": {
+        "path": "/mujer"
+    },
+    "store.custom#categorias-ninos": {
+        "path": "/ninos"
+    },
+    "store.custom#categorias-jeans": {
+        "path": "/tommy-jeans"
+    },
+    "store.custom#black-friday":{
+        "path": "/black-friday"
+    },
+    "store.custom#cyber-day":{
+        "path": "/cyber-day"
+    },
+    "store.custom#tommy-x-shawn-mendes":{
+        "path": "/tommy-x-shawn-mendes"
+    },
+    "store.custom#tommy-hilfiger-explorer":{
+        "path": "/tommy-hilfiger-explorer"
+    },
+    "store.custom#tommy-x-nba":{
+        "path": "/brand-tommy-jeans/tommy-jeans-capsule-tommy-x-nba"
+    },
+    "store.custom#sale":{
+        "path": "/sale"
+    }
+}

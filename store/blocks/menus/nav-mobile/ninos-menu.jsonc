@@ -1,0 +1,133 @@
+{
+  "menu-item#Categoria-3-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "NIÑOS"
+      },
+      "blockClass": "categoria-header-mobile-kids"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Categoria-3-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Categoria-3-mobile": {
+    "children": [
+        "menu-item#Categoria-3-SubCategoria-Ver-Todo-Ninos",
+        "menu-item#Categoria-3-SubCategoria-ninas-mobile",
+        "menu-item#Categoria-3-SubCategoria-ninos-mobile"
+    ],
+    "props": {
+        "blockClass": "submenu-header-mobile"
+    }
+},
+"menu-item#Categoria-3-SubCategoria-Ver-Todo-Ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ninos",
+        "text": "VER TODO"
+      },
+      "blockClass": "submenu-mobile"
+    }
+  },
+  "menu-item#Categoria-3-SubCategoria-ninas-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "NIÑAS"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "submenu-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#SubCategoria-ninas-mobile"
+    ]
+  },
+"vtex.menu@2.x:submenu#SubCategoria-ninas-mobile": {
+    "children": [
+        "menu-item#See-all-ninas",
+        "menu-item#Categoria-normal-clothing-abrigos-kids-ninas",
+        "menu-item#Categoria-normal-clothing-camisas-kids-ninas",
+        "menu-item#Categoria-normal-clothing-camisetas-kids-ninas",
+        "menu-item#Categoria-normal-clothing-faldas-kids-ninas",
+        "menu-item#Categoria-normal-clothing-jeans-kids-ninas",
+        "menu-item#Categoria-normal-clothing-pantalones-kids-ninas",
+        "menu-item#Categoria-normal-clothing-polos-kids-ninas",
+        "menu-item#Categoria-normal-clothing-shorts-kids-ninas",
+        "menu-item#Categoria-normal-clothing-sueteres-kids-ninas",
+        "menu-item#Categoria-normal-clothing-vestidos-kids-ninas",
+        "menu-item#Categoria-normal-clothing-vestidos-de-bano-kids-ninas",
+        "menu-item#Categoria-normal-clothing-zapatillas-kids-ninas"
+    ],
+    "props": {
+        "blockClass": "itemmenu-header-mobile"
+    }
+},
+"menu-item#See-all-ninas": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/nina?initialMap=c&initialQuery=ropa&map=category-1,genero",
+        "text": "Ver todo"
+      },
+      "blockClass": "header-item-custom"
+    }
+  },
+  "menu-item#Categoria-3-SubCategoria-ninos-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "NIÑOS"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "submenu-mobile"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#SubCategoria-ninos-mobile"
+    ]
+  },
+"vtex.menu@2.x:submenu#SubCategoria-ninos-mobile": {
+    "children": [
+        "menu-item#See-all-ninos",
+        "menu-item#Categoria-normal-clothing-abrigos-kids-ninos",
+        "menu-item#Categoria-normal-clothing-camisas-kids-ninos",
+        "menu-item#Categoria-normal-clothing-camisetas-kids-ninos",
+        "menu-item#Categoria-normal-clothing-jeans-kids-ninos",
+        "menu-item#Categoria-normal-clothing-pantalones-kids-ninos",
+        "menu-item#Categoria-normal-clothing-polos-kids-ninos",
+        "menu-item#Categoria-normal-clothing-shorts-kids-ninos",
+        "menu-item#Categoria-normal-clothing-sueteres-kids-ninos",
+        "menu-item#Categoria-normal-clothing-vestidos-de-bano-kids-ninos",
+        "menu-item#Categoria-normal-clothing-zapatillas-kids-ninos"
+    ],
+    "props": {
+        "blockClass": "itemmenu-header-mobile"
+    }
+},
+"menu-item#See-all-ninos": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/ropa/nino?initialMap=c&initialQuery=ropa&map=category-1,genero",
+        "text": "Ver todo"
+      },
+      "blockClass": "header-item-custom"
+    }
+  }
+}

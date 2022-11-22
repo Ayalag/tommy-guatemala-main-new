@@ -1,0 +1,41 @@
+{
+    "rich-text#encontrar-talla": {
+        "props": {
+            "text": "[Encontrar mi talla](#)"
+        }
+    },
+    "modal-trigger#tallas-trigger": {
+        "children": [
+            "rich-text#encontrar-talla",
+            "modal-layout#tallas-modal"
+        ]
+    },
+    "modal-layout#tallas-modal": {
+        "children": [
+            "flex-layout.row#guia-tallas"
+        ],
+        "props":{
+            "blockClass": "tallas-modal"
+        }
+    },
+    "flex-layout.row#guia-tallas":{
+        "children":[
+            "guia-tallas-content#spec"
+        ],
+        "props":{
+          "blockClass":"wrapper-guia-tallas",
+          "preventHorizontalStretch":true
+        }
+    },
+    "guia-tallas-content#spec" : {
+        "props":{
+            "specName" : "Tallas"
+        }
+    },
+    "guia-tallas-trigger#trigger" : {
+        "props":{
+            "Trigger": "modal-trigger#tallas-trigger",
+            "specName" : "Tallas"
+        }
+    }
+}

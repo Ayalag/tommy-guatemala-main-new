@@ -1,0 +1,22 @@
+
+.product-identifier {
+    color: #00174F;
+    font-family: 'Futura Std';
+    font-weight: 400;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier__label) {
+    visibility: hidden;
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier__label)::before {
+    visibility: visible;
+    content: "CÓDIGO ";
+    margin-right: -60px;
+}
+
+.product-identifier__separator {
+    margin-left: 6px;
+}

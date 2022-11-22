@@ -1,0 +1,27 @@
+{
+    "vtex.menu@2.x:menu#categorias-nav": {
+        "children": [
+            "flex-layout.row#categorias-nav-left"
+        ],
+        "props": {
+            "blockClass": "categorias-nav-header"
+        }
+    },
+    "flex-layout.row#categorias-nav-left": {
+        "props": {
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "fullWidth": true,
+            "blockClass": "categorias-nav-left"
+        },
+        "children": [
+            "menu-item#Categorias-Mujer",
+            "menu-item#Categorias-Hombre",
+            "menu-item#Categorias-Ninos",
+            "menu-item#Categorias-Tommy-Jeans",
+            "menu-item#Categorias-Tommy-stories",
+            "menu-item#Categorias-Sale"
+            
+        ]
+    }
+}
