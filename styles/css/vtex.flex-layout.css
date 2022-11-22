@@ -1129,6 +1129,9 @@
     margin-top: 20px;
     /* background: #D51F36; */
     background-image: url("/arquivos/BLACK-FRIDAY-CONTADOR-MOBILE-2022.png");
+    /* background-position: center;
+    background-repeat: repeat;
+    background-size: inherit; */
 }
 
 .flexRowContent--container-countdown-left{
@@ -1142,6 +1145,9 @@
     /* background: #00174f; */
     /* background: #D51F36; */
     background-image: url("/arquivos/BLACK-FRIDAY-CONTADOR-DESKTOP-2022.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .flexCol--countdown-left-ctn-ctn{

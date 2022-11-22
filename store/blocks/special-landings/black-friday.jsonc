@@ -16,13 +16,13 @@
       "id": "hombre",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "headline": "¿TE HAS PERDIDO EL BLACK FRIDAY?",
-      "subhead": "Subscribete a nuestro newsletter y obtén información sobre nuestras mejores promociones<br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='#newsletter'>SUSCRIBIRME</a>",
-      "blockClass": "categoria",
+      "headline": "TOMMY DAYS",
+      "subhead": "Ya llego el evento más esperado del año.<br/>Hasta 50% de descuento en mercancía seleccionada <br/> Del 22 al 27 de noviembre<br/><br/> <a class='vtex-store-components-3-x-infoCardLink' href='/ropa/genero_Hombre/139?map=c,productClusterIds&order=OrderByScoreDESC'>HOMBRE</a><br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/genero_Mujer/139?map=c,productClusterIds&order=OrderByScoreDESC'>MUJER</a><br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/genero_nino/139?map=c,productClusterIds&order=OrderByScoreDESC'>NIÑOS</a><br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/genero_nina/139?map=c,productClusterIds&order=OrderByScoreDESC'>NIÑAS</a>",
+      "blockClass": "categoria-tommy-days",
       "callToActionMode": "none",
       "textAlignment": "left",
-      "mobileImageUrl": "/arquivos/BLACKFRIDAY-LANDING-MOBILE.jpg",
-      "imageUrl": "/arquivos/BLACKFRIDAY-LANDING-DESKTOP.jpg"
+      "mobileImageUrl": "/arquivos/BLACKFRIDAY-LANDING-DESKTOP-2022.png",
+      "imageUrl": "/arquivos/BLACKFRIDAY-LANDING-DESKTOP-2022.png"
     }
   },
   "flex-layout.row#texto-prefooter-bf": {
@@ -78,10 +78,26 @@
   },
   "responsive-layout.mobile#mobile-black-friday": {
     "children": [
-      "info-card#categoria-black-friday",
+      "info-card#categoria-black-friday-mobile",
       "flex-layout.row#texto-bf-container-mobile"
     ]
   },
+
+  "info-card#categoria-black-friday-mobile": {
+    "props": {
+      "id": "hombre",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "headline": "TOMMY DAYS",
+      "subhead": "Ya llego el evento más esperado del año.<br/>Hasta 50% de descuento en mercancía seleccionada <br/> Del 22 al 27 de noviembre<br/><br/> <a class='vtex-store-components-3-x-infoCardLink' href='/ropa/genero_Hombre/139?map=c,productClusterIds&order=OrderByScoreDESC'>HOMBRE</a><br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/genero_Mujer/139?map=c,productClusterIds&order=OrderByScoreDESC'>MUJER</a><br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/genero_nino/139?map=c,productClusterIds&order=OrderByScoreDESC'>NIÑOS</a><br/><br/><a class='vtex-store-components-3-x-infoCardLink' href='/ropa/genero_nina/139?map=c,productClusterIds&order=OrderByScoreDESC'>NIÑAS</a>",
+      "blockClass": "categoria-tommy-days-mobile",
+      "callToActionMode": "none",
+      "textAlignment": "left",
+      "mobileImageUrl": "/arquivos/CYBERWEEK_FA22_BLUE_PAINTSTROKE.png",
+      "imageUrl": "/arquivos/CYBERWEEK_FA22_BLUE_PAINTSTROKE.png"
+    }
+  },
+
   "flex-layout.row#texto-bf-container-mobile": {
     "props": {
       "blockClass": ""

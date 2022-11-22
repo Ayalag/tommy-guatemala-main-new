@@ -11,6 +11,7 @@
     "responsive-layout.desktop#categorias-mujer": {
         "children": [
             // "flex-layout.row#container-cintillo-especial",
+            "flex-layout.row#container-countdown",
             "info-card#categoria-mujer",
             "rich-text#titulo-categoria-mujer",
             "flex-layout.row#categorias-mujer-1",
@@ -194,6 +195,7 @@
     "responsive-layout.mobile#categorias-mujer": {
         "children": [
             // "flex-layout.row#container-cintillo-especial-mobile",
+            "flex-layout.row#container-countdown-mobile",
             "slider-layout#mobile-categories-women",
             "info-card#categoria-mujer",
             "rich-text#titulo-categoria-mujer",
