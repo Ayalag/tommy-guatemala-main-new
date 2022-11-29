@@ -11,7 +11,7 @@
     "responsive-layout.desktop#categorias-ninos": {
         "children": [
             // "flex-layout.row#container-cintillo-especial",
-            "flex-layout.row#container-countdown",
+            // "flex-layout.row#container-countdown",
             "info-card#categoria-ninos",
             "rich-text#titulo-categoria-ninos",
             "flex-layout.row#categorias-ninos-1",
@@ -194,7 +194,7 @@
     "responsive-layout.mobile#categorias-ninos": {
         "children": [
             // "flex-layout.row#container-cintillo-especial-mobile",
-            "flex-layout.row#container-countdown-mobile",
+            // "flex-layout.row#container-countdown-mobile",
             "slider-layout#mobile-categories-kids",
             "info-card#categoria-ninos",
             "rich-text#titulo-categoria-ninos",

@@ -11,7 +11,7 @@
   },
   "responsive-layout.desktop#desktop-home": {
     "children": [
-      "flex-layout.row#container-countdown",
+      // "flex-layout.row#container-countdown",
       "modal-trigger#popup-cookies",
       "flex-layout.row#categorias-home",
       "flex-layout.row#texto-home"
@@ -252,7 +252,7 @@
   "responsive-layout.mobile#mobile-home": {
     "children": [
       "modal-trigger#popup-cookies",
-      "flex-layout.row#container-countdown-mobile",
+      // "flex-layout.row#container-countdown-mobile",
       "info-card#categoria-home-mobile",
       "flex-layout.row#texto-home-container-mobile"
     ]

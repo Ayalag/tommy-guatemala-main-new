@@ -8,7 +8,7 @@
     "responsive-layout.desktop#categorias-jeans": {
         "children": [
             // "flex-layout.row#container-cintillo-especial",
-            "flex-layout.row#container-countdown",
+            // "flex-layout.row#container-countdown",
             "info-card#categoria-jeans",
             "rich-text#titulo-categoria-jeans",
             "flex-layout.row#categorias-jeans-1",
@@ -193,7 +193,7 @@
     "responsive-layout.mobile#categorias-jeans": {
         "children": [
             // "flex-layout.row#container-cintillo-especial-mobile",
-            "flex-layout.row#container-countdown-mobile",
+            // "flex-layout.row#container-countdown-mobile",
             "info-card#categoria-jeans",
             "rich-text#titulo-categoria-jeans",
             "flex-layout.row#categorias-jeans-1",
