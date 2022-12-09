@@ -1,0 +1,205 @@
+{
+    "store.custom#guia-de-regalos": {
+        "blocks": [
+          "responsive-layout.desktop#guia-de-regalos",
+          "responsive-layout.mobile#guia-de-regalos-mobile",
+          "tab-layout#guia-de-regalos"
+        ]
+      },
+
+      "search-result-layout.customQuery#guia-de-regalos-hombre": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByBestDiscountDESC",
+                "hideUnavailableItems": true,
+                "facetsBehavior": "Dynamic",
+                "maxItemsPerPage": 8,
+                "queryField": "hombre",
+                "mapField": "genero",
+                "skusFilter": "ALL_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        },
+        "blocks":[
+          "search-result-layout.desktop",
+          "search-result-layout.mobile"
+        ]
+    },
+      "search-result-layout.customQuery#guia-de-regalos-mujer": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByBestDiscountDESC",
+                "hideUnavailableItems": true,
+                "facetsBehavior": "Dynamic",
+                "maxItemsPerPage": 8,
+                "queryField": "mujer",
+                "mapField": "genero",
+                "skusFilter": "ALL_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        },
+        "blocks":[
+          "search-result-layout.desktop",
+          "search-result-layout.mobile"
+        ]
+    },
+      "search-result-layout.customQuery#guia-de-regalos-niños": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByBestDiscountDESC",
+                "hideUnavailableItems": true,
+                "facetsBehavior": "Dynamic",
+                "maxItemsPerPage": 8,
+                "queryField": "nino",
+                "mapField": "genero",
+                "skusFilter": "ALL_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        },
+        "blocks":[
+          "search-result-layout.desktop",
+          "search-result-layout.mobile"
+        ]
+    },
+      "search-result-layout.customQuery#guia-de-regalos-niñas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByBestDiscountDESC",
+                "hideUnavailableItems": true,
+                "facetsBehavior": "Dynamic",
+                "maxItemsPerPage": 8,
+                "queryField": "nina",
+                "mapField": "genero",
+                "skusFilter": "ALL_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        },
+        "blocks":[
+          "search-result-layout.desktop",
+          "search-result-layout.mobile"
+        ]
+    },
+
+      "responsive-layout.desktop#guia-de-regalos": {
+        "children": [
+          "info-card#guia-de-regalos"
+        ]
+      },
+      "info-card#guia-de-regalos": {
+        "props": {
+          "id": "hombre",
+          "isFullModeStyle": true,
+          "blockClass": "landing-guia-de-regalos",
+          "callToActionMode": "none",
+          "textAlignment": "left",
+          "imageUrl": "/arquivos/MODULO-1-DESKTOP-GUIA-DE-REGALOS.jpg",
+          "headline": "GUÍA DE REGALOS",
+          "subhead": "Encuentra regalos únicos para tus seres queridos o para ti"
+        }
+      },
+    "tab-layout#guia-de-regalos": {
+        "children": [
+            "tab-list#guia-de-regalos",
+            "tab-content#guia-de-regalos"
+        ],
+        "props": {
+            "blockClass":"guia-de-regalos"
+        }
+    },
+    "tab-list#guia-de-regalos":{
+        "children": [
+            "tab-list.item#guia-de-regalos-hombre",
+            "tab-list.item#guia-de-regalos-mujer",
+            "tab-list.item#guia-de-regalos-niños",
+            "tab-list.item#guia-de-regalos-niñas"
+        ]
+    },
+    "tab-list.item#guia-de-regalos-hombre":{
+        "props": {
+            "tabId": "Hombre",
+            "label": "REGALOS PARA ÉL",
+            "defaultActiveTab": false,
+            "blockClass":"tab-gift-guide"
+        }
+    },
+    "tab-list.item#guia-de-regalos-mujer":{
+        "props": {
+            "tabId": "Mujer",
+            "label": "REGALOS PARA ELLA",
+            "blockClass":"tab-gift-guide"
+        }
+    },
+    "tab-list.item#guia-de-regalos-niños":{
+        "props": {
+            "tabId": "ninos",
+            "label": "REGALOS PARA NIÑOS",
+            "blockClass":"tab-gift-guide"
+        }
+    },
+    "tab-list.item#guia-de-regalos-niñas":{
+        "props": {
+            "tabId": "ninas",
+            "label": "REGALOS PARA NIÑAS",
+            "blockClass":"tab-gift-guide"
+        }
+    },
+    "tab-content#guia-de-regalos": {
+        "children": [
+            "tab-content.item#guia-de-regalos-hombre",
+            "tab-content.item#guia-de-regalos-mujer",
+            "tab-content.item#guia-de-regalos-niños",
+            "tab-content.item#guia-de-regalos-niñas"
+        ]
+    },
+    "tab-content.item#guia-de-regalos-hombre": {
+        "children": [
+            "search-result-layout.customQuery#guia-de-regalos-hombre"
+        ],
+        "props": {
+            "tabId": "Hombre"
+        }
+    },
+    "tab-content.item#guia-de-regalos-mujer": {
+        "children": [
+            "search-result-layout.customQuery#guia-de-regalos-mujer"
+        ],
+        "props": {
+            "tabId": "Mujer"
+        }
+    },
+    "tab-content.item#guia-de-regalos-niños": {
+        "children": [
+            "search-result-layout.customQuery#guia-de-regalos-niños"
+        ],
+        "props": {
+            "tabId": "ninos"
+        }
+    },
+    "tab-content.item#guia-de-regalos-niñas": {
+        "children": [
+            "search-result-layout.customQuery#guia-de-regalos-niñas"
+        ],
+        "props": {
+            "tabId": "ninas"
+        }
+    },
+
+    "responsive-layout.mobile#guia-de-regalos-mobile":{
+        "children":[
+            "info-card#guia-de-regalos-mobile"
+        ]
+    },
+
+    "info-card#guia-de-regalos-mobile": {
+        "props": {
+          "id": "hombre",
+          "isFullModeStyle": true,
+          "blockClass": "landing-guia-de-regalos-mobile",
+          "callToActionMode": "none",
+          "textAlignment": "left",
+          "imageUrl": "/arquivos/MODULO_1_MOBILE_GUIA_DE_REGALOS.png",
+          "headline": "GUÍA DE REGALOS",
+          "subhead": "Encuentra regalos únicos para tus seres queridos o para ti"
+        }
+      }
+}

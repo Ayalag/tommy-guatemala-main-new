@@ -1,0 +1,24 @@
+{
+    "menu-item#Categorias-Guia": {
+        "props": {
+            "iconPosition":"right",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/guia-de-regalos",
+                "tagTitle": "GUÍA DE REGALOS",
+                "text": "GUÍA DE REGALOS"
+            },
+            "blockClass": "categoria-header-big",
+            "iconProps": {
+                "id": "inf-gift",
+                "size": 18,
+                "viewBox": "0 0 16 16"
+                // "activeClassName": "rebel-pink",
+                // "mutedClassName": "c-action-primary"
+            }
+        }
+    }
+
+}

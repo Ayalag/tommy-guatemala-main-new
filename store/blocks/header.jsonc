@@ -225,6 +225,7 @@
       "menu-item#Categoria-2-mobile",
       "menu-item#Categoria-3-mobile",
       "rich-text#texto-top-explore",
+      "menu-item#Categoria-10-mobile",
       "menu-item#Categoria-4-mobile",
       "menu-item#Categoria-8-mobile",
       "menu-item#Categoria-9-mobile",
@@ -298,6 +299,23 @@
       "iconProps": {
         "id": "nav-caret--right",
         "size": 10,
+        "viewBox": "0 0 16 16",
+        "mutedClassName": "c-action-primary"
+      },
+      "blockClass": "categoria-header-mobile-link"
+    }
+  },
+  "menu-item#Categoria-10-mobile": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "/guia-de-regalos",
+        "text": "GUÍA DE REGALOS"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "inf-gift",
+        "size": 16,
         "viewBox": "0 0 16 16",
         "mutedClassName": "c-action-primary"
       },

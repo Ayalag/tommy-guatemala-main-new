@@ -52,5 +52,8 @@
     },
     "store.custom#sale":{
         "path": "/sale"
+    },
+    "store.custom#guia-de-regalos":{
+        "path": "/guia-de-regalos"
     }
 }

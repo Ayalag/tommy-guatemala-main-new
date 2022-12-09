@@ -1445,5 +1445,32 @@
     align-items: center;
 }
 
+/* GUIA DE REGALOS */
 
+.infoCardContainer--landing-guia-de-regalos{
+    margin: 2%;
+    height: 50vh;
+    background-position: left top;
+}
+
+.infoCardHeadline--landing-guia-de-regalos, .infoCardSubhead--landing-guia-de-regalos{
+    color: white;
+}
+.infoCardContainer--landing-guia-de-regalos-mobile{
+    margin: 2%;
+    height: 50vh;
+    background-position: left top;
+}
+
+.infoCardHeadline--landing-guia-de-regalos-mobile, .infoCardSubhead--landing-guia-de-regalos-mobile{
+    color: white;
+}
+
+.infoCardHeadline--landing-guia-de-regalos-mobile{
+    font-size: 1.5rem;
+}
+
+.infoCardSubhead--landing-guia-de-regalos-mobile{
+    font-size: 1.2rem;
+}
 
